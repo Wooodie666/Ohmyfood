@@ -1,9 +1,11 @@
 /**Desktop**/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shrikhand&display=swap");
 body {
+  font-family: "Roboto", sans-serif;
   background-color: ghostwhite;
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  color: #9356DC;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -11,53 +13,79 @@ a {
   color: #181818;
 }
 
-* {
-  font-family: Roboto, sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+* ::before,
+* ::after {
+  box-sizing: border-box;
 }
 
-/**header**/
-.header-container {
-  width: 100%;
-  padding: 20px;
-}
-
+/**header-container**/
 #logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-  width: 170px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 150px;
   height: 90%;
 }
 
-/**conteneur recherche**/
+/**nav-container**/
 .search-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   list-style: none;
   padding: 20px;
-  background-color: #eaeaea;
+  background-color: #f3f3f3;
 }
 
-img {
-  height: 120px;
-  width: 100%;
+.nav-bar h2 {
+  display: block;
+  background-color: white;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: "Shrikhand", cursive;
 }
 
+.nav-bar p {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+/**filters-container**/
+.filtrers {
+  display: flex;
+}
+
+.filters-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.filtrers-container li {
+  display: flex;
+  align-items: center;
+  border: 2px solid #e0dada;
+  border-left: #eaf1fc;
+  line-height: 0.25;
+  height: 55px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  border-radius: 50px;
+}
+
+/**restaurant-container**/
 /**footer**/
-/*# sourceMappingURL=style.css.map */
+footer {
+  background-color: #181818;
+}
+
+.footer-container p {
+  font-family: "Shrikhand", cursive;
+  font-size: 50px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
