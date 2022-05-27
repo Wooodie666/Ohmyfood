@@ -9,7 +9,7 @@ $colortertiary: #99E2D0;
 
 body{
   font-family: 'Roboto', sans-serif;
-    background-color: ghostwhite;
+    background-color: white;
     margin: 0px;
     padding: 0px;
 }
@@ -47,6 +47,7 @@ a {
     list-style: none;
     padding: 20px;
     background-color: #f3f3f3;
+    box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
 }
 
  
@@ -65,40 +66,104 @@ a {
  font-size: 17px;
 }
 
+.nav-container btn{
+padding: 10px 25px;
+color: white;
+border: 2px solid #9356DC;
+background-color: #9356DC;
+border-radius: 20px;
+}
+
+
 /**filters-container**/
 
-.filtrers{
+.filters{
   display: flex;
-  
+  flex-direction: column; 
 }
+
 
 .filters-container ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
+    border-radius: 20px;
+    margin-left: 60px;
+    box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
 }
 
-.filtrers-container li {
+.bubble-number-container{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  background-color: #9356DC;
+  color: black;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: #9356DC;
+  color: white;
+  font-size: 16px;
+  margin-left: 100px;
+  padding: 1px;
+}
+.filters-container button{
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
+.filters-container a.btn{
   display: flex;
   align-items: center;
-  border: 2px solid #e0dada;
-  border-left: #eaf1fc;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
+.filters-container li{
+  display: flex;
+  align-content: center;
+ justify-content: space-between;
+  border: 2px solid white;
+  background-color: white;
   line-height: 0.25;
   height: 55px;
   font-weight: bold;
   cursor: pointer;
   transition-duration: 0.1s;
   border-radius: 50px;
+  color: black;
 }
 
 
 /**restaurant-container**/
+
+.restaurant-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+
+
 .card-img img{
   height: 210px;
   width: 40%;
   border-radius: 15px;
+  object-fit: cover;
 }
+.btn{
+  padding: 10px 25px;
+  color: white;
+  border: 2px solid #9356DC;
+  background-color: #9356DC;
+  border-radius: 20px;
+  }
+  
 
 
 /**footer**/
@@ -131,3 +196,9 @@ color: white;
 color: white;
 }
 
+.menu-1 menu-2 menu-3 menu-4 img{
+  height: 210px;
+  width: 40%;
+  border-radius: 15px;
+  object-fit: cover;
+}
