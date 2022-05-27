@@ -16,7 +16,7 @@ body{
 
 a {
     text-decoration: none;
-    color: #181818;
+    color: black;
 }
 
 * {
@@ -33,7 +33,6 @@ a {
 #logo{
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 20px;
   width: 150px;
   height: 90%;
@@ -71,11 +70,11 @@ a {
 .filtrers{
   display: flex;
   
-  
 }
 
 .filters-container ul{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
 }
@@ -95,21 +94,40 @@ a {
 
 
 /**restaurant-container**/
-
+.card-img img{
+  height: 210px;
+  width: 40%;
+  border-radius: 15px;
+}
 
 
 /**footer**/
 
 footer{
-  background-color: #181818;
+  background-color: #c69797;
 }
 
 .footer-container p{
   font-family: 'Shrikhand', cursive;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
+  color: white;
 }
 
 .footer-container ul li{
-
+  color: white;
+  list-style: none;
 }
+
+
+.footer.column a{
+color: white;
+  }
+
+.fas fa-hands-helping{
+color: white;
+}
+.fas fa-utensils{
+color: white;
+}
+
