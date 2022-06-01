@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shrikhand&display=swap");
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: white;
   margin: 0px;
   padding: 0px;
@@ -50,7 +50,7 @@ a {
 }
 
 .search-bar a {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 17px;
 }
@@ -58,7 +58,7 @@ a {
 .nav-bar h1 {
   display: flex;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   color: #000000;
   font-size: 26px;
   font-weight: bold;
@@ -94,6 +94,7 @@ a {
 /**filters-container**/
 .filters-container {
   padding: 20px 10px;
+  margin: 30px;
 }
 
 h2 {
@@ -125,12 +126,20 @@ h2 {
   background-color: #b88eec;
   transform: scale(1.015);
 }
+.filters-container li:hover i {
+  color: #9356DC;
+}
+
+.filters-container i {
+  padding-left: 15px;
+  color: grey;
+}
 
 /**nombre devant filtres**/
 .bubble-number-container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-start;
   border: 2px solid white;
   background-color: #9356DC;
   width: 24px;
@@ -140,6 +149,8 @@ h2 {
   background-color: #9356DC;
   color: white;
   font-size: 12px;
+  transition: 0.3s ease;
+  box-shadow: 10px #d3d3d3;
 }
 
 .filters-container button {
@@ -269,7 +280,7 @@ footer {
 }
 
 .footer-container p {
-  font-family: "Shrikhand", cursive;
+  font-family: Shrikhand, cursive;
   font-size: 23px;
   font-weight: bold;
   color: white;
@@ -308,10 +319,14 @@ footer {
      object-fit: cover;
 }
 
-/**start**/
+/**menu**/
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .menu-container h1 {
   display: flex;
-  justify-content: flex-start;
   font-family: Shrikhand, "cursive";
 }
 
@@ -398,6 +413,22 @@ footer {
     color: #9356DC;
   }
 }
+@keyframes heart {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    color: #9356DC;
+  }
+  50% {
+    -webkit-transform: scale(3);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.6);
+    opacity: 1;
+    color: #9356DC;
+  }
+}
 .animation {
   position: relative;
   margin-right: 15px;
@@ -435,5 +466,100 @@ footer {
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: black;
+  opacity: 1;
+  position: fixed;
+  z-index: 10;
+  font-family: "shrikhand";
+  color: pink;
+  -webkit-animation: out 550ms 4s linear forwards;
+          animation: out 550ms 4s linear forwards;
+}
+.loading .content {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.loading .span {
+  position: absolute;
+  text-align: center;
+  font-family: "shrikhand";
+  font-size: 12px;
+  line-height: 200px;
+  -webkit-animation: flash 3s linear;
+          animation: flash 3s linear;
+  width: 200px;
+}
+.loading .spinner {
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  border: 4px solide transparent;
+  border-top: 4px solide #FF79DA;
+  border-bottom: 4px solid #99E2D0;
+  -webkit-animation: spin 2s linear 4 forwards;
+          animation: spin 2s linear 4 forwards;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(300deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(300deg);
+  }
+}
+@-webkit-keyframes out {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  99% {
+    opacity: 0;
+    z-index: -5;
+  }
+}
+@keyframes out {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  99% {
+    opacity: 0;
+    z-index: -5;
+  }
+}
+@-webkit-keyframes flash {
+  0% {
+    text-shadow: none;
+    font-size: 0;
+  }
+  30% {
+    text-shadow: 0 0 20px wheat;
+    font-size: 20px;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+@keyframes flash {
+  0% {
+    text-shadow: none;
+    font-size: 0;
+  }
+  30% {
+    text-shadow: 0 0 20px wheat;
+    font-size: 20px;
+  }
+  100% {
+    text-shadow: none;
+  }
 }/*# sourceMappingURL=style.css.map */
