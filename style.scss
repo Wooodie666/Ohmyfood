@@ -4,11 +4,15 @@ $colorprimary: #9356DC;
 $colorsecondary: #FF79DA;
 $colortertiary: #99E2D0;
 
+$font-size-footer: 18px;
+$clear-grey: #f2f2f2;
+$dark-grey: #d3d3d3;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shrikhand&display=swap');
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
     background-color: white;
     margin: 0px;
     padding: 0px;
@@ -58,10 +62,10 @@ a {
     padding: 20px;
     background-color: #f3f3f3;
     box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
-}
+  }
 
 .search-bar a{
-  font-family: "Roboto", sans-serif;
+font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 17px;
 }
@@ -69,7 +73,7 @@ a {
 .nav-bar h1{
   display: flex;
   justify-content: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: #000000;
   font-size: 26px;
   font-weight: bold;
@@ -106,21 +110,21 @@ justify-content: space-evenly;
 /**filters-container**/
 
 .filters-container {
-  padding: 20px 10px;
+padding: 20px 10px;
+margin: 30px;
 }
 
-h2{
+ h2{
   margin-top: 0px;
-    font-size: 21px;
-    font-weight: bold;
-    padding: 1%;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 1%;
 }
 
 .filters-container ol{
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 10px 10px 0px;
- 
+  padding: 0px 10px 10px 0px; 
 }
 
 .filters-container li {
@@ -138,13 +142,22 @@ h2{
 .filters-container li:hover{
   background-color: #b88eec;
   transform: scale(1.015);
+  & i{
+    color: $colorprimary;
+  }
 }
 
+.filters-container i{
+  padding-left: 15px;
+  color: grey;
+}
+
+/**nombre devant filtres**/
 
 .bubble-number-container{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-start;
   border: 2px solid white;
   background-color: #9356DC;
   width: 24px;
@@ -154,7 +167,10 @@ h2{
   background-color: #9356DC;
   color: white;
   font-size: 12px; 
+  transition: 0.3s ease;
+  box-shadow: 10px $dark-grey;
 }
+
 .filters-container button{
   border-radius: 20px;
   border: 2px solid white;
@@ -186,6 +202,7 @@ h2{
     background-color: #b88eec;
     transform: scale(1.015);
   }
+  
 
 
 /**restaurant-container**/
@@ -284,7 +301,7 @@ footer{
 }
 
 .footer-container p{
-  font-family: 'Shrikhand', cursive;
+  font-family: Shrikhand, cursive;
   font-size: 23px;
   font-weight: bold;
   color: white;
@@ -327,11 +344,15 @@ color: white;
 }
 
 
-/**start**/
+/**menu**/
+
+.menu-container{
+  display: flex;
+  flex-direction: row;
+}
 
 .menu-container h1{
   display: flex;
-  justify-content: flex-start;
   font-family: Shrikhand,"cursive";
 }
 
@@ -356,8 +377,6 @@ color: white;
 }
 
 
-
-
 .fas fa-hands-helping{
 color: white;
 }
@@ -367,6 +386,15 @@ color: white;
 }
 
 /**animation**/
+
+@keyframes opening{
+  0%{
+    opacity: O;
+  }
+  100%{
+    opacity: 1
+  }
+}
 
 
 @keyframes opacity{
@@ -378,5 +406,129 @@ color: white;
   }
   100%{
     opacity: 1;
+  }
+}
+
+/**heart animation**/
+
+@keyframes heart{
+  0%{
+    -webkit-transform: scale(1);
+    opacity: 1;
+    color: #9356DC;
+  }
+  50%{
+    -webkit-transform: scale(3);
+    opacity: 1;
+  }
+  100%{
+    -webkit-transform: scale(1.6);
+    opacity: 1;
+    color: #9356DC;
+  }
+}
+.animation{
+  position:relative;
+  margin-right: 15px;
+  .heart{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .heart-pink{
+    background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(0.1);
+    transform: all 400ms ease;
+    transform-origin: 50% 100%;
+  }
+
+  &:hover{
+    /*& .heart{
+      opacity:0;
+  }*/
+  & .heart-pink{
+    opacity: 1;
+    transform: scale(1.03);
+    }
+  }
+}
+
+
+  /**loading**/
+
+  .loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lighten($color-primary, $amount: 10%);
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+    font-family:'shrikhand';
+    color: pink;
+    animation: out 550ms 4s linear forwards;
+    .content{
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    .span{
+      position: absolute;
+      text-align: center;
+      font-family: 'shrikhand';
+      font-size: 12px;
+      line-height: 200px;
+      animation: flash 3s linear;
+      width: 200px;
+    }
+    .spinner{
+      width: 200px;
+      height: 200px;
+      border-radius: 40px;
+      border: 4px solide transparent;
+      border-top: 4px solide $colorsecondary;
+      border-bottom: 4px solid $colortertiary;
+      animation: spin 2s linear 4 forwards;
+
+    }
+  }
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate( 300deg);
+  }
+}
+
+@keyframes out{
+  0%{
+    opacity: 1;
+    z-index: 5;
+  }
+  99%{
+    opacity: 0;
+    z-index: -5;
+  }
+}
+
+@keyframes flash{
+  0%{
+    text-shadow: none;
+    font-size: 0;
+  }
+  30%{
+    text-shadow: 0 0 20px wheat;
+    font-size: 20px;
+  }
+  100%{
+  text-shadow: none;
   }
 }
