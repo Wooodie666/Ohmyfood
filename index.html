@@ -34,14 +34,17 @@
 
     <!--nav-container-->
     <nav>
-        <div class="search-bar">
-            <i class="fas fa-map-marker-alt"></i><a href="#">Paris, Belleville</a>
-        </div>
-        <div class="nav-bar">
-            <h1>Réservez le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
-            <button type="button" class="btn-general">Explorer nos restaurants</button>
-        </div>    
+            <div class="search-bar">
+                <form class="nav-form" action="#">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" name="ville" placeholder="Paris, Belleville">
+                </form>
+            </div>
+                <div class="nav-bar">
+                    <h1>Réservez le menu qui vous convient</h1>
+                    <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
+                    <button type="button" class="btn-general">Explorer nos restaurants</button>
+                </div>  
     </nav>
 
         <!--filters-container-->
@@ -52,21 +55,24 @@
                 <div class="filters">
                     <ol class="list-filters">
                         <li class="filter-1">
-                            <span class="bubble-number-container">1</span>
-                           <i class="fas fa-mobile-alt"></i><a>&nbsp;&nbsp;&nbsp;</a>
-                            <a href="#" class="btn">Choisiez un restaurant</a>
+                            <button id="button-choisisez" class="fonctionnement-btn">
+                                <span class="bubble-number-container">1</span>
+                                <i class="fas fa-mobile-alt">Choisiez un restaurant</i>
+                            </button>
                         </li>
                     
                         <li class="filter-2">
-                           <span class="bubble-number-container">2</span>
-                           <i class="fas fa-list-ul"></i><a>&nbsp;&nbsp;&nbsp;</a>
-                            <a href="#" class="btn">Composez votre menu</a>
+                            <button id="button-composez" class="fonctionnement-btn">
+                                <span class="bubble-number-container">2</span>
+                                <i class="fas fa-list-ul">Composez votre menu</i>
+                            </button>
                         </li>
                         
                         <li class="filter-3">
-                            <span class="bubble-number-container">3</span>
-                            <i class="fas fa-store-alt"></i><a>&nbsp;&nbsp;&nbsp;</a>
-                            <a href="#" class="btn">Dégustez au restaurant</a>
+                            <button id="button-degustez" class="fonctionnement-btn">
+                                <span class="bubble-number-container">3</span>
+                                <i class="fas fa-store-alt">Dégustez au restaurant</i>
+                            </button>
                         </li>
                     </ol>   
                 </div>
@@ -176,7 +182,6 @@
                 <li>
                     <a class="footer-column" href="mailto:Ohmyfood@serveur.com">Contact</a>
                 </li>
-                
             </ul>
         </div>
     </footer>
