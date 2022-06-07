@@ -134,7 +134,8 @@ a {
 
 /**filters-container**/
 .filters-container {
-  padding: 20px 30px 0 30px;
+  display: flex;
+  padding: 24px 30px 30px 30px;
 }
 
 h2 {
@@ -144,8 +145,9 @@ h2 {
 
 .filters-container ol {
   display: flex;
-  flex-direction: column;
-  padding: 0px 10px 10px 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 17px 10px 1px;
 }
 
 .filters-container li {
@@ -239,7 +241,7 @@ h2 {
 /**restaurant-container**/
 .restaurant-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #f2f2f2;
 }
 
@@ -251,10 +253,10 @@ h2 {
   padding: 10px;
 }
 
-.restaurant {
-  background-color: #ccd1dc;
+.restaurant-groupe-1 .restaurant-groupe-2 {
   display: flex;
-  background-color: white;
+  flex-direction: column;
+  background-color: #ccd1dc;
   border: 3px solid white;
   margin-top: 15px;
   margin-bottom: 15px;
