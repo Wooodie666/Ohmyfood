@@ -481,14 +481,14 @@ max-width: 100%;
 }
 
 /**heart animation**/
-.fa-heart {
+.far fa-heart {
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
 }
 
-.fas .fa-heart{
+.fas fa-heart{
   opacity: 0;
   transition: 0,5s;
   background-image: linear-gradient(
@@ -496,9 +496,11 @@ max-width: 100%;
     rgba(147, 86, 220, 0.9),
     rgba(255, 121, 218, 0.9)
   );
+  -webkit-background-clip: text;
+  webkit-text-fill-color: transparent;
 }
 
-.far .fa-heart{
+.far fa-heart{
   color: black;
   opacity: 1;
   transition: 0,2s;
@@ -510,7 +512,7 @@ opacity: 1;
 transition: 0,5s;
 } 
 
-.fas .fa-heart{
+.fas fa-heart{
   opacity: 1;
 }
 /**loading**/
