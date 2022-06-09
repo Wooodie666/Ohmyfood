@@ -9,7 +9,6 @@ $clear-grey: #f2f2f2;
 $dark-grey: #d3d3d3;
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shrikhand&display=swap");
 
 body {
   font-family: Roboto, sans-serif;
@@ -474,64 +473,38 @@ max-width: 100%;
 }
 
 /**heart animation**/
-.animation .heart {
-  display: flex;
-  justify-content: flex-end;
-  height: 60px;
-  height: 60px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 0.9),
-    rgba(255, 121, 218, 0.9)
-  );
+.fa-heart {
+  position: absolute;
+  top: 0;
+  right: 0;
   cursor: pointer;
-  transform: rotate(-45 deg);
-  box-shadow: -10px 10px 90px $colorsecondary;
-  animation: heart 0.6s linear infinite;
 }
 
-@keyframes heart{
-  0%{
-    transform: rotate(-45deg);
-    scale: (1.07);
-  }
-  80%{      
-  transform: rotate(-45deg);
-  scale:(1.09);
-}
-100%{
-  transform: rotate(-45deg);
-  scale: (0.8);
-}
-}
-
-.fa-heart:before{
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: 50%;
-  box-shadow: -10px 10px 90px $colorsecondary;
-}
-
-.fa-heart::after{
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  background-color: #686868;
+.fas .fa-heart{
+  opacity: 0;
+  transition: 0,5s;
   background-image: linear-gradient(
     0deg,
     rgba(147, 86, 220, 0.9),
     rgba(255, 121, 218, 0.9)
   );
-  right: 50%;
-  border-radius: 50px;
-  box-shadow: 10px 10px 90px $colorprimary;
 }
 
+.far .fa-heart{
+  color: black;
+  opacity: 1;
+  transition: 0,2s;
+}
+
+.far fa-heart:hover{
+color: #000;
+opacity: 1;
+transition: 0,5s;
+} 
+
+.fas .fa-heart{
+  opacity: 1;
+}
 /**loading**/
 
 .loading {
