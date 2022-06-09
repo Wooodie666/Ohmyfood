@@ -357,7 +357,7 @@ footer {
 
 /**header-container**/
 
-.fa-arrow-left:before {
+.fa-arrow-left {
   height: 2rem;
   width: 2rem;
   top: 50%;
@@ -429,7 +429,7 @@ flex-direction: column;
 
 
 /**bouton commander**/
-.button order-btn{
+ .button .order-btn{
     border: 0;
     padding: 12px 30px;
     font-weight: 500;
@@ -495,24 +495,11 @@ flex-direction: column;
   transition: 0,5s;
   background-color: #686868;
   background-image: linear-gradient(0deg,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9)s);
-  -webkit-text-fill-color: transparent;
+
 }
 
-.far fa-heart{
-  color: black;
-  opacity: 1;
-  transition: 0,2s;
-}
 
-.far fa-heart:hover{
-color: #000;
-opacity: 1;
-transition: 0,5s;
-} 
 
-.fas fa-heart{
-  opacity: 1;
-}
 /**loading**/
 
 .loading {
