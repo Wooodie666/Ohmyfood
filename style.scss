@@ -491,13 +491,9 @@ max-width: 100%;
 .fas fa-heart{
   opacity: 0;
   transition: 0,5s;
-  background-image: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 0.9),
-    rgba(255, 121, 218, 0.9)
-  );
+  background-image: linear-gradient(0deg,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9)s);
   -webkit-background-clip: text;
-  webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .far fa-heart{
