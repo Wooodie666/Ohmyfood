@@ -475,6 +475,8 @@ max-width: 100%;
 
 /**heart animation**/
 .animation .heart {
+  display: flex;
+  justify-content: flex-end;
   height: 60px;
   height: 60px;
   color: #fff;
@@ -505,7 +507,7 @@ max-width: 100%;
 }
 }
 
-.fa-heart::before{
+.fa-heart:before{
   content: "";
   position: absolute;
   height: 60px;
@@ -539,12 +541,12 @@ max-width: 100%;
   height: 100%;
   width: 100%;
   opacity: 1;
-  position:sticky;
+  position:relative;
   z-index: 10;
   font-family: "shrikhand";
   font-size: 23px;
   color: $colorsecondary;
-  background-color: white;
+  background-color: $clear-grey;
   animation: out 550ms 4s linear forwards;
   .content {
     position: relative;

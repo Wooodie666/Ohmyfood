@@ -284,8 +284,8 @@ h2 {
   height: 30px;
   position: absolute;
   border-radius: 5px;
-  left: 72%;
-  bottom: -9%;
+  left: 70%;
+  bottom: -11%;
 }
 
 .card-text {
@@ -309,30 +309,6 @@ h2 {
 .card-text h3 {
   font-size: 19px;
   font-weight: bold;
-}
-
-.animation .heart {
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  position: relative;
-  top: 99px;
-  left: 91%;
-  right: 0%;
-  bottom: 96%;
-}
-
-.fa-heart {
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  position: relative;
-  top: 99%;
-  left: 91%;
-  right: 0%;
-  bottom: 96%;
 }
 
 /**footer**/
@@ -381,8 +357,20 @@ footer {
      object-fit: cover;
 }
 
-/**menu**/
-.menu-container {
+/**restaurant1 restauranr2 restaurant3 restaurant4**/
+.restaurant-1 {
+  display: flex;
+  flex-direction: row;
+}
+.restaurant-1 .restaurant-2 {
+  display: flex;
+  flex-direction: row;
+}
+.restaurant-1 .restaurant-3 {
+  display: flex;
+  flex-direction: row;
+}
+.restaurant-1 .restaurant-4 {
   display: flex;
   flex-direction: row;
 }
@@ -392,73 +380,39 @@ footer {
   font-family: Shrikhand, "cursive";
 }
 
-.menu-container btn-menu-1 {
-  border: 0;
-  padding: 12px 30px;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  transition-duration: 0.25s;
-}
-.menu-container btn-menu-1 .menu-container btn-menu-2 {
-  border: 0;
-  padding: 12px 30px;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  transition-duration: 0.25s;
-}
-.menu-container btn-menu-1 .menu-container btn-menu-2 {
-  border: 0;
-  padding: 12px 30px;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  transition-duration: 0.25s;
-}
-.menu-container btn-menu-1 .menu-container btn-menu-3 {
-  border: 0;
-  padding: 12px 30px;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  transition-duration: 0.25s;
-}
-.menu-container btn-menu-1 .menu-container btn-menu-4 {
-  border: 0;
-  padding: 12px 30px;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  transition-duration: 0.25s;
-}
-
-.start-menu-1 {
+/**start**/
+.start-men {
+  display: flex;
   max-width: 100%;
-  overflow: hidden;
-  padding: 0 10px;
 }
 
+/**plats**/
+.plats-menu {
+  display: flex;
+  max-width: 100%;
+}
+
+/**dessert**/
+.dessert-menu {
+  display: flex;
+  max-width: 100%;
+}
+
+/**bouton commander**/
+.menu-container order-btn {
+  border: 0;
+  padding: 12px 30px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
+
+/**footer-restaurant**/
 .fas fa-hands-helping {
   color: white;
 }
@@ -507,66 +461,69 @@ footer {
   }
 }
 /**heart animation**/
-@-webkit-keyframes .heart {
-  0% {
-    -webkit-transform: scale(1);
-    opacity: 1;
-    color: #9356dc;
-  }
-  50% {
-    -webkit-transform: scale(3);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1.6);
-    opacity: 1;
-    color: #9356dc;
-  }
-}
-@keyframes .heart {
-  0% {
-    -webkit-transform: scale(1);
-    opacity: 1;
-    color: #9356dc;
-  }
-  50% {
-    -webkit-transform: scale(3);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1.6);
-    opacity: 1;
-    color: #9356dc;
-  }
-}
-.animation {
-  position: relative;
-  margin-right: 15px;
-}
 .animation .heart {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  height: 60px;
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
+  transform: rotate(-45 deg);
+  box-shadow: -10px 10px 90px #ff79da;
+  -webkit-animation: heart 0.6s linear infinite;
+          animation: heart 0.6s linear infinite;
+}
+
+@-webkit-keyframes heart {
+  0% {
+    transform: rotate(-45deg);
+    scale: 1.07;
+  }
+  80% {
+    transform: rotate(-45deg);
+    scale: 1.09;
+  }
+  100% {
+    transform: rotate(-45deg);
+    scale: 0.8;
+  }
+}
+
+@keyframes heart {
+  0% {
+    transform: rotate(-45deg);
+    scale: 1.07;
+  }
+  80% {
+    transform: rotate(-45deg);
+    scale: 1.09;
+  }
+  100% {
+    transform: rotate(-45deg);
+    scale: 0.8;
+  }
+}
+.fa-heart:before {
+  content: "";
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  height: 60px;
+  width: 60px;
+  top: 50%;
+  box-shadow: -10px 10px 90px #ff79da;
 }
-.animation .heart-pink {
-  background: -webkit-linear-gradient(#9356dc, #ff79da);
-  -webkit-text-fill-color: transparent;
-  z-index: -1;
-  opacity: 0;
-  transform: scale(0.1);
-  transform: all 400ms ease;
-  transform-origin: 50% 100%;
-}
-.animation:hover {
-  /*& .heart{
-      opacity:0;
-  }*/
-}
-.animation:hover .heart-pink {
-  opacity: 1;
-  transform: scale(1.03);
+
+.fa-heart::after {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #686868;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  right: 50%;
+  border-radius: 50px;
+  box-shadow: 10px 10px 90px #9356dc;
 }
 
 /**loading**/
@@ -577,13 +534,12 @@ footer {
   height: 100%;
   width: 100%;
   opacity: 1;
-  position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   z-index: 10;
   font-family: "shrikhand";
   font-size: 23px;
   color: #ff79da;
-  background-color: #99e2d0;
+  background-color: #f2f2f2;
   -webkit-animation: out 550ms 4s linear forwards;
           animation: out 550ms 4s linear forwards;
 }
@@ -596,10 +552,10 @@ footer {
   position: absolute;
   text-align: center;
   font-family: "shrikhand";
-  font-size: 12px;
+  font-size: 20px;
   line-height: 200px;
-  -webkit-animation: flash 3s linear;
-          animation: flash 3s linear;
+  -webkit-animation: flash 0.5s linear infinite;
+          animation: flash 0.5s linear infinite;
   width: 200px;
 }
 .loading .spinner {
@@ -655,7 +611,7 @@ footer {
     text-shadow: none;
     font-size: 0;
   }
-  30% {
+  50% {
     text-shadow: 0 0 20px wheat;
     font-size: 20px;
   }
@@ -668,7 +624,7 @@ footer {
     text-shadow: none;
     font-size: 0;
   }
-  30% {
+  50% {
     text-shadow: 0 0 20px wheat;
     font-size: 20px;
   }
