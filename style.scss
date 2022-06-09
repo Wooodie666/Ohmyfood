@@ -407,28 +407,29 @@ footer {
 /**start**/
 .start-men{
 display: flex;
-max-width: 100%;
+flex-direction: column;
 }
  
 
 /**plats**/
 .plats-menu{
 display: flex;
-max-width: 100%;
+flex-direction: column;
 }
 
 
 /**dessert**/
 .dessert-menu{
 display: flex;
-max-width: 100%;
+flex-direction: column;
 }
 
 
 
 
+
 /**bouton commander**/
-  .menu-container order-btn {
+.button order-btn{
     border: 0;
     padding: 12px 30px;
     font-weight: 500;
@@ -483,6 +484,7 @@ max-width: 100%;
 /**heart animation**/
 .far fa-heart {
   position: absolute;
+  background-color: #686868;
   top: 0;
   right: 0;
   cursor: pointer;
@@ -491,8 +493,8 @@ max-width: 100%;
 .fas fa-heart{
   opacity: 0;
   transition: 0,5s;
+  background-color: #686868;
   background-image: linear-gradient(0deg,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9)s);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
