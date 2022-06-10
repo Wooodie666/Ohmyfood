@@ -1,5 +1,8 @@
+
 /**Desktop**/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap");
+
+
 body {
   font-family: Roboto, sans-serif;
   background-color: white;
@@ -243,10 +246,22 @@ h2 {
 
 /**restaurant-container**/
 
+.container-menu{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: lightgray ;
+  border-radius: 20px 20px 0 0;
+  padding: 32px 10px 0 10px;
+  margin-top: 20px;
+}
+
+
 .heart{
   position: absolute;
   top: 20px;
-  right:20px ;
+  right: 20px;
+  cursor: pointer;
 }
 .restaurant-container {
   display: flex;
@@ -374,44 +389,63 @@ footer {
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
-.restaurant-1 {
+
+.container-menu{
   display: flex;
-  flex-direction: row;
-}
-.restaurant-1 .restaurant-2 {
-  display: flex;
-  flex-direction: row;
-}
-.restaurant-1 .restaurant-3 {
-  display: flex;
-  flex-direction: row;
-}
-.restaurant-1 .restaurant-4 {
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: rgb(216, 214, 218);
+  border-radius: 30px 30px 0 0;
+  padding: 34px 10px 0 10px;
+  margin-top: -30px;
+  margin-right: 214px;
+  margin-left: 240px;
 }
 
-.menu-container h1 {
+
+.container-menu h1 {
   display: flex;
   font-family: Shrikhand, "cursive";
+  font-weight: bold;
+  font-size: 25px;
 }
 
 /**start**/
-.start-men {
+.start-menu {
   display: flex;
   flex-direction: column;
+  justify-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-left: 14px;
 }
+
+.list-title h2{
+position: relative;
+padding-bottom: 5px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
 
 /**plats**/
 .plats-menu {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
+  justify-items: center;
+  background-color: white;
+  border-radius: 20px;
 }
 
 /**dessert**/
 .dessert-menu {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
+  justify-items: center;
+  background-color: white;
+  border-radius: 20px;
 }
 
 /**bouton commander**/
@@ -440,18 +474,25 @@ footer {
 /**animation**/
 
 /**heart animation**/
-.far fa-heart {
-  background-color: #686868;
-  top: 2px;
-  right: 2px;
-  cursor: pointer;
+
+
+.far fa-heart{
+opacity: 1;
+color: #000000;
+transition: 0,2s;
 }
 
 .fas fa-heart{
-  top: 2px;
-  right: 2px;
-  cursor: pointer;
+  opacity: 0;
+  transition: 0,5s;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  -webkit-text-fill-color: transparent;
+}
 
+.far fa-heart:hover{
+color: #000000;
+opacity: 1;
+transition: 0,5s;
 }
 
 

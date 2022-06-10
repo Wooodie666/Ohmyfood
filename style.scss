@@ -329,7 +329,8 @@ padding: 5px;
 .heart{
   position: absolute;
   top: 20px;
-  right:20px ;
+  right: 20px;
+  cursor: pointer;
 }
 
 
@@ -386,54 +387,76 @@ footer {
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
 
+.container-menu{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: $clear-grey;
+  border-radius: 30px 30px 0 0;
+  padding: 34px 10px 0 10px;
+  margin-top: -20px;
+}
+
 .restaurant-1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   box-shadow: 0 0 20px 20px $clear-grey;
 
   .restaurant-2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     box-shadow: 0 0 20px 20px $clear-grey;
   }
   .restaurant-3{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     box-shadow: 0 0 20px 20px $clear-grey;
   }
   .restaurant-4{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     box-shadow: 0 0 20px 20px $clear-grey;
   }
 }
 
 
 .container-menu h1 {
-  display: flex;
   font-family: Shrikhand, "cursive";
-  border-radius: 20px 20px 0 0;
+  font-weight: bold;
+
 }
 
 
 /**start**/
 .start-menu{
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 12px;
 }
- 
+
+.list-title h2{
+  position: relative;
+  padding-bottom: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 
 /**plats**/
 .plats-menu{
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
 
 /**dessert**/
 .dessert-menu{
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
 
@@ -472,22 +495,24 @@ flex-direction: column;
 
 
 /**heart animation**/
-.far fa-heart {
-  position: absolute;
-  background-color: #686868;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-}
-
+.far fa-heart{
+  opacity: 1;
+  color: #000000;
+  transition: 0,2s;
+  }
+  
 .fas fa-heart{
-  position: absolute;
-  opacity: 0;
+    opacity: 0;
+    transition: 0,5s;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    -webkit-text-fill-color: transparent;
+  }
+  
+.far fa-heart:hover{
+  color: #000000;
+  opacity: 1;
   transition: 0,5s;
-  background-color: #686868;
-  background-image: linear-gradient(0deg,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9)s);
-
-}
+  }
 
 
 
