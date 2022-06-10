@@ -460,26 +460,7 @@ flex-direction: column;
 
 /**animation**/
 
-@keyframes opening {
-  0% {
-    opacity: O;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /**heart animation**/
 .far fa-heart {
