@@ -37,6 +37,7 @@ a {
   justify-content: center;
   padding: 15px 0;
   box-shadow: 0px 5px 10px 0px #cfcfcf;
+  position: relative;
 }
 
 #logo {
@@ -270,8 +271,6 @@ h2 {
 }
 
 .card-image{
-display: flex;
-flex-direction: column;
 position: relative;
 }
 
@@ -307,6 +306,7 @@ position: relative;
   color: rgb(15, 15, 15);
   background-color: white;
   border-radius: 0 0 20px 20px;
+  position: relative;
 }
 
 .card-text a {
@@ -326,7 +326,11 @@ margin: 0px;
 padding: 5px;
 }
 
-
+.heart{
+  position: absolute;
+  top: 20px;
+  right:20px ;
+}
 
 
 /**footer**/
@@ -357,15 +361,17 @@ footer {
 
 /**header-container**/
 
+
 .fa-arrow-left {
-  height: 2rem;
-  width: 2rem;
-  top: 50%;
+  position: absolute;
+  
+  bottom: 15px;
+  left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  font-size: 1.2rem;
+  font-size: 20px;
   color: #000;
 }
 
@@ -383,29 +389,35 @@ footer {
 .restaurant-1 {
   display: flex;
   flex-direction: row;
+  box-shadow: 0 0 20px 20px $clear-grey;
+
   .restaurant-2{
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 20px $clear-grey;
   }
   .restaurant-3{
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 20px $clear-grey;
   }
   .restaurant-4{
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 20px $clear-grey;
   }
 }
 
 
-.menu-container h1 {
+.container-menu h1 {
   display: flex;
   font-family: Shrikhand, "cursive";
+  border-radius: 20px 20px 0 0;
 }
 
 
 /**start**/
-.start-men{
+.start-menu{
 display: flex;
 flex-direction: column;
 }
@@ -425,11 +437,8 @@ flex-direction: column;
 }
 
 
-
-
-
 /**bouton commander**/
- .button .order-btn{
+ .order-btn{
     border: 0;
     padding: 12px 30px;
     font-weight: 500;
@@ -472,6 +481,7 @@ flex-direction: column;
 }
 
 .fas fa-heart{
+  position: absolute;
   opacity: 0;
   transition: 0,5s;
   background-color: #686868;

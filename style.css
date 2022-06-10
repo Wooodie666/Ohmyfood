@@ -24,6 +24,7 @@ a {
   justify-content: center;
   padding: 15px 0;
   box-shadow: 0px 5px 10px 0px #cfcfcf;
+  position: relative;
 }
 
 #logo {
@@ -241,6 +242,12 @@ h2 {
 }
 
 /**restaurant-container**/
+
+.heart{
+  position: absolute;
+  top: 20px;
+  right:20px ;
+}
 .restaurant-container {
   display: flex;
   flex-wrap: wrap;
@@ -259,8 +266,12 @@ h2 {
   padding-top: 8%;
   margin-right: 20%;
 }
+.card-image{
+  position: relative;
+}
 
 .card-image img {
+  position: relative;
   height: 175px;
   width: 100%;
   border-radius: 15px 15px 0 0;
@@ -283,17 +294,20 @@ h2 {
   height: 30px;
   position: absolute;
   border-radius: 5px;
-  left: 70%;
-  bottom: -11%;
+  right: 20px;
+  top:20px;
 }
 
 .card-text {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  margin-top: -3px;
+  padding: Opx;
   color: rgb(15, 15, 15);
   background-color: white;
   border-radius: 0 0 20px 20px;
+  position: relative;
 }
 
 .card-text a {
@@ -302,12 +316,15 @@ h2 {
 
 .card-text p {
   font-size: 17px;
-  margin-left: 24px;
+  margin: 0px;
+  padding: 5px;
 }
 
 .card-text h3 {
   font-size: 19px;
   font-weight: bold;
+  margin: 0;
+  padding: 5px;
 }
 
 /**footer**/
@@ -335,15 +352,15 @@ footer {
 
 /**menu-1 menu-2 menu-3 menu-4**/
 /**header-container**/
-.fa-arrow-left:before {
-  height: 2rem;
-  width: 2rem;
-  top: 50%;
+.fa-arrow-left {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  font-size: 1.2rem;
+  font-size: 20px;
   color: #000;
 }
 
@@ -382,23 +399,23 @@ footer {
 /**start**/
 .start-men {
   display: flex;
-  max-width: 100%;
+  flex-direction: column;
 }
 
 /**plats**/
 .plats-menu {
   display: flex;
-  max-width: 100%;
+ flex-direction: column;
 }
 
 /**dessert**/
 .dessert-menu {
   display: flex;
-  max-width: 100%;
+ flex-direction: column;
 }
 
 /**bouton commander**/
-.menu-container order-btn {
+.order-btn {
   border: 0;
   padding: 12px 30px;
   font-weight: 500;
@@ -421,106 +438,22 @@ footer {
 }
 
 /**animation**/
-@-webkit-keyframes opening {
-  0% {
-    opacity: O;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes opening {
-  0% {
-    opacity: O;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 /**heart animation**/
-.heart {
-  height: 60px;
-  height: 60px;
-  color: #fff;
+.far fa-heart {
   background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  top: 2px;
+  right: 2px;
   cursor: pointer;
-  transform: rotate(-45 deg);
-  -webkit-animation: heart 0.6s linear infinite;
-          animation: heart 0.6s linear infinite;
 }
 
-@-webkit-keyframes heart {
-  0% {
-    transform: rotate(-45deg);
-    scale: 1.07;
-  }
-  80% {
-    transform: rotate(-45deg);
-    scale: 1.09;
-  }
-  100% {
-    transform: rotate(-45deg);
-    scale: 0.8;
-  }
+.fas fa-heart{
+  top: 2px;
+  right: 2px;
+  cursor: pointer;
+
 }
 
-@keyframes heart {
-  0% {
-    transform: rotate(-45deg);
-    scale: 1.07;
-  }
-  80% {
-    transform: rotate(-45deg);
-    scale: 1.09;
-  }
-  100% {
-    transform: rotate(-45deg);
-    scale: 0.8;
-  }
-}
-.fa-heart:before {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: 50%;
-  box-shadow: -10px 10px 90px #ff79da;
-}
-
-.fa-heart::after {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  right: 50%;
-  border-radius: 50px;
-  box-shadow: 10px 10px 90px #9356dc;
-}
 
 /**loading**/
 .loading {
