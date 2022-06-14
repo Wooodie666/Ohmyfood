@@ -434,7 +434,13 @@ footer {
   justify-items: center;
   background-color: white;
   border-radius: 20px;
-  margin-top: 12px;
+}
+
+.list-title h2{
+font-size: 18px;
+font-weight: 400;
+position: relative;
+padding-left: 10px;
 }
 
 .start-1{
@@ -470,12 +476,44 @@ footer {
   justify-items: center;
 }
 
+.plat-1{
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+
+.plat-2{
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+}
+.plat-3{
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+}
+
+.plat-4{
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+}
+}
+
 
 /**dessert**/
 .dessert-menu{
   display: flex;
   flex-direction: column;
   justify-items: center;
+}
+
+.dessert-1{
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+ .dessert-2{
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  }
+.dessert-3{
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+}
 }
 
 
