@@ -365,7 +365,6 @@ footer {
 
 .fa-arrow-left {
   position: absolute;
-  
   bottom: 15px;
   left: 20px;
   display: flex;
@@ -439,8 +438,9 @@ footer {
 .list-title h2{
 font-size: 18px;
 font-weight: 400;
-position: relative;
 padding-left: 10px;
+text-decoration:underline;
+text-decoration-color: $colortertiary;
 }
 
 .start-1{
@@ -560,7 +560,7 @@ padding-left: 10px;
   
 .fas fa-heart{
     opacity: 0;
-    transition: 0,5s;
+    transition: 0,2s;
     background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
     -webkit-text-fill-color: transparent;
   }
@@ -571,7 +571,10 @@ padding-left: 10px;
   transition: 0,5s;
   }
 
-
+.fas fa-heart:hover{
+  opacity: 1;
+  transition: 0,5s;
+}
 
 /**loading**/
 
