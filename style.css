@@ -309,8 +309,8 @@ h2 {
   height: 30px;
   position: absolute;
   border-radius: 5px;
-  right: 20px;
-  top:20px;
+  right: 235px;
+  z-index: 1;
 }
 
 .card-text {
@@ -419,6 +419,13 @@ footer {
   background-color: white;
   border-radius: 20px;
 }
+
+.list-title h2{
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  padding-left: 10px;
+  }
 
 .start-1{
   border: 2px solid lightgrey;
