@@ -392,8 +392,6 @@ footer {
 
 .container-menu{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
   background: rgb(233, 231, 235);
   border-radius: 30px 30px 0 0;
@@ -403,7 +401,6 @@ footer {
   margin-left: 240px;
 }
 
-
 .container-menu h1 {
   display: flex;
   font-family: Shrikhand, "cursive";
@@ -411,12 +408,20 @@ footer {
   font-size: 25px;
 }
 
+.container-menu strong{
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
+
 /**start**/
 .start-menu {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  background-color: white;
+  background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
 
@@ -430,23 +435,60 @@ footer {
   }
 
 .start-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgrey;
   border-radius: 20px;
+  background-color: white;
 }
 
+
 .start-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgrey;
   border-radius: 20px;
+  background-color: white;
 }
 
 .start-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgrey;
   border-radius: 20px;
+  background-color: white;
 }
 
 .start-4{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgrey;
   border-radius: 20px;
+  background-color: white;
+}
+
+
+.start-check{
+  background-color: #99e2d0;
+  color: white;
+  animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count:unset;
+}
+
+@keyframes start-check{
+  from{
+    margin-left: 100%;
+    width: 200%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 
@@ -463,28 +505,62 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-items: center;
-  background-color: white;
+  background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
 
 .plat-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
 }
 
 .plat-2{
+  display: flex;
+  flex-direction: row;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
 }
 
 .plat-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
 }
 
 .plat-4{
+  display: flexbox;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
+}
+
+
+.plat-check{
+  background-color: #99e2d0;
+  color: white;
+  animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count:unset;
+}
+@keyframes plat-check{
+  from{
+    margin-left: 100%;
+    width: 200%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 /**dessert**/
@@ -492,28 +568,60 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-items: center;
-  background-color: white;
+  background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
 
 
 .dessert-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
 }
 
 .dessert-2{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
 }
 
 .dessert-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid lightgray;
   border-radius: 20px;
+  background-color: white;
+}
+
+.dessert-check{
+  background-color: #99e2d0;
+  color: white;
+  animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count:unset;
+}
+@keyframes dessert-check{
+  from{
+    margin-left: 100%;
+    width: 200%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 /**bouton commander**/
 .order-btn {
+  display: flex;
+  justify-content: center;
   border: 0;
   padding: 12px 30px;
   font-weight: 500;
@@ -525,6 +633,7 @@ text-transform: uppercase;
   cursor: pointer;
   transition-duration: 0.25s;
 }
+
 
 /**footer-restaurant**/
 .fas fa-hands-helping {

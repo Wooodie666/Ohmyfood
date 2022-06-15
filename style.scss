@@ -388,7 +388,6 @@ footer {
 
 .container-menu{
   display: flex;
-  flex-direction: column;
   position: relative;
   background: $clear-grey;
   border-radius: 30px 30px 0 0;
@@ -431,36 +430,79 @@ footer {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  background-color: white;
+  background-color: $clear-grey;
   border-radius: 20px;
 }
 
 .list-title h2{
 font-size: 18px;
-font-weight: 400;
+font-weight: bold;
 padding-left: 10px;
 text-decoration:underline;
 text-decoration-color: $colortertiary;
 }
 
-.start-1{
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-
-.start-2{
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
+.container-menu strong{
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-bottom: 15px;
 }
 
-.start-3{
+.start-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
+.start-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+}
+.start-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
 }
  .start-4{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
  }
 }
+
+
+.start-check{
+  background-color: $colortertiary;
+  color: white;
+  animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count: infinite;
+}
+
+@keyframes start-check{
+  from{
+    margin-left: 100%;
+    width: 200%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 .list-title h2{
   position: relative;
@@ -474,51 +516,114 @@ text-decoration-color: $colortertiary;
   display: flex;
   flex-direction: column;
   justify-items: center;
+  background-color: $clear-grey;
 }
 
 .plat-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
-
+  background-color: white;
 .plat-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
     border: 2px solid $clear-grey;
     border-radius: 20px;
+    background-color: white;
 }
 .plat-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
 }
-
 .plat-4{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
 }
+}
+.plat-check{
+  background-color: $colortertiary;
+  color: white;
+  animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count:unset;
 }
 
+@keyframes plat-check{
+  from{
+    margin-left: 100%;
+    width: 200%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 /**dessert**/
 .dessert-menu{
   display: flex;
   flex-direction: column;
   justify-items: center;
+  background-color: $clear-grey;
 }
 
 .dessert-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
  .dessert-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
   }
 .dessert-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
+  background-color: white;
 }
 }
-
+.dessert-check{
+  color: white;
+  background-color: $colortertiary;
+  animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count:unset;
+}
+@keyframes dessert-check{
+  from{
+    margin-left: 100%;
+    width: 200%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 /**bouton commander**/
  .order-btn{
+   display: flex;
+   justify-content: center;
     border: 0;
     padding: 12px 30px;
     font-weight: 500;
