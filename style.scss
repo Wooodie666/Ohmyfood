@@ -450,6 +450,12 @@ text-decoration-color: $colortertiary;
   padding-bottom: 15px;
 }
 
+.start-menu h3{
+  padding: 1%;
+  margin-bottom: 40px;
+  margin-left: 14px;
+}
+
 .start-1{
   display: flex;
   justify-content: space-between;
@@ -483,10 +489,17 @@ text-decoration-color: $colortertiary;
  }
 }
 
+/**animation check**/
 
 .start-check{
+  display: flex;
+  align-content: center;
+  align-items: center;
   background-color: $colortertiary;
   color: white;
+  margin-right: -60px;
+  width: 59px;
+  font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
   animation-iteration-count: infinite;
@@ -517,6 +530,12 @@ text-decoration-color: $colortertiary;
   flex-direction: column;
   justify-items: center;
   background-color: $clear-grey;
+}
+
+.plat-menu h3{
+  padding: 1%;
+  margin-bottom: 40px;
+  margin-left: 14px;
 }
 
 .plat-1{
@@ -551,9 +570,18 @@ text-decoration-color: $colortertiary;
   background-color: white;
 }
 }
+
+/**animation check**/
+
 .plat-check{
+  display: flex;
+  align-content: center;
+  align-items: center;
   background-color: $colortertiary;
   color: white;
+  margin-right: -60px;
+  width: 59px;
+  font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
   animation-iteration-count:unset;
@@ -576,6 +604,12 @@ text-decoration-color: $colortertiary;
   flex-direction: column;
   justify-items: center;
   background-color: $clear-grey;
+}
+
+.dessert-menu h3{
+  padding: 1%;
+  margin-bottom: 40px;
+  margin-left: 14px;
 }
 
 .dessert-1{
@@ -602,9 +636,18 @@ text-decoration-color: $colortertiary;
   background-color: white;
 }
 }
+
+/**animation check**/
+
 .dessert-check{
+  display: flex;
+  align-content: center;
+  align-items: center;
   color: white;
   background-color: $colortertiary;
+  margin-right: -60px;
+  width: 59px;
+  font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
   animation-iteration-count:unset;
@@ -621,6 +664,14 @@ text-decoration-color: $colortertiary;
 }
 
 /**bouton commander**/
+.button-order{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 30px 0px 30px 20px;
+}
+
+
  .order-btn{
    display: flex;
    justify-content: center;
@@ -651,8 +702,6 @@ text-decoration-color: $colortertiary;
 .fas fa-utensils {
   color: white;
 }
-
-/**animation**/
 
 
 
