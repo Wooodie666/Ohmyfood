@@ -309,7 +309,7 @@ h2 {
   height: 30px;
   position: absolute;
   border-radius: 5px;
-  right: 235px;
+  right: 260px;
   z-index: 1;
 }
 
@@ -659,7 +659,7 @@ text-transform: uppercase;
 
 .button-order{
   display: flex;
-  align-content: center;
+  justify-content: center;
   align-items: center;
   padding: 30px 0px 30px 20px;
 }

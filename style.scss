@@ -293,7 +293,7 @@ position: relative;
   width: 70px;
   height: 30px;
   border-radius: 5px;
-  right: 235px;
+  right: 260px;
   z-index: 1;
 }
 
@@ -666,7 +666,7 @@ text-decoration-color: $colortertiary;
 /**bouton commander**/
 .button-order{
   display: flex;
-  align-content: center;
+  justify-content: center;
   align-items: center;
   padding: 30px 0px 30px 20px;
 }
