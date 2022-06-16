@@ -294,6 +294,7 @@ h2 {
   height: 30px;
   border-radius: 5px;
   right: 260px;
+  bottom: 10px;
   z-index: 1;
 }
 
@@ -460,8 +461,10 @@ footer {
 }
 
 .container-menu h1 {
+  display: flex;
   font-family: Shrikhand, "cursive";
   font-weight: bold;
+  font-size: 28px;
 }
 
 /**start**/
