@@ -1,7 +1,5 @@
-
 /**Desktop**/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap");
-
 
 body {
   font-family: Roboto, sans-serif;
@@ -130,7 +128,11 @@ a {
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   cursor: pointer;
   transition-duration: 0.25s;
 }
@@ -246,18 +248,15 @@ h2 {
 
 /**restaurant-container**/
 
-.container-menu{
+.container-menu {
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: lightgray ;
+  background-color: lightgray;
   border-radius: 20px 20px 0 0;
   padding: 32px 10px 0 10px;
   margin-top: 20px;
 }
-
-
-
 
 .restaurant-container {
   display: flex;
@@ -277,7 +276,7 @@ h2 {
   padding-top: 8%;
   margin-right: 20%;
 }
-.card-image{
+.card-image {
   position: relative;
 }
 
@@ -287,9 +286,9 @@ h2 {
   width: 100%;
   border-radius: 15px 15px 0 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   border: 0 solid transparent;
 }
 
@@ -381,12 +380,12 @@ footer {
   max-height: 32rem;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
 
-.container-menu{
+.container-menu {
   display: flex;
   position: relative;
   background: rgb(233, 231, 235);
@@ -404,7 +403,7 @@ footer {
   font-size: 25px;
 }
 
-.container-menu strong{
+.container-menu strong {
   font-weight: bold;
   align-self: flex-end;
   margin-left: 5px;
@@ -420,27 +419,27 @@ footer {
   border-radius: 20px;
 }
 
-.start-menu h3{
+.start-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
 
-.start-menu p{
+.start-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
 
-.list-title h2{
+.list-title h2 {
   font-size: 18px;
   font-weight: 400;
   position: relative;
   padding-left: 10px;
-  text-decoration:underline;
+  text-decoration: underline;
   text-decoration-color: #99e2d0;
-  }
+}
 
-.start-1{
+.start-1 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -449,8 +448,7 @@ footer {
   background-color: white;
 }
 
-
-.start-2{
+.start-2 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -459,7 +457,7 @@ footer {
   background-color: white;
 }
 
-.start-3{
+.start-3 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -468,7 +466,7 @@ footer {
   background-color: white;
 }
 
-.start-4{
+.start-4 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -476,60 +474,61 @@ footer {
   border-radius: 20px;
   background-color: white;
 }
-
 
 /**heart animation**/
 
-
-.heart{
+.heart {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
-.heart-1{
+.heart-1 {
   position: relative;
   margin-right: 10px;
   margin-bottom: 35px;
 }
 
-.heart-1 .heart-2{
+.heart-1 .heart-2 {
   position: absolute;
   top: O;
   left: 0;
-  -webkit-transition: 0,5s;
-  transition: 0,5s;
+  -webkit-transition: 0, 5s;
+  transition: 0, 5s;
 }
 
-
-.heart-2{
+.heart-2 {
   opacity: 0;
-  transition: 0,5;
+  transition: 0, 5;
   color: black;
   margin-top: -67px;
 }
 
-.heart-1{
+.heart-1 {
   opacity: 1;
-  -webkit-transition: 0,2s;
-  transition: 0,2s;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  -webkit-transition: 0, 2s;
+  transition: 0, 2s;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.heart-1:hover{
+.heart-1:hover {
   opacity: 0;
 }
 
- .heart-2{
-   opacity: 1;
-   cursor: pointer;
- } 
-  
+.heart-2 {
+  opacity: 1;
+  cursor: pointer;
+}
+
 /**animation check**/
 
-.start-check{
+.start-check {
   display: flex;
   align-content: center;
   align-items: center;
@@ -540,27 +539,26 @@ footer {
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
-  animation-iteration-count:unset;
+  animation-iteration-count: unset;
 }
 
-@keyframes start-check{
-  from{
+@keyframes start-check {
+  from {
     margin-left: 100%;
     width: 200%;
   }
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
 }
 
-.list-title h2{
-position: relative;
-padding-bottom: 5px;
-font-weight: 400;
-text-transform: uppercase;
+.list-title h2 {
+  position: relative;
+  padding-bottom: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-
 
 /**plats**/
 .plats-menu {
@@ -571,18 +569,18 @@ text-transform: uppercase;
   border-radius: 20px;
 }
 
-.plats-menu h3{
+.plats-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
 
-.plat-menu p{
+.plat-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
 
-.plat-1{
+.plat-1 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -591,7 +589,7 @@ text-transform: uppercase;
   background-color: white;
 }
 
-.plat-2{
+.plat-2 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -600,7 +598,7 @@ text-transform: uppercase;
   background-color: white;
 }
 
-.plat-3{
+.plat-3 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -609,7 +607,7 @@ text-transform: uppercase;
   background-color: white;
 }
 
-.plat-4{
+.plat-4 {
   display: flexbox;
   flex-direction: column;
   justify-items: flex-start;
@@ -620,7 +618,7 @@ text-transform: uppercase;
 
 /**animation check**/
 
-.plat-check{
+.plat-check {
   display: flex;
   align-content: center;
   align-items: center;
@@ -631,14 +629,14 @@ text-transform: uppercase;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
-  animation-iteration-count:unset;
+  animation-iteration-count: unset;
 }
-@keyframes plat-check{
-  from{
+@keyframes plat-check {
+  from {
     margin-left: 10%;
     width: 100%;
   }
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
@@ -652,18 +650,17 @@ text-transform: uppercase;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
-.dessert-menu h3{
+.dessert-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
-.dessert-menu p{
+.dessert-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
 
-
-.dessert-1{
+.dessert-1 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -672,7 +669,7 @@ text-transform: uppercase;
   background-color: white;
 }
 
-.dessert-2{
+.dessert-2 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -681,7 +678,7 @@ text-transform: uppercase;
   background-color: white;
 }
 
-.dessert-3{
+.dessert-3 {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -692,7 +689,7 @@ text-transform: uppercase;
 
 /**animation check**/
 
-.dessert-check{
+.dessert-check {
   display: flex;
   align-content: center;
   align-items: center;
@@ -703,14 +700,14 @@ text-transform: uppercase;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
-  animation-iteration-count:unset;
+  animation-iteration-count: unset;
 }
-@keyframes dessert-check{
-  from{
+@keyframes dessert-check {
+  from {
     margin-left: 100%;
     width: 200%;
   }
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
@@ -718,13 +715,12 @@ text-transform: uppercase;
 
 /**bouton commander**/
 
-.button-order{
+.button-order {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 0px 30px 20px;
 }
-
 
 .order-btn {
   display: flex;
@@ -736,11 +732,14 @@ text-transform: uppercase;
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   cursor: pointer;
   transition-duration: 0.25s;
 }
-
 
 /**footer-restaurant**/
 .fas fa-hands-helping {
@@ -750,7 +749,6 @@ text-transform: uppercase;
 .fas fa-utensils {
   color: white;
 }
-
 
 /**loading**/
 .loading {
@@ -767,7 +765,7 @@ text-transform: uppercase;
   color: #ff79da;
   background-color: #f2f2f2;
   -webkit-animation: out 550ms 4s linear forwards;
-          animation: out 550ms 4s linear forwards;
+  animation: out 550ms 4s linear forwards;
 }
 .loading .content {
   position: relative;
@@ -781,7 +779,7 @@ text-transform: uppercase;
   font-size: 20px;
   line-height: 200px;
   -webkit-animation: flash 0.5s linear infinite;
-          animation: flash 0.5s linear infinite;
+  animation: flash 0.5s linear infinite;
   width: 200px;
 }
 .loading .spinner {
@@ -792,7 +790,7 @@ text-transform: uppercase;
   border-top: 4px solide #ff79da;
   border-bottom: 4px solid #99e2d0;
   -webkit-animation: spin 0.5s linear 4 forwards;
-          animation: spin 0.5s linear 4 forwards;
+  animation: spin 0.5s linear 4 forwards;
 }
 
 @-webkit-keyframes spinner {
@@ -857,4 +855,4 @@ text-transform: uppercase;
   100% {
     text-shadow: none;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

@@ -264,14 +264,14 @@ h2 {
   padding: 10px;
 }
 
-.cards-restaurant{
+.cards-restaurant {
   flex: 1;
   padding-top: 8%;
   margin-right: 20%;
 }
 
-.card-image{
-position: relative;
+.card-image {
+  position: relative;
 }
 
 .card-image img {
@@ -320,63 +320,62 @@ position: relative;
 }
 
 .card-text h3 {
-font-size: 19px;
-font-weight: bold;
-margin: 0px;
-padding: 5px;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px;
 }
-
 
 /**heart animation**/
 
-
-.heart{
+.heart {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
-.heart-1{
+.heart-1 {
   position: relative;
   margin-right: 10px;
   margin-bottom: 35px;
 }
 
-.heart-1 .heart-2{
+.heart-1 .heart-2 {
   position: absolute;
   top: O;
   left: 0;
-  -webkit-transition: 0,5s;
-  transition: 0,5s;
+  -webkit-transition: 0, 5s;
+  transition: 0, 5s;
 }
 
-
-.heart-2{
+.heart-2 {
   opacity: 0;
-  transition: 0,5;
+  transition: 0, 5;
   color: black;
   margin-top: -67px;
 }
 
-.heart-1{
+.heart-1 {
   opacity: 1;
-  -webkit-transition: 0,2s;
-  transition: 0,2s;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  -webkit-transition: 0, 2s;
+  transition: 0, 2s;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.heart-1:hover{
+.heart-1:hover {
   opacity: 0;
 }
 
- .heart-2{
-   opacity: 1;
-   cursor: pointer;
- } 
-  
-
+.heart-2 {
+  opacity: 1;
+  cursor: pointer;
+}
 
 /**footer**/
 
@@ -406,7 +405,6 @@ footer {
 
 /**header-container**/
 
-
 .fa-arrow-left {
   position: absolute;
   bottom: 15px;
@@ -430,7 +428,7 @@ footer {
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
 
-.container-menu{
+.container-menu {
   display: flex;
   position: relative;
   background: $clear-grey;
@@ -444,33 +442,30 @@ footer {
   flex-direction: column;
   box-shadow: 0 0 20px 20px $clear-grey;
 
-  .restaurant-2{
+  .restaurant-2 {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px 20px $clear-grey;
   }
-  .restaurant-3{
+  .restaurant-3 {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px 20px $clear-grey;
   }
-  .restaurant-4{
+  .restaurant-4 {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px 20px $clear-grey;
   }
 }
-
 
 .container-menu h1 {
   font-family: Shrikhand, "cursive";
   font-weight: bold;
-
 }
 
-
 /**start**/
-.start-menu{
+.start-menu {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -478,15 +473,15 @@ footer {
   border-radius: 20px;
 }
 
-.list-title h2{
-font-size: 18px;
-font-weight: bold;
-padding-left: 10px;
-text-decoration:underline;
-text-decoration-color: $colortertiary;
+.list-title h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-decoration: underline;
+  text-decoration-color: $colortertiary;
 }
 
-.container-menu strong{
+.container-menu strong {
   font-weight: bold;
   align-self: flex-end;
   margin-left: 5px;
@@ -494,53 +489,53 @@ text-decoration-color: $colortertiary;
   padding-bottom: 15px;
 }
 
-.start-menu h3{
+.start-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
 
-.start-menu p{
+.start-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
 
-.start-1{
+.start-1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
-.start-2{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
-}
-.start-3{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
-}
- .start-4{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
- }
+  .start-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
+  }
+  .start-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
+  }
+  .start-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
+  }
 }
 
 /**animation check**/
 
-.start-check{
+.start-check {
   display: flex;
   align-content: center;
   align-items: center;
@@ -554,19 +549,18 @@ text-decoration-color: $colortertiary;
   animation-iteration-count: infinite;
 }
 
-@keyframes start-check{
-  from{
+@keyframes start-check {
+  from {
     margin-left: 100%;
     width: 200%;
   }
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
 }
 
-
-.list-title h2{
+.list-title h2 {
   position: relative;
   padding-bottom: 5px;
   font-weight: 400;
@@ -574,60 +568,60 @@ text-decoration-color: $colortertiary;
 }
 
 /**plats**/
-.plats-menu{
+.plats-menu {
   display: flex;
   flex-direction: column;
   justify-items: center;
   background-color: $clear-grey;
 }
 
-.plat-menu h3{
+.plat-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
 
-.plat-menu p{
+.plat-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
 
-.plat-1{
+.plat-1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
-.plat-2{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  .plat-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
-}
-.plat-3{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
-}
-.plat-4{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
-}
+  }
+  .plat-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
+  }
+  .plat-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
+  }
 }
 
 /**animation check**/
 
-.plat-check{
+.plat-check {
   display: flex;
   align-content: center;
   align-items: center;
@@ -638,67 +632,67 @@ text-decoration-color: $colortertiary;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
-  animation-iteration-count:unset;
+  animation-iteration-count: unset;
 }
 
-@keyframes plat-check{
-  from{
+@keyframes plat-check {
+  from {
     margin-left: 100%;
     width: 200%;
   }
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
 }
 
 /**dessert**/
-.dessert-menu{
+.dessert-menu {
   display: flex;
   flex-direction: column;
   justify-items: center;
   background-color: $clear-grey;
 }
 
-.dessert-menu h3{
+.dessert-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
 
-.dessert-menu p{
+.dessert-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
 
-.dessert-1{
+.dessert-1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
- .dessert-2{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
+  .dessert-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
   }
-.dessert-3{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 2px solid $clear-grey;
-  border-radius: 20px;
-  background-color: white;
-}
+  .dessert-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid $clear-grey;
+    border-radius: 20px;
+    background-color: white;
+  }
 }
 
 /**animation check**/
 
-.dessert-check{
+.dessert-check {
   display: flex;
   align-content: center;
   align-items: center;
@@ -709,48 +703,45 @@ text-decoration-color: $colortertiary;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
-  animation-iteration-count:unset;
+  animation-iteration-count: unset;
 }
-@keyframes dessert-check{
-  from{
+@keyframes dessert-check {
+  from {
     margin-left: 100%;
     width: 200%;
   }
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
 }
 
 /**bouton commander**/
-.button-order{
+.button-order {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 0px 30px 20px;
 }
 
-
- .order-btn{
-   display: flex;
-   justify-content: center;
-    border: 0;
-    padding: 12px 30px;
-    font-weight: 500;
-    font-size: 1.1rem;
-    border-radius: 100px;
-    color: #fff;
-    background-color: #686868;
-    background-image: linear-gradient(
-      0deg,
-      rgba(147, 86, 220, 0.9),
-      rgba(255, 121, 218, 0.9)
-    );
-    cursor: pointer;
-    transition-duration: 0.25s;
-  }
-
-
+.order-btn {
+  display: flex;
+  justify-content: center;
+  border: 0;
+  padding: 12px 30px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
 
 /**footer-restaurant**/
 
@@ -762,31 +753,33 @@ text-decoration-color: $colortertiary;
   color: white;
 }
 
-
-
 /**heart animation**/
-.far fa-heart{
+.far fa-heart {
   opacity: 1;
   color: #000000;
-  transition: 0,2s;
-  }
-  
-.fas fa-heart{
-    opacity: 0;
-    transition: 0,2s;
-    background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-    -webkit-text-fill-color: transparent;
-  }
-  
-.far fa-heart:hover{
-  color: #000000;
-  opacity: 1;
-  transition: 0,5s;
-  }
+  transition: 0, 2s;
+}
 
-.fas fa-heart:hover{
+.fas fa-heart {
+  opacity: 0;
+  transition: 0, 2s;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+  -webkit-text-fill-color: transparent;
+}
+
+.far fa-heart:hover {
+  color: #000000;
   opacity: 1;
-  transition: 0,5s;
+  transition: 0, 5s;
+}
+
+.fas fa-heart:hover {
+  opacity: 1;
+  transition: 0, 5s;
 }
 
 /**loading**/
@@ -798,7 +791,7 @@ text-decoration-color: $colortertiary;
   height: 100%;
   width: 100%;
   opacity: 1;
-  position:relative;
+  position: relative;
   z-index: 10;
   font-family: "shrikhand";
   font-size: 23px;
