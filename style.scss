@@ -293,7 +293,7 @@ h2 {
   width: 70px;
   height: 30px;
   border-radius: 5px;
-  right: 300px;
+  right: 310px;
   z-index: 1;
 }
 
@@ -464,13 +464,15 @@ footer {
   font-family: Shrikhand, "cursive";
   font-weight: bold;
   font-size: 28px;
+  padding: 3px;
+  margin-top: 14px;
+  margin-left: 7px;
 }
 
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  flex-direction: row;
   background-color: $clear-grey;
   border-radius: 20px;
 }
