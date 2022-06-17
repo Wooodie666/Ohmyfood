@@ -513,6 +513,7 @@ footer {
 .list-title h2 {
   position: relative;
   padding-bottom: 5px;
+  margin-left: -31px;
   font-weight: 400;
   text-transform: uppercase;
 }
