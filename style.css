@@ -305,7 +305,6 @@ h2 {
   position: absolute;
   border-radius: 5px;
   right: 260px;
-  bottom: 10px;
   z-index: 1;
 }
 
@@ -327,14 +326,14 @@ h2 {
 
 .card-text p {
   font-size: 17px;
-  margin: 0px;
+  margin: 5px;
   padding: 5px;
 }
 
 .card-text h3 {
   font-size: 19px;
   font-weight: bold;
-  margin: 0;
+  margin: 5px;
   padding: 5px;
 }
 
@@ -494,8 +493,8 @@ footer {
   position: absolute;
   top: O;
   left: 0;
-  -webkit-transition: 0, 5s;
-  transition: 0, 5s;
+  -webkit-transition: 0, 2s;
+  transition: 0, 2s;
 }
 
 .heart-2 {
@@ -503,6 +502,7 @@ footer {
   transition: 0, 5;
   color: black;
   margin-top: -67px;
+
 }
 
 .heart-1 {
@@ -522,7 +522,7 @@ footer {
   opacity: 0;
 }
 
-.heart-2 {
+.heart-2:hover {
   opacity: 1;
   cursor: pointer;
 }
