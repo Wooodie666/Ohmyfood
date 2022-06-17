@@ -763,10 +763,10 @@ footer {
   position: relative;
   z-index: 10;
   font-family: "shrikhand";
-  font-size: 26px;
-  color: #99e2d0;
-  background-color: #e4e4e4;
-  -webkit-animation:  550ms 4s linear forwards;
+  font-size: 23px;
+  color: #ff79da;
+  background-color: #f2f2f2;
+  -webkit-animation: out 550ms 4s linear forwards;
   animation: out 550ms 4s linear forwards;
 }
 .loading .content {
@@ -780,21 +780,38 @@ footer {
   font-family: "shrikhand";
   font-size: 20px;
   line-height: 200px;
-  -webkit-animation: span 0.5s linear infinite;
-  animation: span 0.5s linear infinite;
+  -webkit-animation: flash 0.5s linear infinite;
+  animation: flash 0.5s linear infinite;
   width: 200px;
 }
-.loading .out {
+.loading .spinner {
   width: 200px;
   height: 200px;
   border-radius: 40px;
   border: 4px solide transparent;
   border-top: 4px solide #ff79da;
   border-bottom: 4px solid #99e2d0;
-  -webkit-animation: out 0.5s linear 4 forwards;
-  animation: out 0.5s linear 4 forwards;
+  -webkit-animation: spin 0.5s linear 4 forwards;
+  animation: spin 0.5s linear 4 forwards;
 }
 
+@-webkit-keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(300deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(300deg);
+  }
+}
 @-webkit-keyframes out {
   0% {
     opacity: 1;
@@ -805,7 +822,6 @@ footer {
     z-index: -5;
   }
 }
-
 @keyframes out {
   0% {
     opacity: 1;
@@ -816,8 +832,7 @@ footer {
     z-index: -5;
   }
 }
-
-@keyframes flash {
+@-webkit-keyframes flash {
   0% {
     text-shadow: none;
     font-size: 0;
@@ -829,6 +844,18 @@ footer {
   100% {
     text-shadow: none;
   }
+}
+@keyframes flash {
+  0% {
+    text-shadow: none;
+    font-size: 0;
+  }
+  50% {
+    text-shadow: 0 0 20px wheat;
+    font-size: 20px;
+  }
+  100% {
+    text-shadow: none;
     
-    
- /*# sourceMappingURL=style.css.map */
+  }
+} /*# sourceMappingURL=style.css.map */
