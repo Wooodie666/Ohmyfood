@@ -812,38 +812,23 @@ footer {
   height: 100%;
   width: 100%;
   opacity: 1;
-  position: relative;
+  position: fixed;
   font-family: "shrikhand";
   font-size: 28px;
   color: #99e2d0;
   background-color: #f2f2f2;
-  -webkit-animation: out 550ms 4s linear both;
-          animation: out 550ms 4s linear both;
-}
-.loading .content {
-  position: relative;
-  width: 200px;
-  height: 200px;
-}
-.loading .span {
-  position: absolute;
-  text-align: center;
-  font-family: "shrikhand";
-  font-size: 20px;
-  line-height: 200px;
-  -webkit-animation: flash 0.5s linear infinite;
-          animation: flash 0.5s linear infinite;
-  width: 200px;
+  -webkit-animation: spinner 550ms 4s linear both;
+          animation: spinner 550ms 4s linear both;
 }
 .loading .spinner {
-  width: 200px;
-  height: 200px;
-  border-radius: 40px;
-  border: 4px solide transparent;
-  border-top: 4px solide #ff79da;
-  border-bottom: 4px solid #99e2d0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 12px solid transparent;
+  border-top: 12px solid #ff79da;
+  border-bottom: 12px solid #99e2d0;
   -webkit-animation: spinner 0.5s linear 4 forwards;
-          animation: spinner 0.5s linear 4 forwards;
+  animation: spinner 1s linear infinite forwards;
 }
 
 @-webkit-keyframes spinner {
@@ -851,7 +836,7 @@ footer {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(300deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -860,7 +845,7 @@ footer {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(300deg);
+    transform: rotate(360deg);
   }
 }
 @-webkit-keyframes out {
@@ -868,7 +853,7 @@ footer {
     opacity: 1;
     z-index: 5;
   }
-  100% {
+  80% {
     opacity: 0;
     z-index: -5;
   }
@@ -878,34 +863,8 @@ footer {
     opacity: 1;
     z-index: 5;
   }
-  100% {
+  80% {
     opacity: 0;
     z-index: -5;
-  }
-}
-@-webkit-keyframes flash {
-  0% {
-    text-shadow: none;
-    font-size: 0;
-  }
-  50% {
-    text-shadow: 0 0 20px wheat;
-    font-size: 20px;
-  }
-  100% {
-    text-shadow: none;
-  }
-}
-@keyframes flash {
-  0% {
-    text-shadow: none;
-    font-size: 0;
-  }
-  50% {
-    text-shadow: 0 0 20px wheat;
-    font-size: 20px;
-  }
-  100% {
-    text-shadow: none;
   }
 }/*# sourceMappingURL=style.css.map */
