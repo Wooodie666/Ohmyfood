@@ -416,9 +416,7 @@ footer {
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
 .container-menu {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   position: relative;
   background: #f2f2f2;
   border-radius: 30px 30px 0 0;
@@ -439,8 +437,7 @@ footer {
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
@@ -477,8 +474,7 @@ footer {
 
 .start-1 {
   display: flex;
-  justify-content: row;
-  align-items: flex-start;
+  flex-direction: column;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -486,7 +482,6 @@ footer {
 .start-1 .start-2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -494,7 +489,6 @@ footer {
 .start-1 .start-3 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -502,7 +496,6 @@ footer {
 .start-1 .start-4 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -557,8 +550,7 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   margin: 30px;
   padding: 5px;
 }
@@ -577,7 +569,6 @@ footer {
 .plat-1 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -585,7 +576,6 @@ footer {
 .plat-1 .plat-2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -593,7 +583,6 @@ footer {
 .plat-1 .plat-3 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -601,7 +590,6 @@ footer {
 .plat-1 .plat-4 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -610,8 +598,7 @@ footer {
 /**animation check**/
 .plat-check {
   display: flex;
-  align-content: center;
-  align-items: center;
+  flex-direction: column;
   background-color: #99e2d0;
   color: white;
   margin-right: 40px;
@@ -649,8 +636,7 @@ footer {
 /**dessert**/
 .dessert-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   margin: 30px;
   padding: 5px;
 }
@@ -669,7 +655,6 @@ footer {
 .dessert-1 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -677,7 +662,6 @@ footer {
 .dessert-1 .dessert-2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
@@ -685,7 +669,6 @@ footer {
 .dessert-1 .dessert-3 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;

@@ -437,9 +437,7 @@ footer {
 
 .container-menu {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   position: relative;
   background: $clear-grey;
   border-radius: 30px 30px 0 0;
@@ -461,8 +459,7 @@ footer {
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
@@ -498,15 +495,13 @@ footer {
 
 .start-1 {
   display: flex;
-  justify-content: row;
-  align-items: flex-start;
+  flex-direction: column;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
   .start-2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -514,7 +509,6 @@ footer {
   .start-3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -522,7 +516,6 @@ footer {
   .start-4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -566,8 +559,7 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   margin: 30px;
   padding: 5px;
 }
@@ -586,14 +578,12 @@ footer {
 .plat-1 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
   .plat-2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -601,7 +591,6 @@ footer {
   .plat-3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -609,7 +598,6 @@ footer {
   .plat-4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -620,8 +608,7 @@ footer {
 
 .plat-check {
   display: flex;
-  align-content: center;
-  align-items: center;
+  flex-direction: column;
   background-color: $colortertiary;
   color: white;
   margin-right: 40px;
@@ -646,8 +633,7 @@ footer {
 /**dessert**/
 .dessert-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   margin: 30px;
   padding: 5px;
 }
@@ -666,14 +652,12 @@ footer {
 .dessert-1 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
   .dessert-2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
@@ -681,7 +665,6 @@ footer {
   .dessert-3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     border: 2px solid $clear-grey;
     border-radius: 20px;
     background-color: white;
