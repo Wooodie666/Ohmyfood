@@ -487,8 +487,8 @@ footer {
   align-items: center;
   background-color: #99e2d0;
   color: white;
-  margin-right: -60px;
-  width: 59px;
+  margin-right: 40px;
+  width: -1px;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
@@ -578,8 +578,8 @@ footer {
   align-items: center;
   background-color: #99e2d0;
   color: white;
-  margin-right: -60px;
-  width: 59px;
+  margin-right: 40px;
+  width: -1px;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
@@ -649,8 +649,8 @@ footer {
   align-items: center;
   background-color: #99e2d0;
   color: white;
-  margin-right: -60px;
-  width: 59px;
+  margin-right: 40px;
+  width: -1px;
   font-size: 20px;
   animation-duration: 2s;
   animation-name: start-check;
