@@ -422,6 +422,8 @@ footer {
   align-items: center;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
+  margin: 30px;
+  padding: 5px;
 }
 
 .start-menu h3 {
@@ -523,6 +525,8 @@ footer {
   align-items: center;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
+  margin: 30px;
+  padding: 5px;
 }
 
 .plats-menu h3 {
@@ -606,12 +610,16 @@ footer {
   align-items: center;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
+  margin: 30px;
+  padding: 5px;
 }
+
 .dessert-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
+
 .dessert-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
