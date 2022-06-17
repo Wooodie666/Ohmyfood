@@ -441,7 +441,7 @@ footer {
   font-size: 18px;
   font-weight: 400;
   position: relative;
-  padding-left: 10px;
+  padding: 44px;
   text-decoration: underline;
   text-decoration-color: #99e2d0;
 }
