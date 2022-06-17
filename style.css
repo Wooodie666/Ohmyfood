@@ -415,6 +415,7 @@ footer {
 }
 
 /**start**/
+
 .start-menu {
   display: flex;
   flex-direction: row;
@@ -478,58 +479,6 @@ footer {
   background-color: white;
 }
 
-/**heart animation**/
-
-.heart {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-}
-.heart-1 {
-  position: relative;
-  margin-right: 10px;
-  margin-bottom: 35px;
-}
-
-.heart-1 .heart-2 {
-  position: absolute;
-  top: O;
-  left: 0;
-  -webkit-transition: 0, 2s;
-  transition: 0, 2s;
-}
-
-.heart-2 {
-  opacity: 0;
-  transition: 0, 5;
-  color: black;
-  margin-top: -67px;
-
-}
-
-.heart-1 {
-  opacity: 1;
-  -webkit-transition: 0, 2s;
-  transition: 0, 2s;
-  background-image: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 0.9),
-    rgba(255, 121, 218, 0.9)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.heart-1:hover {
-  opacity: 0;
-}
-
-.heart-2:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
 /**animation check**/
 
 .start-check {
@@ -566,10 +515,10 @@ footer {
 }
 
 /**plats**/
+
 .plats-menu {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  flex-direction: row;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
@@ -648,10 +597,10 @@ footer {
 }
 
 /**dessert**/
+
 .dessert-menu {
   display: flex;
-  flex-direction: column;
-  justify-items: flex-start;
+  flex-direction: row;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
@@ -717,6 +666,60 @@ footer {
     width: 100%;
   }
 }
+
+/**heart animation**/
+
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.heart-1 {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.heart-1 .heart-2 {
+  position: absolute;
+  top: O;
+  left: 0;
+  -webkit-transition: 0, 2s;
+  transition: 0, 2s;
+}
+
+.heart-2 {
+  opacity: 0;
+  transition: 0, 5;
+  color: black;
+  margin-top: -67px;
+
+}
+
+.heart-1 {
+  opacity: 1;
+  -webkit-transition: 0, 2s;
+  transition: 0, 2s;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heart-1:hover {
+  opacity: 0;
+}
+
+.heart-2:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
 
 /**bouton commander**/
 

@@ -574,8 +574,7 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  flex-direction: row;
   background-color: $clear-grey;
 }
 
@@ -653,8 +652,7 @@ footer {
 /**dessert**/
 .dessert-menu {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  flex-direction: row;
   background-color: $clear-grey;
 }
 
