@@ -419,6 +419,7 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
@@ -519,6 +520,7 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
@@ -601,6 +603,7 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   background-color: rgb(233, 231, 235);
   border-radius: 20px;
 }
