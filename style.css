@@ -288,8 +288,8 @@ h2 {
   width: 70px;
   height: 30px;
   border-radius: 5px;
-  right: 78px;
-  bottom: 69px;
+  right: 276px;
+  bottom: -72px;
   z-index: 1;
 }
 
@@ -747,10 +747,15 @@ footer {
   font-size: 1.1rem;
   border-radius: 100px;
   color: #fff;
-  background-color: #686868;
+  box-shadow: 0 0 10px gray;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   transition-duration: 0.25s;
+}
+
+.order-btn:hover {
+  background-image: linear-gradient(0deg, rgba(171, 127, 225, 0.9), rgba(237, 149, 212, 0.9));
+  box-shadow: 0 0 10px black;
 }
 
 /**footer-restaurant**/
