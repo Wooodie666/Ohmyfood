@@ -777,19 +777,19 @@ footer {
   position: absolute;
   top: O;
   left: 0;
-  transition: 0, 2s;
+  transition: 0.2s;
 }
 
 .heart-2 {
   opacity: 1;
-  transition: 0, 5;
+  transition: 0.5s;
   color: black;
   margin-top: -67px;
 }
 
 .heart-1 {
   opacity: 0;
-  transition: 0, 5s;
+  transition: 0.5s;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
