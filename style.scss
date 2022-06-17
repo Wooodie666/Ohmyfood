@@ -821,7 +821,7 @@ footer {
     border: 4px solide transparent;
     border-top: 4px solide $colorsecondary;
     border-bottom: 4px solid $colortertiary;
-    animation: spin 0.5s linear 4 forwards;
+    animation: spinner 0.5s linear 4 forwards;
   }
 }
 @keyframes spinner {
