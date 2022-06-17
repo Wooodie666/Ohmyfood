@@ -421,7 +421,6 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(233, 231, 235);
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
@@ -525,7 +524,6 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(233, 231, 235);
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
@@ -610,7 +608,6 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(233, 231, 235);
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
