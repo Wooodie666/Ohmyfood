@@ -364,8 +364,8 @@ h2 {
     rgba(147, 86, 220, 0.9),
     rgba(255, 121, 218, 0.9)
   );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /*-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 
 .heart-1:hover {
@@ -774,7 +774,7 @@ footer {
 }
 
 .heart-1 {
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: 0, 5s;
   transition: 0, 5s;
   background-image: linear-gradient(
@@ -787,11 +787,11 @@ footer {
 }
 
 .heart-1:hover {
-  opacity: 0;
+  opacity: 1;
 }
 
 .heart-2:hover {
-  opacity: 1;
+  opacity:  0;
   cursor: pointer;
 }
 

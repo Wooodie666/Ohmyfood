@@ -1,6 +1,5 @@
 /**Desktop**/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400,700&family=Shrikhand&display=swap");
 body {
   font-family: Roboto, sans-serif;
   background-color: white;
@@ -110,7 +109,7 @@ a {
 .nav-bar {
   padding: 45px;
   text-align: center;
-  background-color: lightgray;
+  background-color: #f2f2f2;
 }
 
 .nav-bar p {
@@ -128,11 +127,7 @@ a {
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
-  background-image: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 0.9),
-    rgba(255, 121, 218, 0.9)
-  );
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   transition-duration: 0.25s;
 }
@@ -247,17 +242,6 @@ h2 {
 }
 
 /**restaurant-container**/
-
-.container-menu {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: lightgray;
-  border-radius: 20px 20px 0 0;
-  padding: 32px 10px 0 10px;
-  margin-top: 20px;
-}
-
 .restaurant-container {
   display: flex;
   flex-wrap: wrap;
@@ -276,19 +260,19 @@ h2 {
   padding-top: 8%;
   margin-right: 20%;
 }
+
 .card-image {
   position: relative;
 }
 
 .card-image img {
-  position: relative;
   height: 175px;
   width: 100%;
   border-radius: 15px 15px 0 0;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
   border: 0 solid transparent;
 }
 
@@ -299,10 +283,8 @@ h2 {
   position: absolute;
   background-color: #99e2d0;
   color: #1b6150;
-  border: radius 10px;
   width: 70px;
   height: 30px;
-  position: absolute;
   border-radius: 5px;
   right: 310px;
   z-index: 1;
@@ -311,9 +293,9 @@ h2 {
 .card-text {
   display: flex;
   flex-direction: column;
+  position: relative;
   margin-bottom: 30px;
-  margin-top: -3px;
-  padding: Opx;
+  padding: 15px;
   color: rgb(15, 15, 15);
   background-color: white;
   border-radius: 0 0 20px 20px;
@@ -335,6 +317,51 @@ h2 {
   font-weight: bold;
   margin: 5px;
   padding: 5px;
+}
+
+/**heart animation**/
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.heart-1 {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.heart-1 .heart-2 {
+  position: absolute;
+  top: O;
+  left: 0;
+  transition: 0, 5s;
+}
+
+.heart-2 {
+  opacity: 0;
+  transition: 0, 5;
+  color: black;
+  margin-top: -67px;
+}
+
+.heart-1 {
+  opacity: 1;
+  transition: 0, 2s;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  /*-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.heart-1:hover {
+  opacity: 0;
+}
+
+.heart-2 {
+  opacity: 1;
+  cursor: pointer;
 }
 
 /**footer**/
@@ -364,8 +391,8 @@ footer {
 /**header-container**/
 .fa-arrow-left {
   position: absolute;
-  left: 20px;
   bottom: 15px;
+  left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -380,18 +407,17 @@ footer {
   max-height: 32rem;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
-
 .container-menu {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   position: relative;
-  background: #f7f7f7;
+  background: #f2f2f2;
   border-radius: 30px 30px 0 0;
   padding: 34px 10px 0 10px;
   margin-top: -30px;
@@ -407,16 +433,7 @@ footer {
   margin-left: 7px;
 }
 
-.container-menu strong {
-  font-weight: bold;
-  align-self: flex-end;
-  margin-left: 5px;
-  margin-right: 20px;
-  padding-bottom: 15px;
-}
-
 /**start**/
-
 .start-menu {
   display: flex;
   flex-direction: row;
@@ -424,6 +441,24 @@ footer {
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
+}
+
+.list-title h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 44px;
+  margin-left: -31px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #99e2d0;
+          text-decoration-color: #99e2d0;
+}
+
+.container-menu strong {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-bottom: 15px;
 }
 
 .start-menu h3 {
@@ -437,53 +472,40 @@ footer {
   margin-bottom: 14px;
 }
 
-.list-title h2 {
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
-  padding: 44px;
-  text-decoration: underline;
-  text-decoration-color: #99e2d0;
-}
-
 .start-1 {
   display: flex;
-  flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgrey;
+  justify-content: row;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.start-2 {
+.start-1 .start-2 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgrey;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.start-3 {
+.start-1 .start-3 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgrey;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.start-4 {
+.start-1 .start-4 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgrey;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
 
 /**animation check**/
-
 .start-check {
   display: flex;
   align-content: center;
@@ -493,10 +515,23 @@ footer {
   margin-right: 40px;
   width: -1px;
   font-size: 20px;
-  animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: unset;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: start-check;
+          animation-name: start-check;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
 
+@-webkit-keyframes start-check {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @keyframes start-check {
@@ -509,27 +544,23 @@ footer {
     width: 100%;
   }
 }
-
 .list-title h2 {
   position: relative;
   padding-bottom: 5px;
-  margin-left: -31px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 /**plats**/
-
 .plats-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 20px;
   margin: 30px;
   padding: 5px;
 }
 
-.plats-menu h3 {
+.plat-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
@@ -542,42 +573,38 @@ footer {
 
 .plat-1 {
   display: flex;
-  flex-direction: row;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.plat-2 {
+.plat-1 .plat-2 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.plat-3 {
+.plat-1 .plat-3 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.plat-4 {
-  display: flexbox;
+.plat-1 .plat-4 {
+  display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
 
 /**animation check**/
-
 .plat-check {
   display: flex;
   align-content: center;
@@ -587,14 +614,18 @@ footer {
   margin-right: 40px;
   width: -1px;
   font-size: 20px;
-  animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: unset;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: start-check;
+          animation-name: start-check;
+  -webkit-animation-iteration-count: unset;
+          animation-iteration-count: unset;
 }
-@keyframes plat-check {
+
+@-webkit-keyframes plat-check {
   from {
-    margin-left: 10%;
-    width: 100%;
+    margin-left: 100%;
+    width: 200%;
   }
   to {
     margin-left: 0%;
@@ -602,13 +633,21 @@ footer {
   }
 }
 
+@keyframes plat-check {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 /**dessert**/
-
 .dessert-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 20px;
   margin: 30px;
   padding: 5px;
 }
@@ -627,46 +666,47 @@ footer {
 .dessert-1 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.dessert-2 {
+.dessert-1 .dessert-2 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
-
-.dessert-3 {
+.dessert-1 .dessert-3 {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  border: 2px solid lightgray;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
 }
 
 /**animation check**/
-
 .dessert-check {
   display: flex;
   align-content: center;
   align-items: center;
-  background-color: #99e2d0;
   color: white;
+  background-color: #99e2d0;
   margin-right: 40px;
   width: -1px;
   font-size: 20px;
-  animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: unset;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: start-check;
+          animation-name: start-check;
+  -webkit-animation-iteration-count: unset;
+          animation-iteration-count: unset;
 }
-@keyframes dessert-check {
+
+@-webkit-keyframes dessert-check {
   from {
     margin-left: 100%;
     width: 200%;
@@ -677,62 +717,17 @@ footer {
   }
 }
 
-/**heart animation**/
-
-.heart {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
+@keyframes dessert-check {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
-.heart-1 {
-  position: relative;
-  margin-right: 10px;
-  margin-bottom: 35px;
-}
-
-.heart-1 .heart-2 {
-  position: absolute;
-  top: O;
-  left: 0;
-  -webkit-transition: 0, 2s;
-  transition: 0, 2s;
-}
-
-.heart-2 {
-  opacity: 1;
-  transition: 0, 5;
-  color: black;
-  margin-top: -67px;
-
-}
-
-.heart-1 {
-  opacity: 1;
-  -webkit-transition: 0, 5s;
-  transition: 0, 5s;
-  background-image: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 0.9),
-    rgba(255, 121, 218, 0.9)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.heart-1:hover {
-  opacity: 0;
-}
-
-.heart-2:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
-
-
 /**bouton commander**/
-
 .button-order {
   display: flex;
   justify-content: center;
@@ -750,11 +745,7 @@ footer {
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
-  background-image: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 0.9),
-    rgba(255, 121, 218, 0.9)
-  );
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   transition-duration: 0.25s;
 }
@@ -768,6 +759,51 @@ footer {
   color: white;
 }
 
+/**heart animation**/
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.heart-1 {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.heart-1 .heart-2 {
+  position: absolute;
+  top: O;
+  left: 0;
+  transition: 0, 2s;
+}
+
+.heart-2 {
+  opacity: 1;
+  transition: 0, 5;
+  color: black;
+  margin-top: -67px;
+}
+
+.heart-1 {
+  opacity: 0;
+  transition: 0, 5s;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heart-1:hover {
+  opacity: 1;
+}
+
+.heart-2:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
 /**loading**/
 .loading {
   display: flex;
@@ -779,11 +815,11 @@ footer {
   position: relative;
   z-index: 10;
   font-family: "shrikhand";
-  font-size: 23px;
-  color: #ff79da;
+  font-size: 28px;
+  color: #99e2d0;
   background-color: #f2f2f2;
   -webkit-animation: out 550ms 4s linear forwards;
-  animation: out 550ms 4s linear forwards;
+          animation: out 550ms 4s linear forwards;
 }
 .loading .content {
   position: relative;
@@ -797,7 +833,7 @@ footer {
   font-size: 20px;
   line-height: 200px;
   -webkit-animation: flash 0.5s linear infinite;
-  animation: flash 0.5s linear infinite;
+          animation: flash 0.5s linear infinite;
   width: 200px;
 }
 .loading .spinner {
@@ -807,8 +843,8 @@ footer {
   border: 4px solide transparent;
   border-top: 4px solide #ff79da;
   border-bottom: 4px solid #99e2d0;
-  -webkit-animation: spin 0.5s linear 4 forwards;
-  animation: spin 0.5s linear 4 forwards;
+  -webkit-animation: spinner 0.5s linear 4 forwards;
+          animation: spinner 0.5s linear 4 forwards;
 }
 
 @-webkit-keyframes spinner {
@@ -872,6 +908,5 @@ footer {
   }
   100% {
     text-shadow: none;
-    
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
