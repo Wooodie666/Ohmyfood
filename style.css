@@ -911,6 +911,11 @@ footer {
   }
 }
 @media screen and (min-width: 768px) {
+  body {
+    margin: O;
+    padding: 0;
+  }
+
   /**navbar**/
   .nav-bar {
     padding: 16px;
