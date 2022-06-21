@@ -477,6 +477,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .start-2 {
@@ -485,6 +490,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .start-3 {
@@ -493,6 +503,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .start-4 {
@@ -501,6 +516,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 /**animation check**/
@@ -553,8 +573,6 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: column;
-  margin: 30px;
-  padding: 5px;
 }
 
 .plat-menu h3 {
@@ -574,6 +592,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .plat-2 {
@@ -582,6 +605,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .plat-3 {
@@ -590,6 +618,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .plat-4 {
@@ -598,6 +631,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 /**animation check**/
@@ -642,8 +680,6 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: column;
-  margin: 30px;
-  padding: 5px;
 }
 
 .dessert-menu h3 {
@@ -663,6 +699,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .dessert-2 {
@@ -671,6 +712,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 .dessert-3 {
@@ -679,6 +725,11 @@ footer {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
 
 /**animation check**/
@@ -688,15 +739,12 @@ footer {
   align-items: center;
   color: white;
   background-color: #99e2d0;
-  margin-right: 40px;
-  width: -1px;
+  margin: 10px 50px 10px 10px;
   font-size: 20px;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-name: start-check;
           animation-name: start-check;
-  -webkit-animation-iteration-count: unset;
-          animation-iteration-count: unset;
 }
 
 @-webkit-keyframes dessert-check {

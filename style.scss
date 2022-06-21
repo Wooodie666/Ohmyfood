@@ -8,7 +8,7 @@ $font-size-footer: 18px;
 $clear-grey: #f2f2f2;
 $dark-grey: #d3d3d3;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap");
 
 body {
   font-family: Roboto, sans-serif;
@@ -138,13 +138,13 @@ a {
   transition-duration: 0.25s;
 }
 
-.nav-bar button:hover{
+.nav-bar button:hover {
   background-image: linear-gradient(
     0deg,
     rgba(171, 127, 225, 0.9),
     rgba(237, 149, 212, 0.9)
   );
-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
 }
 
 /**filters-container**/
@@ -444,7 +444,6 @@ footer {
   margin-top: -30px;
 }
 
-
 .container-menu h1 {
   display: flex;
   font-family: Shrikhand, "cursive";
@@ -498,29 +497,48 @@ footer {
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
-  .start-2 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-  .start-3 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-  .start-4 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-
+.start-2 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
+.start-3 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
+.start-4 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
 
 /**animation check**/
 
@@ -560,8 +578,6 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: column;
-  margin: 30px;
-  padding: 5px;
 }
 
 .plat-menu h3 {
@@ -581,29 +597,48 @@ footer {
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
-  .plat-2 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-  .plat-3 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-  .plat-4 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-
+.plat-2 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
+.plat-3 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
+.plat-4 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
 
 /**animation check**/
 
@@ -635,8 +670,6 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: column;
-  margin: 30px;
-  padding: 5px;
 }
 
 .dessert-menu h3 {
@@ -656,23 +689,37 @@ footer {
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
 }
-  .dessert-2 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
+.dessert-2 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
 
-  .dessert-3 {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid $clear-grey;
-    border-radius: 20px;
-    background-color: white;
-  }
-
+.dessert-3 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
 
 /**animation check**/
 
@@ -682,12 +729,10 @@ footer {
   align-items: center;
   color: white;
   background-color: $colortertiary;
-  margin-right: 40px;
-  width: -1px;
+  margin: 10px 50px 10px 10px;
   font-size: 20px;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-name: start-check;
-  animation-iteration-count: unset;
 }
 @keyframes dessert-check {
   from {
@@ -727,13 +772,13 @@ footer {
   transition-duration: 0.25s;
 }
 
-.order-btn:hover{
+.order-btn:hover {
   background-image: linear-gradient(
     0deg,
     rgba(171, 127, 225, 0.9),
     rgba(237, 149, 212, 0.9)
   );
-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
 }
 
 /**footer-restaurant**/
@@ -772,7 +817,6 @@ box-shadow: 0 0 10px black;
   transition: 0.5s;
   color: black;
   margin-top: -67px;
-
 }
 
 .heart-1 {
@@ -793,11 +837,9 @@ box-shadow: 0 0 10px black;
 }
 
 .heart-2:hover {
-  opacity:  0;
+  opacity: 0;
   cursor: pointer;
 }
-
-
 
 /**loading**/
 
@@ -814,7 +856,7 @@ box-shadow: 0 0 10px black;
   color: $colortertiary;
   background-color: $clear-grey;
   animation: out 550ms 4s linear 1 both;
-  
+
   .spinner {
     width: 80px;
     height: 80px;
@@ -824,7 +866,7 @@ box-shadow: 0 0 10px black;
     border-bottom: 12px solid $colorprimary;
     -webkit-animation: spinner 0.5s linear 4 forwards;
     animation: spinner 1s linear infinite forwards;
-}
+  }
 }
 @keyframes spinner {
   0% {
@@ -845,4 +887,3 @@ box-shadow: 0 0 10px black;
     z-index: -5;
   }
 }
-
