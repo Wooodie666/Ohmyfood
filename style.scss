@@ -886,3 +886,15 @@ footer {
     z-index: -5;
   }
 }
+
+@media screen and (min-width: 768px){
+
+.container-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+}
+
