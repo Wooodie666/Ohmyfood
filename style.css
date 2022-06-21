@@ -824,7 +824,7 @@ footer {
   border-radius: 50%;
   border: 12px solid transparent;
   border-top: 12px solid #ff79da;
-  border-bottom: 12px solid #99e2d0;
+  border-bottom: 12px solid #9356dc;
   -webkit-animation: spinner 0.5s linear 4 forwards;
   animation: spinner 1s linear infinite forwards;
 }

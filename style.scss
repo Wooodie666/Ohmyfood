@@ -820,8 +820,8 @@ box-shadow: 0 0 10px black;
     height: 80px;
     border-radius: 50%;
     border: 12px solid transparent;
-    border-top: 12px solid #ff79da;
-    border-bottom: 12px solid #99e2d0;
+    border-top: 12px solid $colorsecondary;
+    border-bottom: 12px solid $colorprimary;
     -webkit-animation: spinner 0.5s linear 4 forwards;
     animation: spinner 1s linear infinite forwards;
 }
