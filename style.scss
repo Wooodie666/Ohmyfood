@@ -549,27 +549,13 @@ footer {
 
 .start-check {
   display: flex;
-  flex-direction: row-reverse;
+  align-content: center;
+  justify-items: center;
   background-color: $colortertiary;
   color: white;
-  margin-right: 40px;
-  width: -1px;
-  font-size: 20px;
-  /*animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: infinite;*/
+  width: 40px;
 }
 
-@keyframes start-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 
 /**plats**/
@@ -642,27 +628,13 @@ footer {
 
 .plat-check {
   display: flex;
-  flex-direction: row-reverse;
+  align-content: center;
+  justify-items: center;
   background-color: $colortertiary;
   color: white;
-  margin-right: 40px;
-  width: -1px;
-  font-size: 20px;
-  /*animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: unset;*/
+  width: 40px;
 }
 
-@keyframes plat-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 /**dessert**/
 .dessert-menu {
@@ -723,24 +695,14 @@ footer {
 
 .dessert-check {
   display: flex;
-  flex-direction: row-reverse;
-  color: white;
+  align-content: center;
+  justify-items: center;
   background-color: $colortertiary;
-  margin: 10px 50px 10px 10px;
-  font-size: 20px;
-  animation-duration: 5s;
-  animation-name: start-check;
+  color: white;
+  width: 40px;
 }
-@keyframes dessert-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
+
+
 
 /**bouton commander**/
 .button-order {

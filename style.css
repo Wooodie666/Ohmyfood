@@ -529,38 +529,13 @@ footer {
 /**animation check**/
 .start-check {
   display: flex;
-  flex-direction: row-reverse;
+  align-content: center;
+  justify-items: center;
   background-color: #99e2d0;
   color: white;
-  margin-right: 40px;
-  width: -1px;
-  font-size: 20px;
-  /*animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: infinite;*/
+  width: 40px;
 }
 
-@-webkit-keyframes start-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes start-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 /**plats**/
 .plats-menu {
   display: flex;
@@ -633,38 +608,13 @@ footer {
 /**animation check**/
 .plat-check {
   display: flex;
-  flex-direction: row-reverse;
+  align-content: center;
+  justify-items: center;
   background-color: #99e2d0;
   color: white;
-  margin-right: 40px;
-  width: -1px;
-  font-size: 20px;
-  /*animation-duration: 2s;
-  animation-name: start-check;
-  animation-iteration-count: unset;*/
+  width: 40px;
 }
 
-@-webkit-keyframes plat-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes plat-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 /**dessert**/
 .dessert-menu {
   display: flex;
@@ -724,38 +674,13 @@ footer {
 /**animation check**/
 .dessert-check {
   display: flex;
-  flex-direction: row-reverse;
-  color: white;
+  align-content: center;
+  justify-items: center;
   background-color: #99e2d0;
-  margin: 10px 50px 10px 10px;
-  font-size: 20px;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-name: start-check;
-          animation-name: start-check;
+  color: white;
+  width: 40px;
 }
 
-@-webkit-keyframes dessert-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes dessert-check {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 /**bouton commander**/
 .button-order {
   display: flex;
