@@ -535,12 +535,9 @@ footer {
   margin-right: 40px;
   width: -1px;
   font-size: 20px;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: start-check;
-          animation-name: start-check;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  /*animation-duration: 2s;
+  animation-name: start-check;
+  animation-iteration-count: infinite;*/
 }
 
 @-webkit-keyframes start-check {
