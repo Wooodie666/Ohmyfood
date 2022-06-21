@@ -453,6 +453,18 @@ footer {
   margin-left: 7px;
 }
 
+
+.list-title h2 {
+  position: relative;
+  padding-bottom: 5px;
+  font-weight: 400;
+  border-bottom: 3px solid $colortertiary;
+  margin: 22px;
+  padding: 1px;
+  width: 55px;
+  text-transform: uppercase;
+}
+
 /**start**/
 .start-menu {
   display: flex;
@@ -462,14 +474,6 @@ footer {
   padding: 5px;
 }
 
-.list-title h2 {
-  font-size: 18px;
-  font-weight: bold;
-  padding: 44px;
-  margin-left: -31px;
-  text-decoration: underline;
-  text-decoration-color: $colortertiary;
-}
 
 .container-menu strong {
   font-weight: bold;
@@ -566,16 +570,6 @@ footer {
   }
 }
 
-.list-title h2 {
-  position: relative;
-  padding-bottom: 5px;
-  font-weight: 400;
-  border-bottom: 3px solid $colortertiary;
-  margin: 22px;
-  padding: 1px;
-  width: 55px;
-  text-transform: uppercase;
-}
 
 /**plats**/
 .plats-menu {

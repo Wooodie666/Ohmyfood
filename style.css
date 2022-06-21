@@ -432,6 +432,17 @@ footer {
   margin-left: 7px;
 }
 
+.list-title h2 {
+  position: relative;
+  padding-bottom: 5px;
+  font-weight: 400;
+  border-bottom: 3px solid #99e2d0;
+  margin: 22px;
+  padding: 1px;
+  width: 55px;
+  text-transform: uppercase;
+}
+
 /**start**/
 .start-menu {
   display: flex;
@@ -439,16 +450,6 @@ footer {
   border-radius: 20px;
   margin: 30px;
   padding: 5px;
-}
-
-.list-title h2 {
-  font-size: 18px;
-  font-weight: bold;
-  padding: 44px;
-  margin-left: -31px;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #99e2d0;
-          text-decoration-color: #99e2d0;
 }
 
 .container-menu strong {
@@ -561,17 +562,6 @@ footer {
     width: 100%;
   }
 }
-.list-title h2 {
-  position: relative;
-  padding-bottom: 5px;
-  font-weight: 400;
-  border-bottom: 3px solid #99e2d0;
-  margin: 22px;
-  padding: 1px;
-  width: 55px;
-  text-transform: uppercase;
-}
-
 /**plats**/
 .plats-menu {
   display: flex;
