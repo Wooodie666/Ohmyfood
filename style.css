@@ -908,11 +908,22 @@ footer {
   }
 }
 @media screen and (min-width: 768px) {
+  /**navbar**/
+  .nav-bar {
+    padding: 16px;
+  }
+
   /**filters**/
   .filters-container ol {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .filters-container h2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 37px;
   }
 
   /**menus restaurant**/
