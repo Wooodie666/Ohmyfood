@@ -549,8 +549,7 @@ footer {
 
 .start-check {
   display: flex;
-  align-content: center;
-  align-items: center;
+  flex-direction: row-reverse;
   background-color: $colortertiary;
   color: white;
   margin-right: 40px;
@@ -643,7 +642,7 @@ footer {
 
 .plat-check {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   background-color: $colortertiary;
   color: white;
   margin-right: 40px;
@@ -724,8 +723,7 @@ footer {
 
 .dessert-check {
   display: flex;
-  align-content: center;
-  align-items: center;
+  flex-direction: row-reverse;
   color: white;
   background-color: $colortertiary;
   margin: 10px 50px 10px 10px;
