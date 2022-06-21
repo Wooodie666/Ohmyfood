@@ -565,6 +565,10 @@ footer {
   position: relative;
   padding-bottom: 5px;
   font-weight: 400;
+  border-bottom: 3px solid #99e2d0;
+  margin: 22px;
+  padding: 1px;
+  width: 55px;
   text-transform: uppercase;
 }
 
@@ -914,10 +918,15 @@ footer {
   }
 }
 @media screen and (min-width: 768px) {
+  .container-menu h1 {
+    display: flex;
+  }
+
   .container-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    background: #f7f7f7;
   }
 }/*# sourceMappingURL=style.css.map */
