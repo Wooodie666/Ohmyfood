@@ -451,8 +451,8 @@ footer {
   display: flex;
   flex-direction: row;
   border-radius: 20px;
-  margin: 30px;
-  padding: 4px;
+  margin: 20px;
+  padding: 0 10px;
 }
 
 .container-menu strong {
@@ -544,6 +544,8 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: row;
+  margin: 20px;
+  padding: 0 10px;
 }
 
 .plat-menu h3 {
@@ -623,6 +625,8 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: row;
+  margin: 20px;
+  padding: 0 10px;
 }
 
 .dessert-menu h3 {
