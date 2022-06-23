@@ -8,6 +8,11 @@ $font-size-footer: 18px;
 $clear-grey: #f2f2f2;
 $dark-grey: #d3d3d3;
 
+
+::before, ::after {
+  margin: 0;
+  padding: 0;
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap");
 
 body {
