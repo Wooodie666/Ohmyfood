@@ -458,12 +458,9 @@ footer {
 
 .list-title h2 {
   position: relative;
-  padding-bottom: 5px;
   font-weight: 400;
   border-bottom: 3px solid $colortertiary;
-  margin: 22px;
-  padding: 1px;
-  width: 55px;
+  margin: 17px;
   text-transform: uppercase;
 }
 
@@ -471,6 +468,7 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   border-radius: 20px;
   margin: 20px;
   padding: 0 10px;
@@ -565,6 +563,7 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 20px;
   padding: 0 10px;
 }
@@ -645,6 +644,7 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 20px;
   padding: 0 10px;
 }
