@@ -438,44 +438,59 @@ footer {
   padding: 3px;
   margin-top: -14px;
   margin-left: 7px;
+  /**start**/
+  /**animation check**/
+  /**plats**/
+  /**animation check**/
+  /**dessert**/
+  /**animation check**/
+  /**bouton commander**/
+  /**footer-restaurant**/
+  /**heart animation**/
+  /**loading**/
 }
-
-.list-title h2 {
+.container-menu h1 .list-title h2 {
   position: relative;
   font-weight: 400;
   border-bottom: 3px solid #99e2d0;
   margin: 52px;
   text-transform: uppercase;
 }
-
-/**start**/
-.start-menu {
+.container-menu h1 .start-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   border-radius: 20px;
   margin: 20px;
   padding: 0 10px;
 }
-
-.container-menu strong {
+.container-menu h1 .container-menu strong {
   font-weight: bold;
   align-self: flex-end;
   margin-left: 1px;
   margin-right: 32px;
   padding-bottom: 15px;
 }
-
-.start-menu h3 {
+.container-menu h1 .start-menu h3 {
   padding: 0 4%;
   margin-bottom: 0px;
 }
-
-.start-menu p {
+.container-menu h1 .start-menu p {
   margin-left: 13px;
 }
-
-.start-1 {
+.container-menu h1 .start-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 29%;
+}
+.container-menu h1 .start-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -488,8 +503,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.start-2 {
+.container-menu h1 .start-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -502,8 +516,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.start-3 {
+.container-menu h1 .start-4 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -516,23 +529,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.start-4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid #f2f2f2;
-  border-radius: 20px;
-  background-color: white;
-  padding: 10px;
-  margin: 10px 0;
-  overflow: hidden;
-  cursor: pointer;
-  width: 29%;
-}
-
-/**animation check**/
-.start-check {
+.container-menu h1 .start-check {
   display: flex;
   align-content: center;
   justify-items: center;
@@ -540,28 +537,23 @@ footer {
   color: white;
   width: 40px;
 }
-
-/**plats**/
-.plats-menu {
+.container-menu h1 .plats-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
   padding: 0 10px;
 }
-
-.plat-menu h3 {
+.container-menu h1 .plat-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
-
-.plat-menu p {
+.container-menu h1 .plat-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
-
-.plat-1 {
+.container-menu h1 .plat-1 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -573,8 +565,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.plat-2 {
+.container-menu h1 .plat-2 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -586,8 +577,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.plat-3 {
+.container-menu h1 .plat-3 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -599,8 +589,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.plat-4 {
+.container-menu h1 .plat-4 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -612,9 +601,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-/**animation check**/
-.plat-check {
+.container-menu h1 .plat-check {
   display: flex;
   align-content: center;
   justify-items: center;
@@ -622,28 +609,23 @@ footer {
   color: white;
   width: 40px;
 }
-
-/**dessert**/
-.dessert-menu {
+.container-menu h1 .dessert-menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   margin: 20px;
   padding: 0 10px;
 }
-
-.dessert-menu h3 {
+.container-menu h1 .dessert-menu h3 {
   padding: 1%;
   margin-bottom: 40px;
   margin-left: 14px;
 }
-
-.dessert-menu p {
+.container-menu h1 .dessert-menu p {
   margin-left: 19px;
   margin-bottom: 14px;
 }
-
-.dessert-1 {
+.container-menu h1 .dessert-1 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -655,8 +637,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.dessert-2 {
+.container-menu h1 .dessert-2 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -668,8 +649,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-.dessert-3 {
+.container-menu h1 .dessert-3 {
   display: flex;
   flex-direction: column;
   border: 2px solid #f2f2f2;
@@ -681,9 +661,7 @@ footer {
   cursor: pointer;
   width: 29%;
 }
-
-/**animation check**/
-.dessert-check {
+.container-menu h1 .dessert-check {
   display: flex;
   align-content: center;
   justify-items: center;
@@ -691,16 +669,13 @@ footer {
   color: white;
   width: 40px;
 }
-
-/**bouton commander**/
-.button-order {
+.container-menu h1 .button-order {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 0px 30px 20px;
 }
-
-.order-btn {
+.container-menu h1 .order-btn {
   display: flex;
   justify-content: center;
   border: 0;
@@ -714,68 +689,54 @@ footer {
   cursor: pointer;
   transition-duration: 0.25s;
 }
-
-.order-btn:hover {
+.container-menu h1 .order-btn:hover {
   background-image: linear-gradient(0deg, rgba(171, 127, 225, 0.9), rgba(237, 149, 212, 0.9));
   box-shadow: 0 0 10px black;
 }
-
-/**footer-restaurant**/
-.fas fa-hands-helping {
+.container-menu h1 .fas fa-hands-helping {
   color: white;
 }
-
-.fas fa-utensils {
+.container-menu h1 .fas fa-utensils {
   color: white;
 }
-
-/**heart animation**/
-.heart {
+.container-menu h1 .heart {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
-
-.heart-1 {
+.container-menu h1 .heart-1 {
   position: relative;
   margin-right: 10px;
   margin-bottom: 35px;
 }
-
-.heart-1 .heart-2 {
+.container-menu h1 .heart-1 .heart-2 {
   position: absolute;
   top: O;
   left: 0;
   transition: 0.2s;
 }
-
-.heart-2 {
+.container-menu h1 .heart-2 {
   opacity: 1;
   transition: 0.5s;
   color: black;
   margin-top: -67px;
 }
-
-.heart-1 {
+.container-menu h1 .heart-1 {
   opacity: 0;
   transition: 0.5s;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
-
-.heart-1:hover {
+.container-menu h1 .heart-1:hover {
   opacity: 1;
 }
-
-.heart-2:hover {
+.container-menu h1 .heart-2:hover {
   opacity: 0;
   cursor: pointer;
 }
-
-/**loading**/
-.loading {
+.container-menu h1 .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -790,7 +751,7 @@ footer {
   -webkit-animation: out 550ms 4s linear 1 both;
           animation: out 550ms 4s linear 1 both;
 }
-.loading .spinner {
+.container-menu h1 .loading .spinner {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -800,7 +761,6 @@ footer {
   -webkit-animation: spinner 0.5s linear 4 forwards;
   animation: spinner 1s linear infinite forwards;
 }
-
 @-webkit-keyframes spinner {
   0% {
     transform: rotate(0deg);
@@ -809,7 +769,6 @@ footer {
     transform: rotate(360deg);
   }
 }
-
 @keyframes spinner {
   0% {
     transform: rotate(0deg);
@@ -839,40 +798,35 @@ footer {
   }
 }
 @media screen and (min-width: 768px) {
-  body {
+  .container-menu h1 {
+    /**navbar**/
+    /**filters**/
+    /**menus restaurant**/
+    display: flex;
+  }
+  .container-menu h1 body {
     margin: O;
     padding: 0;
   }
-
-  /**navbar**/
-  .nav-bar {
+  .container-menu h1 .nav-bar {
     padding: 16px;
   }
-
-  /**filters**/
-  .filters-container ol {
+  .container-menu h1 .filters-container ol {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px;
     padding: 0px;
   }
-
-  .filters-container h2 {
+  .container-menu h1 .filters-container h2 {
     display: flex;
     justify-content: center;
     margin-right: 37px;
   }
-
-  /**menus restaurant**/
-  .container-menu h1 {
-    display: flex;
-  }
-
-  .container-menu {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    background: #f7f7f7;
-  }
+}
+.container-menu h1 .container-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  background: #f7f7f7;
 }/*# sourceMappingURL=style.css.map */
