@@ -726,8 +726,8 @@ footer {
   opacity: 0;
   transition: 0.5s;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
- /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .container-menu h1 .heart-1:hover {
   opacity: 1;
@@ -829,4 +829,6 @@ footer {
   flex-direction: column;
   max-width: 100%;
   background: #f7f7f7;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
