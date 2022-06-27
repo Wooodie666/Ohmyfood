@@ -696,16 +696,16 @@ footer {
 .container-menu h1 .fas fa-hands-helping {
   color: white;
 }
-.container-menu h1 .fas fa-utensils {
+.container-menu  .fas fa-utensils {
   color: white;
 }
-.container-menu h1 .heart {
+.container-menu  .heart {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
-.container-menu h1 .heart-1 {
+.container-menu  .heart-1 {
   position: relative;
   margin-right: 10px;
   margin-bottom: 35px;
@@ -716,27 +716,27 @@ footer {
   left: 0;
   transition: 0.2s;
 }
-.container-menu h1 .heart-2 {
+.container-menu  .heart-2 {
   opacity: 1;
   transition: 0.5s;
   color: black;
   margin-top: -67px;
 }
-.container-menu h1 .heart-1 {
+.container-menu  .heart-1 {
   opacity: 0;
   transition: 0.5s;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.container-menu h1 .heart-1:hover {
+.container-menu  .heart-1:hover {
   opacity: 1;
 }
-.container-menu h1 .heart-2:hover {
+.container-menu  .heart-2:hover {
   opacity: 0;
   cursor: pointer;
 }
-.container-menu h1 .loading {
+.container-menu  .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -751,7 +751,7 @@ footer {
   -webkit-animation: out 550ms 4s linear 1 both;
           animation: out 550ms 4s linear 1 both;
 }
-.container-menu h1 .loading .spinner {
+.container-menu  .loading .spinner {
   width: 80px;
   height: 80px;
   border-radius: 50%;
