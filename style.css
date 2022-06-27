@@ -544,7 +544,7 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin: 20px;
   padding: 0 10px;
