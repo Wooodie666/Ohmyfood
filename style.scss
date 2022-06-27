@@ -559,6 +559,10 @@ footer {
   overflow: hidden;
 }
 
+.start-check:hover{
+  animation: effectzoom 1s;
+}
+
 .fas fa-check-start{
   font-size: 30px;
 }
