@@ -472,6 +472,7 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   border-radius: 20px;
   margin: 20px;
   padding: 0 10px;
@@ -561,12 +562,11 @@ footer {
 }
 
 
-
 /**plats**/
 .plats-menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin: 20px;
   padding: 0 10px;
 }
@@ -647,7 +647,7 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  justify-content: center;
   margin: 20px;
   padding: 0 10px;
 }
@@ -796,8 +796,8 @@ footer {
     rgba(147, 86, 220, 0.9),
     rgba(255, 121, 218, 0.9)
   );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 
 .heart-1:hover {
@@ -887,15 +887,4 @@ body{
 }
 
 
-/**menus restaurant**/
-
-.container-menu h1}
-  display: flex;
-}
-
-.container-menu{
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  background: #f7f7f7; 
-}
+/*# sourceMappingURL=style.scss.map */
