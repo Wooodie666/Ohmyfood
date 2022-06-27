@@ -523,7 +523,13 @@ footer {
   justify-items: center;
   background-color: #99e2d0;
   color: white;
-  width: 40px;
+  height: 80px;
+  transition: all 1s ease-out;
+  overflow: hidden;
+}
+
+.fas fa-check-start{
+  font-size: 30px;
 }
 
 /**plats**/
@@ -593,7 +599,9 @@ footer {
   justify-items: center;
   background-color: #99e2d0;
   color: white;
-  width: 40px;
+  height: 80px;
+  transition: all 1s ease-out;
+  overflow: hidden;
 }
 
 /**dessert**/
@@ -652,7 +660,9 @@ footer {
   justify-items: center;
   background-color: #99e2d0;
   color: white;
-  width: 40px;
+  height: 80px;
+  transition: all 1s ease-out;
+  overflow: hidden;
 }
 
 /**animations**/
