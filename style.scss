@@ -499,7 +499,7 @@ footer {
 .start-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -647,6 +647,7 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   margin: 20px;
   padding: 0 10px;
 }
