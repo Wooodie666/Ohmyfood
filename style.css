@@ -1,9 +1,6 @@
 /**Desktop**/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap");
-::before, ::after {
-  margin: 0;
-  padding: 0;
-}
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -20,6 +17,8 @@ a {
 * ::before,
 * ::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /**header-container**/
