@@ -632,6 +632,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding: -1px 40px 0 40px;
+  margin-top: -158px;
 }
 
 .dessert-menu h3 {
