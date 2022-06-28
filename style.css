@@ -680,7 +680,7 @@ footer {
   height: 33px;
   transition: all 1s ease-out;
   overflow: hidden;
-  position: absolute;
+  /* position: absolute;*/
 }
 
 .start-check:hover {
