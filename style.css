@@ -439,14 +439,6 @@ footer {
   margin-left: 7px;
 }
 
-.container-menu strong{
-  font-weight: bold;
-  align-self: flex-end;
-  margin-left: 1px;
-  margin-right: 32px;
-  padding-bottom: 15px;
-}
-
 .list-title h2 {
   position: relative;
   font-weight: 400;
@@ -464,6 +456,13 @@ footer {
   margin-top: -73px;
 }
 
+.start-1 .start-2 .start-3 .start-4 strong {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 1px;
+  margin-right: 32px;
+  padding-bottom: 15px;
+}
 
 .start-menu h3 {
   padding: 0 4%;
@@ -562,14 +561,23 @@ footer {
 }
 
 .plat-menu h3 {
-  padding:0 3%;
+  padding: 0 3%;
   margin-bottom: 0px;
 }
 
 .plat-menu p {
-  margin-left: 7px;
+  margin-left: 19px;
+  margin-bottom: 14px;
 }
 
+.plat-1 .plat-2 .plat-3 .plat-4 strong {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 1px;
+  margin-right: 32px;
+  padding-bottom: 15px;
+  padding: -1%;
+}
 
 .plat-1 {
   display: flex;
@@ -660,6 +668,13 @@ footer {
   margin-bottom: 14px;
 }
 
+.dessert-1 .dessert-2 .dessert-3 strong {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 1px;
+  margin-right: 32px;
+  padding-bottom: 15px;
+}
 
 .dessert-1 {
   display: flex;
