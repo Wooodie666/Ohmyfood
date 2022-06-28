@@ -571,6 +571,15 @@ footer {
   margin-bottom: 14px;
 }
 
+.plat-menu strong {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 1px;
+  margin-right: 32px;
+  padding-bottom: 15px;
+  padding: -1%;
+}
+
 .plat-1 {
   display: flex;
   flex-direction: column;
