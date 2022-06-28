@@ -847,8 +847,7 @@ footer {
   /**restaurant1 restaurant2 restaurant3 restaurant4**/
   .container-menu {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 }
