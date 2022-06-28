@@ -532,28 +532,6 @@ footer {
   position: relative;
 }
 
-/**animation check**/
-.start-check {
-  display: flex;
-  align-content: center;
-  justify-items: center;
-  background-color: #99e2d0;
-  color: white;
-  height: 33px;
-  transition: all 1s ease-out;
-  overflow: hidden;
-  position: absolute;
-}
-
-.start-check:hover {
-  -webkit-animation: effectzoom 1s;
-          animation: effectzoom 1s;
-}
-
-.fas fa-check-start {
-  font-size: 30px;
-}
-
 /**plats**/
 .plats-menu {
   display: flex;
@@ -630,19 +608,6 @@ footer {
   position: relative;
 }
 
-/**animation check**/
-.plat-check {
-  display: flex;
-  align-content: center;
-  justify-items: center;
-  background-color: #99e2d0;
-  color: white;
-  height: 33px;
-  transition: all 1s ease-out;
-  overflow: hidden;
-  position: absolute;
-}
-
 /**dessert**/
 .dessert-menu {
   display: flex;
@@ -706,7 +671,7 @@ footer {
 }
 
 /**animation check**/
-.dessert-check {
+.check {
   display: flex;
   align-content: center;
   justify-items: center;
@@ -718,6 +683,58 @@ footer {
   position: absolute;
 }
 
+.start-check:hover {
+  -webkit-animation: effectzoom 1s;
+          animation: effectzoom 1s;
+}
+
+.fas fa-check-start {
+  font-size: 30px;
+}
+
+@-webkit-keyframes check {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0, 25;
+  }
+  50% {
+    opacity: 0, 50;
+  }
+  75% {
+    opacity: 0, 75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes check {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0, 25;
+  }
+  50% {
+    opacity: 0, 50;
+  }
+  75% {
+    opacity: 0, 75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes check {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 /**bouton commander**/
 .button-order {
   display: flex;
