@@ -512,7 +512,7 @@ footer {
 .start-2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -525,7 +525,7 @@ footer {
 .start-3 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -538,7 +538,7 @@ footer {
 .start-4 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
