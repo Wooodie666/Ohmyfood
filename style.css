@@ -877,4 +877,10 @@ footer {
     justify-content: center;
     margin-right: 37px;
   }
+
+  /**container menus**/
+  .container-menu {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
