@@ -484,6 +484,7 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 
 .start-2 {
@@ -497,6 +498,7 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 
 .start-3 {
@@ -510,6 +512,7 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 
 .start-4 {
@@ -523,6 +526,7 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 
 /**animation check**/
@@ -535,6 +539,7 @@ footer {
   height: 33px;
   transition: all 1s ease-out;
   overflow: hidden;
+  position: absolute;
 }
 
 .start-check:hover {
