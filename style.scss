@@ -595,6 +595,7 @@ footer {
 .plat-1 {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -602,10 +603,12 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 .plat-2 {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -613,10 +616,12 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 .plat-3 {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -624,10 +629,12 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 .plat-4 {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   background-color: white;
@@ -635,6 +642,7 @@ footer {
   overflow: hidden;
   cursor: pointer;
   width: 29%;
+  position: relative;
 }
 
 /**animation check**/
@@ -648,6 +656,7 @@ footer {
   height: 33px;
   transition: all 1s ease-out;
   overflow: hidden;
+  position: absolute;
 }
 
 
