@@ -772,7 +772,7 @@ footer {
 /**heart animation**/
 .heart {
   position: absolute;
-  top: 20px;
+  top: 50px;
   right: 20px;
   cursor: pointer;
 }
