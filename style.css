@@ -332,7 +332,7 @@ h2 {
 /**heart animation**/
 .heart {
   position: absolute;
-  top: 40px;
+  top: 50px;
   right: 20px;
   cursor: pointer;
 }
