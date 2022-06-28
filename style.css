@@ -685,13 +685,8 @@ footer {
   /* position: absolute;*/
 }
 
-.start-check:hover {
-  -webkit-animation: effectzoom 1s;
-          animation: effectzoom 1s;
-}
-
-.fas fa-check-start {
-  font-size: 30px;
+.check:hover {
+  cursor: pointer;
 }
 
 @-webkit-keyframes check {

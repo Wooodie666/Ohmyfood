@@ -707,13 +707,10 @@ footer {
  /* position: absolute;*/
 }
 
-.start-check:hover{
-  animation: effectzoom 1s;
+.check:hover{
+cursor: pointer;
 }
 
-.fas fa-check-start{
-  font-size: 30px;
-}
 
 @keyframes check{
   0%{
