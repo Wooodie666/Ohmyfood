@@ -685,6 +685,14 @@ footer {
   /* position: absolute;*/
 }
 
+.confirmation-check .start-check:hover {
+  -webkit-animation: effectzoom 1s;
+          animation: effectzoom 1s;
+}
+.confirmation-check .fas fa-check-start {
+  font-size: 30px;
+}
+
 .check:hover {
   cursor: pointer;
 }

@@ -702,9 +702,23 @@ footer {
   margin:10px 50px 10px 10px;
   height: 33px;
   width: 40px;
-  transition-duration: 5s;
   transform: rotate(360deg);
  /* position: absolute;*/
+}
+
+.check-confiramtion{
+  background-color: #99e2d0;
+    margin: -1rem -5rem -1rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+  }
+  
+  .fas fa-check-start{
+    font-size: 30px;
+  }
 }
 
 .check:hover{
