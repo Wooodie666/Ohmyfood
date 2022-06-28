@@ -699,9 +699,11 @@ footer {
   justify-items: center;
   background-color: #99e2d0;
   color: white;
+  margin:10px 50px 10px 10px;
   height: 33px;
-  transition: all 1s ease-out;
-  overflow: hidden;
+  width: 40px;
+  transition-duration: 5s;
+  transform: rotate(180deg);
  /* position: absolute;*/
 }
 
