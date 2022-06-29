@@ -717,52 +717,75 @@ footer {
 }
 
 /**animation check**/
-
-.start-check .plat-check .dessert-check{
-    height: 80px;
-    width: 10%;
-    padding: 0px 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*position: absolute;*/
-    right: 0px;
-    /*transform: scale(0);*/
-    transform-origin: right;
-    color: #fff;
-    background-color: #99e2d0;
-    border-radius: 0px 15px 15px 0px;
-    font-size: 20px;
+.check{
+  height: 80px;
+  width: 10%;
+  padding: 0px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*position: absolute;*/
+  right: 0px;
+  /*transform: scale(0);*/
+  transform-origin: right;
+  color: #fff;
+  background-color: #99e2d0;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 20px;
 }
 
-.start-check:hover{
-  transform: rotate(360deg)
-  transition-duration: .7s;
+.check:hover{
+transform: rotate(360deg)
+transition-duration: .7s;
 }
 
-.plats-check:hover{
-  transform: rotate(360deg);
-  transition-duration: .7s;
+.check:hover{
+width: 70%;
+transition-duration: .5s;
 }
 
-.dessert-check:hover{
-  transform: rotate(360deg);
-  transition-duration: .7s;
+@-webkit-keyframes check {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0, 25;
+  }
+  50% {
+    opacity: 0, 50;
+  }
+  75% {
+    opacity: 0, 75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.start-menu:hover{
-  width: 70%;
-  transition-duration: .5s;
+@keyframes check {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0, 25;
+  }
+  50% {
+    opacity: 0, 50;
+  }
+  75% {
+    opacity: 0, 75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
-.plats-menu:hover{
-  width: 70%;
-  transition-duration: .5s;
-}
-
-.dessert-menu:hover{
-  width: 70%;
-  transition-duration: .5s;
+@keyframes check {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /**bouton commander**/
