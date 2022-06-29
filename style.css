@@ -917,6 +917,8 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 315px;
+    margin-right: 315px;
   }
 }
 /**mobile**/
