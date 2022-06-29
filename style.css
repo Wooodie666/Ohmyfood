@@ -490,6 +490,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .start-2 {
@@ -504,6 +505,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .start-3 {
@@ -518,6 +520,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .start-4 {
@@ -532,6 +535,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 /**plats**/
@@ -566,6 +570,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .plat-2 {
@@ -580,6 +585,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .plat-3 {
@@ -594,6 +600,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .plat-4 {
@@ -608,6 +615,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 /**dessert**/
@@ -642,6 +650,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .dessert-2 {
@@ -656,6 +665,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .dessert-3 {
@@ -670,6 +680,7 @@ footer {
   cursor: pointer;
   width: 29%;
   position: relative;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .start-menu:hover {
