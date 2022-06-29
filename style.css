@@ -697,7 +697,7 @@ footer {
 
 /**animation check**/
 
-.start-check i .plat-check i .dessert-check i{
+.check{
   height: 80px;
   width: 10%;
   padding: 0px 5%;
@@ -744,7 +744,7 @@ width: 70%;
 transition-duration: .5s;
 }
 
-@-webkit-keyframes start-check {
+@-webkit-keyframes check {
   0% {
     opacity: 0;
   }
@@ -762,7 +762,7 @@ transition-duration: .5s;
   }
 }
 
-@keyframes start-check {
+@keyframes check {
   0% {
     opacity: 0;
   }
@@ -779,7 +779,7 @@ transition-duration: .5s;
     opacity: 1;
   }
 }
-@keyframes start-check {
+@keyframes check {
   0% {
     transform: rotate(360deg);
   }
