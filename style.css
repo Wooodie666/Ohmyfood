@@ -696,7 +696,7 @@ footer {
 }
 
 /**animation check**/
-.start-check .plat-check .dessert-check {
+.fa-check-circle {
   height: 80px;
   width: 10%;
   padding: 0px 5%;
@@ -713,12 +713,12 @@ footer {
   font-size: 20px;
 }
 
-.fas fa-check-start {
-  font-size: 30px;
+fa-check-circle:hover {
+  cursor: pointer;
 }
 
-.start-check .plat-check .dessert-check:hover {
-  cursor: pointer;
+.start-menu:hover > .start-check {
+  transform: rotate(360deg) transition-duration;
 }
 
 @-webkit-keyframes start-check {
