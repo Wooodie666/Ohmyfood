@@ -462,9 +462,8 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0 40px 0p 40px;
-  margin-top: -73px;
+  width: 100%;
+  margin-top: 15px;
 }
 
 .start-1 .start-2 .start-3 .start-4 h3 {
@@ -542,9 +541,8 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: -1px 40px 0 40px;
-  margin-top: -158px;
+  width: 100%;
+  margin-top: 15px;
 }
 
 .plat-1 .plat-2 .plat-3 .plat-4 h3 {
@@ -622,9 +620,8 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: -1px 40px 0 40px;
-  margin-top: -158px;
+  width: 100%;
+  margin-top: 15px;
 }
 
 .dessert-1 .dessert-2 .dessert-3 h3 {
