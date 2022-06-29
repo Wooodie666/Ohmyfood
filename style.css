@@ -714,32 +714,12 @@ footer {
   font-size: 20px;
 }
 
-.start-check:hover{
+.check:hover{
 transform: rotate(360deg)
 transition-duration: .7s;
 }
 
-.plats-check i:hover{
-transform: rotate(360deg);
-transition-duration: .7s;
-}
-
-.dessert-check i:hover{
-transform: rotate(360deg);
-transition-duration: .7s;
-}
-
-.start-menu i:hover{
-width: 70%;
-transition-duration: .5s;
-}
-
-.plats-menu i:hover{
-width: 70%;
-transition-duration: .5s;
-}
-
-.dessert-menu i:hover{
+.check:hover{
 width: 70%;
 transition-duration: .5s;
 }
