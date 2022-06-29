@@ -696,8 +696,7 @@ footer {
 }
 
 /**animation check**/
-
-.check{
+.check {
   height: 80px;
   width: 10%;
   padding: 0px 5%;
@@ -714,14 +713,14 @@ footer {
   font-size: 20px;
 }
 
-.check:hover{
-transform: rotate(360deg)
-transition-duration: .7s;
+.check:hover {
+  transform: rotate(360deg);
+  transition-duration: 0.7s;
 }
 
-.check:hover{
-width: 70%;
-transition-duration: .5s;
+.check:hover {
+  width: 70%;
+  transition-duration: 0.5s;
 }
 
 @-webkit-keyframes check {
@@ -741,7 +740,6 @@ transition-duration: .5s;
     opacity: 1;
   }
 }
-
 @keyframes check {
   0% {
     opacity: 0;
@@ -913,8 +911,7 @@ transition-duration: .5s;
     z-index: -5;
   }
 }
-
-
+/***tablet***/
 /**mobile**/
 @media screen and (min-width: 768px) {
   body {
