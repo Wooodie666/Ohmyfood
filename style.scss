@@ -960,4 +960,31 @@ body{
   align-items: center;
   flex-direction: column;
   }
+
+  .start-1 .start-2 .start-3 .start-4{
+    display: flex;
+  }
+
+  /**plat**/
+  .plats-menu{
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: column;
+  }
+
+.plat-1 .plat-2 .plat-3 .plat-4{
+  display: flex;
+}
+  /**dessert**/
+  .dessert-menu{
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .dessert-1 .dessert-2 .dessert-3{
+    display: flex;
+  }
 }
