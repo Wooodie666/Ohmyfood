@@ -696,16 +696,17 @@ footer {
 }
 
 /**animation check**/
-.fa-check-circle {
+
+.start-check i .plat-check i .dessert-check i{
   height: 80px;
   width: 10%;
   padding: 0px 5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  /*position: absolute;*/
   right: 0px;
-  transform: scale(0);
+  /*transform: scale(0);*/
   transform-origin: right;
   color: #fff;
   background-color: #99e2d0;
@@ -713,12 +714,34 @@ footer {
   font-size: 20px;
 }
 
-fa-check-circle:hover {
-  cursor: pointer;
+.start-check:hover{
+transform: rotate(360deg)
+transition-duration: .7s;
 }
 
-.start-menu:hover > .start-check {
-  transform: rotate(360deg) transition-duration;
+.plats-check i:hover{
+transform: rotate(360deg);
+transition-duration: .7s;
+}
+
+.dessert-check i:hover{
+transform: rotate(360deg);
+transition-duration: .7s;
+}
+
+.start-menu i:hover{
+width: 70%;
+transition-duration: .5s;
+}
+
+.plats-menu i:hover{
+width: 70%;
+transition-duration: .5s;
+}
+
+.dessert-menu i:hover{
+width: 70%;
+transition-duration: .5s;
 }
 
 @-webkit-keyframes start-check {
