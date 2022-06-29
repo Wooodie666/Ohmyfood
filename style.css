@@ -469,8 +469,8 @@ footer {
 }
 
 .start-1 .start-2 .start-3 .start-4 h3 {
-  padding: 0 4%;
-  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .start-1 .start-2 .start-3 .start-4 p {
@@ -481,9 +481,9 @@ footer {
 
 .start-1 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -498,9 +498,9 @@ footer {
 
 .start-2 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -515,9 +515,9 @@ footer {
 
 .start-3 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -532,9 +532,9 @@ footer {
 
 .start-4 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -558,8 +558,8 @@ footer {
 }
 
 .plat-1 .plat-2 .plat-3 h3 {
-  padding: 0 4%;
-  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .plat-1 .plat-2 .plat-3 p {
@@ -570,9 +570,9 @@ footer {
 
 .plat-1 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -587,9 +587,9 @@ footer {
 
 .plat-2 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -604,9 +604,9 @@ footer {
 
 .plat-3 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -630,8 +630,8 @@ footer {
 }
 
 .dessert-1 .dessert-2 .dessert-3 h3 {
-  padding: 0 4%;
-  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .dessert-1 .dessert-2 .dessert-3 p {
@@ -642,9 +642,10 @@ footer {
 
 .dessert-1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -659,9 +660,9 @@ footer {
 
 .dessert-2 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
@@ -676,9 +677,9 @@ footer {
 
 .dessert-3 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
   width: 40%;
   margin-top: 15px;
   background-color: #fff;
