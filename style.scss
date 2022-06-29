@@ -719,15 +719,15 @@ footer {
 /**animation check**/
 
 .start-check .plat-check .dessert-check{
-  height: 80px;
+    height: 80px;
     width: 10%;
     padding: 0px 5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /*position: absolute;*/
     right: 0px;
-    transform: scale(0);
+    /*transform: scale(0);*/
     transform-origin: right;
     color: #fff;
     background-color: #99e2d0;
@@ -735,23 +735,17 @@ footer {
     font-size: 20px;
 }
 
-
-fa-check-circle:hover{
-cursor: pointer;
-}
-
-
-.start-menu:hover > .start-check{
+.start-check:hover{
   transform: rotate(360deg)
   transition-duration: .7s;
 }
 
-.plats-menu:hover > plat-check{
+.plats-check:hover{
   transform: rotate(360deg);
   transition-duration: .7s;
 }
 
-.dessert-menu:hover > dessert-check{
+.dessert-check:hover{
   transform: rotate(360deg);
   transition-duration: .7s;
 }
