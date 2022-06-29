@@ -913,17 +913,8 @@ transition-duration: .5s;
     z-index: -5;
   }
 }
-/***Grands ecrans***/
-@media screen and (min-width: 1200px) {
-  /**restaurant1 restaurant2 restaurant3 restaurant4**/
-  .container-menu {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 315px;
-    margin-right: 315px;
-  }
-}
+/***tablet***/
+modifs
 /**mobile**/
 @media screen and (min-width: 768px) {
   body {
