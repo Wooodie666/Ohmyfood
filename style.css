@@ -672,22 +672,38 @@ footer {
   position: relative;
 }
 
+.start-menu:hover {
+  box-shadow: #d3d3d3;
+}
+
+.plats-menu:hover {
+  box-shadow: #d3d3d3;
+}
+
+.dessert-menu:hover {
+  box-shadow: #d3d3d3;
+}
+
 /**animation check**/
 .check {
   height: 80px;
-    width: 10%;
-    padding: 0px 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*position: absolute;*/
-    right: 0px;
-    /*transform: scale(0);*/
-    transform-origin: right;
-    color: #fff;
-    background-color: #99e2d0;
-    border-radius: 0px 15px 15px 0px;
-    font-size: 18px;
+  width: 10%;
+  padding: 0px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  transform: scale(0);
+  transform-origin: right;
+  color: #fff;
+  background-color: #99e2d0;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 18px;
+}
+
+.fas fa-check-start {
+  font-size: 30px;
 }
 
 .check:hover {
@@ -925,40 +941,39 @@ footer {
     flex-direction: column;
   }
 
- /**start**/
-.start-menu{
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: column;
+  /**start**/
+  .start-menu {
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .start-1 .start-2 .start-3 .start-4{
+  .start-1 .start-2 .start-3 .start-4 {
     display: flex;
   }
 
   /**plat**/
-  .plats-menu{
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: column;
+  .plats-menu {
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
   }
 
-.plat-1 .plat-2 .plat-3 .plat-4{
-  display: flex;
-}
-  /**dessert**/
-  .dessert-menu{
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: column;
-  }
-
-  .dessert-1 .dessert-2 .dessert-3{
+  .plat-1 .plat-2 .plat-3 .plat-4 {
     display: flex;
   }
 
+  /**dessert**/
+  .dessert-menu {
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  .dessert-1 .dessert-2 .dessert-3 {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */

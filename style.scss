@@ -693,6 +693,18 @@ footer {
   position: relative;
 }
 
+.start-menu:hover{
+  box-shadow: $dark-grey;
+}
+
+.plats-menu:hover{
+  box-shadow: $dark-grey;
+}
+
+.dessert-menu:hover{
+  box-shadow: $dark-grey;
+}
+
 /**animation check**/
 
 .check {
@@ -716,7 +728,7 @@ footer {
   .fas fa-check-start{
     font-size: 30px;
   }
-}
+
 
 .check:hover{
 cursor: pointer;
