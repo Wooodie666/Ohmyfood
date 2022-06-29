@@ -385,7 +385,7 @@ h2 {
 .heart-1:hover {
   opacity: 0;
 }
-
+ 
 .heart-2 {
   opacity: 1;
   cursor: pointer;
@@ -453,10 +453,11 @@ footer {
 
 .container-menu h1 {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: Shrikhand, "cursive";
   font-weight: bold;
-  font-size: 28px;
-  padding: 3px;
+  padding: 10px 20px 0 10px;
   margin-top: -14px;
   margin-left: 7px;
 }
