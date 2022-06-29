@@ -487,13 +487,13 @@ footer {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
+  border: 2px solid $clear-grey;
   border-radius: 20px;
   -webkit-animation: opacity 2000ms 3500ms linear both;
   animation: opacity 2000ms 3500ms linear both;
   padding: 0px 5px;
   position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .start-2 {
@@ -504,13 +504,13 @@ footer {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
+  border: 2px solid $clear-grey;
   border-radius: 20px;
   -webkit-animation: opacity 2000ms 3500ms linear both;
   animation: opacity 2000ms 3500ms linear both;
   padding: 0px 5px;
   position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .start-3 {
@@ -521,13 +521,13 @@ footer {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
+  border: 2px solid $clear-grey;
   border-radius: 20px;
   -webkit-animation: opacity 2000ms 3500ms linear both;
   animation: opacity 2000ms 3500ms linear both;
   padding: 0px 5px;
   position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .start-4 {
@@ -538,14 +538,15 @@ footer {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
+  border: 2px solid $clear-grey;
   border-radius: 20px;
   -webkit-animation: opacity 2000ms 3500ms linear both;
   animation: opacity 2000ms 3500ms linear both;
   padding: 0px 5px;
   position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
+
 
 /**plats**/
 .plats-menu {
