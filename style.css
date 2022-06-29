@@ -696,7 +696,7 @@ footer {
 }
 
 /**animation check**/
-.check {
+.start-check .plat-check .dessert-check {
   height: 80px;
   width: 10%;
   padding: 0px 5%;
@@ -710,18 +710,18 @@ footer {
   color: #fff;
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .fas fa-check-start {
   font-size: 30px;
 }
 
-.check:hover {
+.start-check .plat-check .dessert-check:hover {
   cursor: pointer;
 }
 
-@-webkit-keyframes check {
+@-webkit-keyframes start-check {
   0% {
     opacity: 0;
   }
@@ -739,7 +739,7 @@ footer {
   }
 }
 
-@keyframes check {
+@keyframes start-check {
   0% {
     opacity: 0;
   }
@@ -756,7 +756,7 @@ footer {
     opacity: 1;
   }
 }
-@keyframes check {
+@keyframes start-check {
   0% {
     transform: rotate(360deg);
   }
