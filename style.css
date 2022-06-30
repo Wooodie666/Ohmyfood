@@ -983,6 +983,13 @@ transition-duration: .1s;
     margin-left: 18px;
   }
 
+  /**restaurant-container**/
+  .restaurant-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+
   /**container menus**/
   .restaurant- .restaurant-2 .restaurant-3 .restaurant-4 {
     display: flex;

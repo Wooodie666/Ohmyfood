@@ -997,6 +997,12 @@ body{
  margin-left: 18px;
 }
 
+/**restaurant-container**/
+.restaurant-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
 
 
 /**container menus**/
