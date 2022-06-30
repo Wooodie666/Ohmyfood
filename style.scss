@@ -494,11 +494,13 @@ footer {
   flex-direction: column;
   width: 100%;
   margin-top: 15px;
-  -webkit-animation: scale-y 800ms 3500ms linear both;
-  animation: scale-y 800ms 3500ms linear both;
+  transform: top;
 }
 
-
+.start-menu{
+  -moz-animation: scale-y 800ms 3500ms linear both;
+  animation: scale-y 800ms 3500ms linear both;
+}
 
 .start-1 .start-2 .start-3 .start-4 h3 {
   margin-left: 20px;
@@ -591,10 +593,13 @@ footer {
     flex-direction: column;
     width: 100%;
     margin-top: 15px;
-    -webkit-animation: scale-y 800ms 3500ms linear both;
-    animation: scale-y 800ms 3500ms linear both;
+    transform: top;
 } 
 
+.plats-menu{
+  -moz-animation: scale-y 800ms 3500ms linear both;
+  animation: scale-y 800ms 3500ms linear both;
+}
 
 .plat-1 .plat-2 .plat-3 h3 {
   margin-left: 20px;
@@ -670,10 +675,12 @@ footer {
   flex-direction: column;
   width: 100%;
   margin-top: 15px;
-  -webkit-animation: scale-y 800ms 3500ms linear both;
+  transform-origin: top;
+}
+.dessert-menu{
+  -moz-animation: scale-y 800ms 3500ms linear both;
   animation: scale-y 800ms 3500ms linear both;
 }
-
 
 .dessert-1 .dessert-2 .dessert-3 h3 {
   margin-left: 20px;
