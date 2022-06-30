@@ -973,6 +973,7 @@ transition-duration: .1s;
     align-items: center;
     margin: 0px;
     padding: 0px;
+    margin-left: 53px;
   }
 
   .filters-container h2 {
