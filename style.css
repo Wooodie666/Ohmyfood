@@ -963,6 +963,11 @@ footer {
   }
 
   /**container menus**/
+  .restaurant- .restaurant-2 .restaurant-3 .restaurant-4 {
+    display: flex;
+    align-content: space-around;
+  }
+
   .container-menu {
     display: flex;
     flex-direction: column;
