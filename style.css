@@ -421,6 +421,11 @@ footer {
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
+.restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container-menu {
   display: flex;
   position: relative;
