@@ -785,8 +785,9 @@ transition-duration: .1s;
 }*/
 
 .check:hover{
-width: 70%;
-transition-duration: .5s;
+  width: 70%;
+  transition-duration: .2s;
+  cursor: pointer;
 }
 
 @-webkit-keyframes check {
