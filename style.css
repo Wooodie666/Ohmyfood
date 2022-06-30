@@ -526,8 +526,6 @@ footer {
   padding: 20px 1px 0px 0px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -50px;
-  margin-bottom: -60px;
 }
 
 .start-3 {
@@ -578,7 +576,6 @@ footer {
 .plats-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
           animation: scale-y 800ms 3500ms linear both;
-  margin-top: -15px;
 }
 
 .plat-1 .plat-2 .plat-3 h3 {
@@ -626,8 +623,6 @@ footer {
   padding: 20px 1px 0px 0px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -50px;
-  margin-bottom: -60px;
 }
 
 .plat-3 {
@@ -660,7 +655,6 @@ footer {
 .dessert-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
           animation: scale-y 800ms 3500ms linear both;
-  margin-top: -15px;
 }
 
 .dessert-1 .dessert-2 .dessert-3 h3 {
@@ -708,8 +702,6 @@ footer {
   padding: 20px 1px 0px 0px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -50px;
-  margin-bottom: -60px;
 }
 
 .dessert-3 {
