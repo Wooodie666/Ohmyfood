@@ -262,10 +262,11 @@ a {
 }
 
 .restaurant-container h2 {
-  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
   font-weight: bold;
-  margin-left: 16px;
-  padding: 38px 74px 0px 67px;
+  padding: 4% 0% 4% 0%;
 }
 
 .cards-restaurant {
