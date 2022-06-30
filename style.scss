@@ -498,7 +498,6 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 15px;
   transform: top;
 }
 
@@ -525,7 +524,7 @@ footer {
   align-items: center;
   height: 100px;
   width: 40%;
-  margin-top: -10px;
+  margin-top: 10px;
   background-color: #fff;
   border: 2px solid $clear-grey;
   border-radius: 20px;
@@ -596,7 +595,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 15px;
     transform: top;
 } 
 
@@ -678,7 +676,6 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 15px;
   transform-origin: top;
 }
 .dessert-menu{
