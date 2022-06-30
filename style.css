@@ -380,12 +380,16 @@ footer {
   height: 100%;
 }
 
+.footer-container {
+  margin-left: 22px;
+}
+
 .footer-container p {
   font-family: Shrikhand, cursive;
   font-size: 23px;
   font-weight: bold;
   color: white;
-  margin: 33px;
+  margin: 0 1px 17px 5px;
 }
 
 .footer-container ul li {
