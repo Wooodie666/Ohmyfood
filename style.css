@@ -186,11 +186,11 @@ a {
   padding: 1%;
 }
 
-.filters-container li:hover {
+.filters-container:hover {
   background-color: #dcd2e9;
   transform: scale(1.015);
 }
-.filters-container li:hover i {
+.filters-container:hover i {
   color: #9356dc;
 }
 
