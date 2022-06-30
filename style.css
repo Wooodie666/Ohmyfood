@@ -482,7 +482,8 @@ footer {
 .start-1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
@@ -499,7 +500,8 @@ footer {
 .start-2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
@@ -516,7 +518,8 @@ footer {
 .start-3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
@@ -533,7 +536,8 @@ footer {
 .start-4 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
@@ -571,7 +575,8 @@ footer {
 .plat-1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
@@ -588,7 +593,8 @@ footer {
 .plat-2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
@@ -605,7 +611,8 @@ footer {
 .plat-3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   width: 40%;
   margin-top: 15px;
