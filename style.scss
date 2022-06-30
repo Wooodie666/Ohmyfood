@@ -773,6 +773,7 @@ footer {
   /*transform: scale(0);*/
   -webkit-animation-name: check;
   -webkit-animation-duration: 5s;
+  animation-iteration-count: infinite;
   transform-origin: right;
   animation-direction:alternate-reverse;
   color: #fff;
@@ -787,7 +788,7 @@ transition-duration: .1s;
 }*/
 
 .check:hover{
-  width: 70%;
+  width: 20%;
   transition-duration: .2s;
   cursor: pointer;
 }
@@ -795,38 +796,24 @@ transition-duration: .1s;
 @-webkit-keyframes check {
   0% {
     opacity: 0;
+    right: 10px;
   }
   25% {
     opacity: 0, 25;
   }
   50% {
     opacity: 0, 50;
+    right: 400px;
   }
   75% {
     opacity: 0, 75;
   }
   100% {
     opacity: 1;
+    right:  10px;
   }
 }
 
-@keyframes check {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0, 25;
-  }
-  50% {
-    opacity: 0, 50;
-  }
-  75% {
-    opacity: 0, 75;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes check {
   0% {
     transform: rotate(360deg);
