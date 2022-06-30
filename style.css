@@ -189,8 +189,6 @@ a {
 .filters-container ol:hover {
   background-color: #dcd2e9;
   transform: scale(1.015);
-}
-.filters-container ol:hover li {
   color: #9356dc;
 }
 

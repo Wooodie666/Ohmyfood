@@ -200,11 +200,9 @@ a {
 .filters-container ol:hover {
   background-color: #dcd2e9;
   transform: scale(1.015);
-  & li {
-    color: $colorprimary;
+  color: $colorprimary;
   }
   
-}
 
 .list-filters p {
   font-size: 15px;
