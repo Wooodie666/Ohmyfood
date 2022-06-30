@@ -772,16 +772,17 @@ footer {
   right: 0px;
   /*transform: scale(0);*/
   transform-origin: right;
+  animation-direction: reverse;
   color: #fff;
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   font-size: 20px;
 }
 
-.check:hover{
+/*.check:hover{
 transform: rotate(360deg);
-transition-duration: .7s;
-}
+transition-duration: .1s;
+}*/
 
 .check:hover{
 width: 70%;
