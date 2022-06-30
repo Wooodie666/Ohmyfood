@@ -980,7 +980,7 @@ transition-duration: .1s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 37px;
+    margin-left: 18px;
   }
 
   /**container menus**/
