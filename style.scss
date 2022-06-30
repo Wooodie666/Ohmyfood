@@ -763,7 +763,7 @@ footer {
 
 /**animation check**/
 .check{
-  height: 80px;
+  height: 99px;
   width: 10%;
   padding: 0px 5%;
   margin-left: auto;
@@ -782,14 +782,14 @@ footer {
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   font-size: 20px;
-  top: -85px;
-  left: -248px;
+  top: -99px;
+  left: -272px;
 }
 
-/*.check:hover{
-transform: rotate(360deg);
+check:hover{
+transform: rotate(160deg);
 transition-duration: .1s;
-}*/
+}
 
 .check:hover{
   width: 10%;
