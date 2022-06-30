@@ -588,7 +588,6 @@ footer {
 }
 
 
-
 /**plats**/
 .plats-menu {
     display: flex;
@@ -685,6 +684,7 @@ footer {
 .dessert-menu{
   -moz-animation: scale-y 800ms 3500ms linear both;
   animation: scale-y 800ms 3500ms linear both;
+  margin-top: -15px;
 }
 
 .dessert-1 .dessert-2 .dessert-3 h3 {
@@ -779,8 +779,8 @@ footer {
   /*position: absolute;*/
   right: 0px;
   /*transform: scale(0);*/
-  -webkit-animation-name: check;
-  -webkit-animation-duration: 5s;
+  animation-name: check;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   transform-origin: right;
   animation-direction:alternate-reverse;
@@ -797,11 +797,11 @@ transition-duration: .1s;
 
 .check:hover{
   width: 10%;
-  transition-duration: .2s;
+  transition-duration: .3s;
   cursor: pointer;
 }
 
-@-webkit-keyframes check {
+@keyframes check {
   0% {
     opacity: 0;
     right: 5px;

@@ -578,6 +578,7 @@ footer {
 .plats-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
           animation: scale-y 800ms 3500ms linear both;
+  margin-top: -15px;
 }
 
 .plat-1 .plat-2 .plat-3 h3 {
@@ -659,6 +660,7 @@ footer {
 .dessert-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
           animation: scale-y 800ms 3500ms linear both;
+  margin-top: -15px;
 }
 
 .dessert-1 .dessert-2 .dessert-3 h3 {
@@ -753,7 +755,9 @@ footer {
   right: 0px;
   /*transform: scale(0);*/
   -webkit-animation-name: check;
+          animation-name: check;
   -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   transform-origin: right;
@@ -769,19 +773,34 @@ transform: rotate(360deg);
 transition-duration: .1s;
 }*/
 .check:hover {
-  width: 20%;
-  transition-duration: 0.2s;
+  width: 10%;
+  transition-duration: 0.3s;
   cursor: pointer;
 }
 
 @-webkit-keyframes check {
   0% {
     opacity: 0;
-    right: 10px;
+    right: 5px;
   }
   50% {
     opacity: 0, 50;
-    right: 400px;
+    right: 100px;
+  }
+  100% {
+    opacity: 1;
+    right: 10px;
+  }
+}
+
+@keyframes check {
+  0% {
+    opacity: 0;
+    right: 5px;
+  }
+  50% {
+    opacity: 0, 50;
+    right: 100px;
   }
   100% {
     opacity: 1;
