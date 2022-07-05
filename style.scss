@@ -724,6 +724,10 @@ margin-right: 16px;
   left: -48px;
 }
 
+.check i{
+  animation: 01s 1s round($number: 2);
+}
+
 check:hover{
 opacity: 0;
 transform: rotate(160deg);

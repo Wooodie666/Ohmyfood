@@ -706,6 +706,11 @@ footer {
   left: -48px;
 }
 
+.check i {
+  -webkit-animation: 1s 1s 2;
+          animation: 1s 1s 2;
+}
+
 check:hover {
   opacity: 0;
   transform: rotate(160deg);
