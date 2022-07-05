@@ -807,15 +807,11 @@ footer {
   }
   } 
 
-.start-menu:hover{
+.start-menu{
   cursor: pointer;
-  -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-
 }
 
 /**bouton commander**/
