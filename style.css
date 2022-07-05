@@ -774,106 +774,31 @@ footer {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   }
-  } 
+  } ²²
 
+  /**start-menu**/
   .start-menu{
     animation-name: slideInRight;
     animation-duration: 1s;
     animation-fill-mode: both;
   }
-  .start-1 {
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  .start-2 {
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  .start-3 {
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  .start-4 {
+  
+  /**plats-menu**/
+  .plats-menu {
     animation-name: slideInRight;
     animation-duration: 1s;
     animation-fill-mode: both;
   }
   
-  .plat-1 {
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  .plat-2 {
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  .plat-3 {
+  /**dessert-menu**/
+  .dessert-menu {
     animation-name: slideInRight;
     animation-duration: 1s;
     animation-fill-mode: both;
   }
   
-  .dessert-1 {
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
   
-  .dessert-2{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  
-  .dessert-3{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  
-      
-      .plats-menu{
-        animation-name: slideInRight;
-        animation-duration: 1s;
-        animation-fill-mode: both;
-      }
-      
-      .dessert-menu{
-        animation-name: slideInRight;
-        animation-duration: 1s;
-        animation-fill-mode: both;
-      }
-    }
-    
-    .plats-menu{
-      animation-name: slideInRight;
-      animation-duration: 1s;
-      animation-fill-mode: both;
-    }
-    
-    .dessert-menu{
-      animation-name: slideInRight;
-      animation-duration: 1s;
-      animation-fill-mode: both;
-    }
-  }
-  
-  .plats-menu{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  
-  .dessert-menu{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
+
 /**bouton commander**/
 .button-order {
   display: flex;
