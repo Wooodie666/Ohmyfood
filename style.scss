@@ -571,32 +571,23 @@ footer {
   animation: scale-y 800ms 3500ms linear both;
 }
 
-.plat-1 .plat-2 .plat-3 h3 {
-  margin-left: 20px;
-  margin-bottom: 20px;
+.plat-text{
+margin-left: 16px;
+margin-right: 16px;
 }
-
-.plat-1 .plat-2 .plat-3 p {
-  margin-left: 13px;
-  margin-top: -4px;
-  margin-bottom: 8px;
-}
-
 
 .plat-1 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
   align-items: flex-start;
-  height: 100px;
-  width: 40%;
-  margin-top: 10px;
+  width: 90%;
   background-color: #fff;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   -webkit-animation: opacity 2000ms 3500ms linear both;
   animation: opacity 2000ms 3500ms linear both;
-  padding: 20px 1px 0px 0px;
+  padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px $dark-grey;
 }
@@ -607,14 +598,13 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: flex-start;
-  width: 40%;
-  margin-top: -28px;
+  width: 90%;
   background-color: #fff;
   border: 2px solid $clear-grey;
   border-radius: 20px;
   -webkit-animation: opacity 2000ms 3500ms linear both;
   animation: opacity 2000ms 3500ms linear both;
-  padding: 20px 1px 0px 0px;
+  padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px $dark-grey;
 }
@@ -652,7 +642,6 @@ footer {
   margin-right: 16px;
   margin-left: 16px;
 }
-
 
 .dessert-1 {
   display: flex;
