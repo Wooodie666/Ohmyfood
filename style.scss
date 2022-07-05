@@ -292,13 +292,16 @@ a {
 }
 
 .card-image img {
-  position: relative;
   height: 175px;
   width: 100%;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
   object-position: center;
   border: 0 solid transparent;
+}
+
+.jay-wennington-N_Y88TWmGwA-unsplash{
+  position: relative;
 }
 
 .badge {
@@ -391,6 +394,7 @@ a {
   cursor: pointer;
 }
  
+
 
 
 /**footer**/
