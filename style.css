@@ -44,6 +44,7 @@ a {
   align-items: center;
   width: 100%;
   border: none;
+  margin-left: 125px;
 }
 
 .nav-form input {
