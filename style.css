@@ -459,11 +459,6 @@ footer {
   margin-top: 20px;
 }
 
-.start-menu {
-  -webkit-animation: scale-y 800ms 3500ms linear both;
-  animation: scale-y 800ms 3500ms linear both;
-}
-
 .start-text {
   margin-right: 16px;
   margin-left: 16px;
@@ -478,8 +473,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -494,8 +487,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -511,8 +502,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -528,8 +517,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -545,10 +532,7 @@ footer {
   margin-top: -20px;
 }
 
-.plats-menu {
-  -webkit-animation: scale-y 800ms 3500ms linear both;
-  animation: scale-y 800ms 3500ms linear both;
-}
+
 
 .plat-text {
   margin-left: 16px;
@@ -564,8 +548,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -580,8 +562,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -597,8 +577,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -633,8 +611,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 18px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -650,8 +626,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -667,8 +641,6 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  -webkit-animation: opacity 2000ms 3500ms linear both;
-  animation: opacity 2000ms 3500ms linear both;
   padding: 25px 1px 20px 17px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
