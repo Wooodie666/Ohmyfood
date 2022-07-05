@@ -129,13 +129,21 @@ a {
   border-radius: 100px;
   color: #fff;
   box-shadow: 0 0 10px grey;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   cursor: pointer;
   transition-duration: 0.25s;
 }
 
 .nav-bar button:hover {
-  background-image: linear-gradient(0deg, rgba(171, 127, 225, 0.9), rgba(237, 149, 212, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(171, 127, 225, 0.9),
+    rgba(237, 149, 212, 0.9)
+  );
   box-shadow: 0 0 10px black;
 }
 
@@ -278,9 +286,9 @@ a {
   width: 100%;
   border-radius: 15px 15px 0 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   border: 0 solid transparent;
 }
 
@@ -391,7 +399,7 @@ footer {
   max-height: 32rem;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
@@ -453,7 +461,7 @@ footer {
 
 .start-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
-          animation: scale-y 800ms 3500ms linear both;
+  animation: scale-y 800ms 3500ms linear both;
 }
 
 .start-text {
@@ -539,7 +547,7 @@ footer {
 
 .plats-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
-          animation: scale-y 800ms 3500ms linear both;
+  animation: scale-y 800ms 3500ms linear both;
 }
 
 .plat-text {
@@ -608,7 +616,7 @@ footer {
 
 .dessert-menu {
   -webkit-animation: scale-y 800ms 3500ms linear both;
-          animation: scale-y 800ms 3500ms linear both;
+  animation: scale-y 800ms 3500ms linear both;
 }
 
 .dessert-text {
@@ -693,10 +701,18 @@ footer {
   top: -8px;
   right: -3px;
   overflow: hidden;
+  /*transform: scale(0);*/
+  -webkit-animation-name: check;
+  animation-name: check;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  transform-origin: right;
 }
 
 .fa-check-circle {
-  transition: .4s ease-in;
+  transition: 0.4s ease-in;
   transform: rotate(1turn);
 }
 
@@ -775,13 +791,21 @@ footer {
   border-radius: 100px;
   color: #fff;
   box-shadow: 0 0 10px gray;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   cursor: pointer;
   transition-duration: 0.25s;
 }
 
 .order-btn:hover {
-  background-image: linear-gradient(0deg, rgba(171, 127, 225, 0.9), rgba(237, 149, 212, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(171, 127, 225, 0.9),
+    rgba(237, 149, 212, 0.9)
+  );
   box-shadow: 0 0 10px black;
 }
 
@@ -825,7 +849,11 @@ footer {
 .heart-1 {
   opacity: 0;
   transition: 0.5s;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -848,7 +876,7 @@ footer {
   color: #99e2d0;
   background-color: #f2f2f2;
   -webkit-animation: out 550ms 4s linear 1 both;
-          animation: out 550ms 4s linear 1 both;
+  animation: out 550ms 4s linear 1 both;
 }
 .loading .spinner {
   width: 80px;
@@ -1003,4 +1031,4 @@ footer {
     flex-direction: column;
     width: 90%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
