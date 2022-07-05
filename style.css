@@ -774,7 +774,7 @@ footer {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   }
-  } ²²
+  }
 
   /**start-menu**/
   .start-menu{
@@ -796,7 +796,6 @@ footer {
     animation-duration: 1s;
     animation-fill-mode: both;
   }
-  
   
 
 /**bouton commander**/
