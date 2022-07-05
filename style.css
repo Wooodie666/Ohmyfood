@@ -697,7 +697,7 @@ footer {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   transform-origin: right;
-  animation-direction: alternate-reverse;
+  /* animation-direction:alternate-reverse;*/
   color: #fff;
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
@@ -715,6 +715,7 @@ check:hover {
   opacity: 0;
   transform: rotate(160deg);
   transition-duration: 0.1s;
+  animation-direction: alternate-reverse;
 }
 
 .start:hover .check {
