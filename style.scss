@@ -718,10 +718,9 @@ margin-right: 16px;
 }
 
 .fa-check-circle{
-  animation: 01s 1s;
+  animation: 01s 1s round($number: 2);
 }
 
-/**start-check**/
 
 .start-1:hover .check{
   width: 100%;
@@ -741,50 +740,18 @@ margin-right: 16px;
   transition-duration: O.3s;
 }
 
-.start-4:hover .check{
+
+
+.plat:hover .check{
   width: 100%;
   cursor: pointer;
-  transition-duration: O.3s;
+  opacity: 1;
 }
 
-/**plat-check**/
-
-.plat-1:hover .check{
+.dessert:hover .check{
   width: 100%;
   cursor: pointer;
-  transition-duration: 0.3s;
-}
-
-.plat-2:hover .check{
-  width: 100%;
-  cursor: pointer;
-  transition-duration: O.3s;
-}
-
-.plat-3:hover .check{
-  width: 100%;
-  cursor: pointer;
-  transition-duration: O.3s;
-}
-
-/**dessert-check**/
-
-.dessert-1:hover .check{
-  width: 100%;
-  cursor: pointer;
-  transition-duration: 0.3s;
-}
-
-.dessert-2:hover .check{
-  width: 100%;
-  cursor: pointer;
-  transition-duration: 0.3s;
-}
-
-.dessert-3:hover .check{
-  width: 100%;
-  cursor: pointer;
-  transition-duration: 0.3s;
+  opacity: 1;
 }
 
 @keyframes check {
