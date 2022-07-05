@@ -774,47 +774,53 @@ footer {
 
 /**animation pour les menus**/
 
-.slideInDown {
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown;
-  -webkit-animation-duration: 1s;
+.slideInRight {
+  animation-name: slideInRight;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   }
 
-
-  @-webkit-keyframes slideInDown {
+  @-webkit-keyframes slideInRight {
   0% {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   visibility: visible;
   }
   100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
   }
   }
 
-
-  @keyframes slideInDown {
+  @keyframes slideInRight {
   0% {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   visibility: visible;
   }
   100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
   }
   } 
 
-.start-menu{
-  animation-name: slideInDown;
+.start-1 .start-2 .start-3 .start-4{
+  animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
+.plat-1 .plat-2 .plat-3{
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.dessert-1 .dessert-2 .dessert-3{
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 /**bouton commander**/
 .button-order {
   display: flex;
