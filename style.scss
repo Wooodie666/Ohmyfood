@@ -8,7 +8,6 @@ $font-size-footer: 18px;
 $clear-grey: #f2f2f2;
 $dark-grey: #d3d3d3;
 
-
 /*::before, ::after {
   margin: 0;
   padding: 0;
@@ -31,8 +30,7 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
-
+}
 
 /**header-container**/
 
@@ -197,8 +195,7 @@ a {
 .filters-container li:hover {
   background-color: $clear-grey;
   transform: scale(1.015);
-  }
-  
+}
 
 .list-filters p {
   font-size: 15px;
@@ -357,8 +354,6 @@ a {
   padding: 5px;
 }
 
-
-
 /**footer**/
 
 footer {
@@ -366,7 +361,7 @@ footer {
   height: 100%;
 }
 
-.footer-container{
+.footer-container {
   margin-left: 22px;
 }
 
@@ -414,12 +409,12 @@ footer {
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
 
-.restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4{
+.restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
   display: flex;
   justify-content: space-between;
 }
 
-.restaurant-container{
+.restaurant-container {
   display: flex;
   flex-direction: column;
 }
@@ -445,7 +440,7 @@ footer {
   font-size: 28px;
 }
 
-.container-menu strong{
+.container-menu strong {
   font-weight: bold;
   align-self: center;
   margin-left: 18px;
@@ -469,8 +464,7 @@ footer {
   margin-top: 20px;
 }
 
-
-.start-text{
+.start-text {
   margin-right: 16px;
   margin-left: 16px;
 }
@@ -534,20 +528,18 @@ footer {
   margin-top: -48px;
 }
 
-
 /**plats**/
 .plats-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    transform: top;
-    margin-top: -20px;
-} 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: top;
+  margin-top: -20px;
+}
 
-
-.plat-text{
-margin-left: 16px;
-margin-right: 16px;
+.plat-text {
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .plat-1 {
@@ -563,7 +555,6 @@ margin-right: 16px;
   position: relative;
   box-shadow: 5px 5px 5px $dark-grey;
 }
-
 
 .plat-2 {
   display: flex;
@@ -595,7 +586,6 @@ margin-right: 16px;
   margin-top: -48px;
 }
 
-
 /**dessert**/
 .dessert-menu {
   display: flex;
@@ -605,7 +595,7 @@ margin-right: 16px;
   margin-top: -20px;
 }
 
-.dessert-text{
+.dessert-text {
   margin-right: 16px;
   margin-left: 16px;
 }
@@ -655,20 +645,20 @@ margin-right: 16px;
   margin-top: -48px;
 }
 
-.start-menu:hover{
+.start-menu:hover {
   box-shadow: $dark-grey;
 }
 
-.plats-menu:hover{
+.plats-menu:hover {
   box-shadow: $dark-grey;
 }
 
-.dessert-menu:hover{
+.dessert-menu:hover {
   box-shadow: $dark-grey;
 }
 
 /**animation check**/
-.check{
+.check {
   height: 92px;
   display: flex;
   align-items: center;
@@ -682,34 +672,34 @@ margin-right: 16px;
   right: -3px;
   overflow: hidden;
   transform: rotate(180deg);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-.fa-check-circle{
+.fa-check-circle {
   animation: alternate 0.1s 1s;
 }
 
 /**start-check**/
 
-.start-1:hover .check{
+.start-1:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: O.3s;
 }
 
-.start-2:hover .check{
+.start-2:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: O.3s;
 }
 
-.start-3:hover .check{
+.start-3:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: O.3s;
 }
 
-.start-4:hover .check{
+.start-4:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: O.3s;
@@ -717,19 +707,19 @@ margin-right: 16px;
 
 /**plat-check**/
 
-.plat-1:hover .check{
+.plat-1:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: 0.3s;
 }
 
-.plat-2:hover .check{
+.plat-2:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: O.3s;
 }
 
-.plat-3:hover .check{
+.plat-3:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: O.3s;
@@ -737,24 +727,23 @@ margin-right: 16px;
 
 /**dessert-check**/
 
-.dessert-1:hover .check{
+.dessert-1:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: 0.3s;
 }
 
-.dessert-2:hover .check{
+.dessert-2:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: 0.3s;
 }
 
-.dessert-3:hover .check{
+.dessert-3:hover .check {
   width: 100%;
   cursor: pointer;
   transition-duration: 0.3s;
 }
-
 
 @keyframes check {
   0% {
@@ -767,7 +756,7 @@ margin-right: 16px;
   }
   100% {
     opacity: 1;
-    right:  0px;
+    right: 0px;
   }
 }
 
@@ -780,82 +769,92 @@ margin-right: 16px;
   }
 }*/
 
-
 /**animation pour les menus**/
 
 .slideInRight {
   animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both;
-  }
+}
 
-  @-webkit-keyframes slideInRight {
+@-webkit-keyframes slideInRight {
   0% {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  visibility: visible;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
   }
   100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  }
+}
 
-  @keyframes slideInRight {
+@keyframes slideInRight {
   0% {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  visibility: visible;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
   }
   100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  } 
+}
 
-
-
-.start-1{
+.start-1 {
   animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-.start-2{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  .start-3{
-      animation-name: slideInRight;
-      animation-duration: 1s;
-      animation-fill-mode: both;
-    }
-    
-
-
-
-
-.plats-menu{
+.start-2 {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.start-3 {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.start-4 {
   animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
-.dessert-menu{
+.plat-1 {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.plat-2 {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.plat-3 {
   animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
+.dessert-1 {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
+.dessert-2{
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
-
-
-
-
-
-
-
+.dessert-3{
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
 /**bouton commander**/
 .button-order {
@@ -948,7 +947,6 @@ margin-right: 16px;
   opacity: 1;
 }
 
-
 /**loading**/
 
 .loading {
@@ -997,113 +995,107 @@ margin-right: 16px;
 }
 /***tablet***/
 
-
-
-
 /**mobile**/
-@media screen and (min-width: 768px){
-
-body{
-  margin: O;
-  padding: 0;
-}
-
-
-/**navbar**/
-
-.nav-bar{
-  padding: 16px;
-}
-
-/**filters**/
-
-.filters-container ol{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px;
-  padding: 0px;
-  margin-left: 53px;
-}
-.filter-1 .filter-2 .filter-3 li{
-  width: 100%;
-}
-
-.filters-container h2{
-  display: flex;
- flex-direction: column;
- align-items: center;
- margin-left: 18px;
-}
-
-/**restaurant-container**/
-.restaurant-container{
-  display: flex;
-  flex-direction: column;
-  background-color: #f2f2f2;
-}
-
-
-/**container menus**/
-
-.restaurant-1 .restaurant-2  .restaurant-3 .restaurant-4{
-  display: flex;
-  align-content: space-around;
-}
-
-.container-menu{
-  display: flex;
-  flex-direction: column;
-}
-
-.container-menu h1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.cards-restaurant{
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
-.card-text{
-  flex: 1;
-}
-
-/**start**/
-.start-menu{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+@media screen and (min-width: 768px) {
+  body {
+    margin: O;
+    padding: 0;
   }
 
-  .start-1 .start-2 .start-3 .start-4{
+  /**navbar**/
+
+  .nav-bar {
+    padding: 16px;
+  }
+
+  /**filters**/
+
+  .filters-container ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 53px;
+  }
+  .filter-1 .filter-2 .filter-3 li {
+    width: 100%;
+  }
+
+  .filters-container h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18px;
+  }
+
+  /**restaurant-container**/
+  .restaurant-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+
+  /**container menus**/
+
+  .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
+    display: flex;
+    align-content: space-around;
+  }
+
+  .container-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-menu h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .cards-restaurant {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .card-text {
+    flex: 1;
+  }
+
+  /**start**/
+  .start-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .start-1 .start-2 .start-3 .start-4 {
     display: flex;
     flex-direction: column;
     width: 90%;
   }
 
   /**plat**/
-  .plats-menu{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  .plats-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
-.plat-1 .plat-2 .plat-3 .plat-4{
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-}
+  .plat-1 .plat-2 .plat-3 .plat-4 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
   /**dessert**/
-  .dessert-menu{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  .dessert-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .dessert-1 .dessert-2 .dessert-3{
+  .dessert-1 .dessert-2 .dessert-3 {
     display: flex;
     flex-direction: column;
     width: 90%;
