@@ -701,44 +701,38 @@ footer {
           animation: 1s 1s 2;
 }
 
-check:hover {
-  opacity: 0;
-  transform: rotate(160deg);
-  transition-duration: 0.1s;
-  animation-direction: alternate-reverse;
+/**start-check
+
+.start-1:hover .check{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: O.3s;
 }
 
-.start:hover .check {
+.start-2:hover .check{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: O.3s;
+}
+
+.start-3:hover .check{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: O.3s;
+}
+
+
+
+.plat:hover .check{
   width: 100%;
   cursor: pointer;
   opacity: 1;
 }
 
-.plat:hover .check {
+.dessert:hover .check{
   width: 100%;
   cursor: pointer;
   opacity: 1;
-}
-
-.dessert:hover .check {
-  width: 100%;
-  cursor: pointer;
-  opacity: 1;
-}
-
-@-webkit-keyframes check {
-  0% {
-    opacity: 0;
-    right: 5px;
-  }
-  50% {
-    opacity: 0, 50;
-    right: 100px;
-  }
-  100% {
-    opacity: 1;
-    right: 0px;
-  }
 }
 
 @keyframes check {
@@ -752,9 +746,10 @@ check:hover {
   }
   100% {
     opacity: 1;
-    right: 0px;
+    right:  0px;
   }
 }
+
 /*@keyframes check {
   0% {
     transform: rotate(360deg);
