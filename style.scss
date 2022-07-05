@@ -731,14 +731,20 @@ transition-duration: .1s;
 
 .start:hover .check{
   width: 100%;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .plat:hover .check{
   width: 100%;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .dessert:hover .check{
   width: 100%;
+  cursor: pointer;
+  opacity: 1;
 }
 
 @keyframes check {
