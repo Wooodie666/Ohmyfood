@@ -324,8 +324,7 @@ a {
   width: 70px;
   height: 30px;
   border-radius: 5px;
-  right: 322px;
-  z-index: 1;
+  right: 90px;
 }
 
 .card-text {
@@ -958,6 +957,9 @@ body{
   padding: 0px;
   margin-left: 53px;
 }
+.filter-1 .filter-2 .filter-3 li{
+  width: 100%;
+}
 
 .filters-container h2{
   display: flex;
@@ -976,7 +978,7 @@ body{
 
 /**container menus**/
 
-.restaurant- .restaurant-2  .restaurant-3 .restaurant-4{
+.restaurant-1 .restaurant-2  .restaurant-3 .restaurant-4{
   display: flex;
   align-content: space-around;
 }
@@ -990,6 +992,15 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.cards-restaurant{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.card-text{
+  flex: 1;
 }
 /**start**/
 .start-menu{
