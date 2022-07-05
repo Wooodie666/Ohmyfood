@@ -54,17 +54,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
   width: 100%;
   border: none;
-  background-color: $clear-grey;
-  margin-left: 134px;
+  background-color: $dark-grey;
 }
 
 .nav-form input {
   display: flex;
   justify-content: center;
-  padding: 10px;
   height: 30px;
   font-size: 18px;
   border: 0;
