@@ -420,6 +420,12 @@ footer {
   justify-content: space-between;
 }
 
+.restaurant-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container-menu {
   display: flex;
   position: relative;
