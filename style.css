@@ -448,6 +448,7 @@ footer {
   flex-direction: column;
   width: 100%;
   transform: top;
+  margin-top: 20px;
 }
 
 .start-menu {
@@ -533,6 +534,7 @@ footer {
   flex-direction: column;
   width: 100%;
   transform: top;
+  margin-top: -20px;
 }
 
 .plats-menu {
@@ -601,6 +603,7 @@ footer {
   flex-direction: column;
   width: 100%;
   transform-origin: top;
+  margin-top: -20px;
 }
 
 .dessert-menu {
