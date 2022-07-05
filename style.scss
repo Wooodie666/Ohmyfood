@@ -725,6 +725,7 @@ margin-right: 16px;
 }
 
 check:hover{
+opacity: 0;
 transform: rotate(160deg);
 transition-duration: .1s;
 }
