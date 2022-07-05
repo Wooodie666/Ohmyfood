@@ -692,7 +692,7 @@ margin-right: 16px;
 
 /**animation check**/
 .check{
-  height: 99px;
+  height: 92px;
   width: 10%;
   padding: 0px 5%;
   margin-left: auto;
@@ -700,7 +700,6 @@ margin-right: 16px;
   align-items: center;
   justify-content: center;
   position: relative;
-  right: 0px;
   /*transform: scale(0);*/
   animation-name: check;
   animation-duration: 5s;
@@ -711,8 +710,9 @@ margin-right: 16px;
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   font-size: 20px;
-  top: -99px;
+  top: -89px;
   left: -272px;
+  right: 0px;
 }
 
 check:hover{
