@@ -711,10 +711,16 @@ check:hover {
   transition-duration: 0.1s;
 }
 
-.check:hover {
-  width: 10%;
-  transition-duration: 0.3s;
-  cursor: pointer;
+.start:hover .check {
+  width: 100%;
+}
+
+.plat:hover .check {
+  width: 100%;
+}
+
+.dessert:hover .check {
+  width: 100%;
 }
 
 @-webkit-keyframes check {
