@@ -706,7 +706,7 @@ footer {
   left: -48px;
 }
 
-.check i {
+.fa-check-circle {
   -webkit-animation: 1s 1s 2;
           animation: 1s 1s 2;
 }
