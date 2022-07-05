@@ -455,15 +455,9 @@ footer {
           animation: scale-y 800ms 3500ms linear both;
 }
 
-.start-1 .start-2 .start-3 .start-4 h3 {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.start-1 .start-2 .start-3 .start-4 p {
-  margin-left: 13px;
-  margin-top: -4px;
-  margin-bottom: 8px;
+.start-text{
+margin-right: 16px;
+margin-left: 16px;
 }
 
 .start-1 {
@@ -550,15 +544,9 @@ footer {
           animation: scale-y 800ms 3500ms linear both;
 }
 
-.plat-1 .plat-2 .plat-3 h3 {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.plat-1 .plat-2 .plat-3 p {
-  margin-left: 13px;
-  margin-top: -4px;
-  margin-bottom: 8px;
+.plat-text{
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .plat-1 {
@@ -628,15 +616,9 @@ footer {
           animation: scale-y 800ms 3500ms linear both;
 }
 
-.dessert-1 .dessert-2 .dessert-3 h3 {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.dessert-1 .dessert-2 .dessert-3 p {
-  margin-left: 13px;
-  margin-top: -4px;
-  margin-bottom: 8px;
+.dessert-text{
+  margin-left: 16px;
+  margin-left: 16px;
 }
 
 .dessert-1 {
