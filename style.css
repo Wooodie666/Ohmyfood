@@ -649,13 +649,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   color: #fff;
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   font-size: 20px;
-  top: -8px;
-  right: -3px;
+  top: -91px;
+  right: -425px;
   overflow: hidden;
   transition-duration: 0.5s;
 }
@@ -664,10 +664,11 @@ footer {
   display: flex;
   align-content: center;
   align-items: center;
+  position: absolute;
   height: 19px;
   width: 19px;
   transform: rotate(190deg);
-  transition-duration: 0.1s;
+  transition-duration: 0.5s;
 }
 
 /**rotate animation**/
