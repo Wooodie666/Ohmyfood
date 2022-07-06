@@ -672,23 +672,6 @@ footer {
   transition-duration: 0.2s;
 }
 
-.start-menu:hover .check {
-  cursor: pointer;
-  -webkit-animation: 500ms 1500ms 5000ms linear both;
-          animation: 500ms 1500ms 5000ms linear both;
-}
-
-.plats-menu:hover .check {
-  cursor: pointer;
-  -webkit-animation: 500ms 1500ms 5000ms linear both;
-          animation: 500ms 1500ms 5000ms linear both;
-}
-
-.dessert-menu:hover .check {
-  cursor: pointer;
-  -webkit-animation: 500ms 1500ms 5000ms linear both;
-          animation: 500ms 1500ms 5000ms linear both;
-}
 
 /**rotate animation**/
 .rotate {
