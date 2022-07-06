@@ -687,12 +687,11 @@ footer {
   
 }
 
-
 /**rotate animation**/
 
 .rotate{
   animation-name: rotate;
-  transition: all 0,5s ease;
+  animation-duration: 800ms 1500ms 3500ms;
 }
 
 @keyframes check {
@@ -717,6 +716,18 @@ footer {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.start-menu:hover .rotate{
+  animation-duration: 500ms 1500ms 4000ms linear both;
+}
+
+.plats-menu:hover .rotate{
+  animation-duration: 500ms 1500ms 4000ms linear both;
+}
+
+.dessert-menu:hover .rotate{
+  animation-duration: 500ms 1500ms 4000ms linear both;
 }
 
 /**slide animation**/

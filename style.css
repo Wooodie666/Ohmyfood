@@ -676,7 +676,8 @@ footer {
 .rotate {
   -webkit-animation-name: rotate;
           animation-name: rotate;
-  transition: all 0, 5s ease;
+  -webkit-animation-duration: 800ms 1500ms 3500ms;
+          animation-duration: 800ms 1500ms 3500ms;
 }
 
 @-webkit-keyframes check {
@@ -724,6 +725,21 @@ footer {
     transform: rotate(0deg);
   }
 }
+.start-menu:hover .rotate {
+  -webkit-animation-duration: 500ms 1500ms 4000ms linear both;
+          animation-duration: 500ms 1500ms 4000ms linear both;
+}
+
+.plats-menu:hover .rotate {
+  -webkit-animation-duration: 500ms 1500ms 4000ms linear both;
+          animation-duration: 500ms 1500ms 4000ms linear both;
+}
+
+.dessert-menu:hover .rotate {
+  -webkit-animation-duration: 500ms 1500ms 4000ms linear both;
+          animation-duration: 500ms 1500ms 4000ms linear both;
+}
+
 /**slide animation**/
 .slide {
   -webkit-animation-name: slide;
