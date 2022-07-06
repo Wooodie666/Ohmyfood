@@ -733,7 +733,7 @@ footer {
   }
   50% {
     opacity: 0, 50;
-    right: 100px;
+    right: 10px;
   }
   100% {
     opacity: 1;
@@ -743,7 +743,7 @@ footer {
 
 @keyframes check {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
   100% {
     transform: rotate(0deg);
