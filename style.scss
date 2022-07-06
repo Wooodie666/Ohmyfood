@@ -675,8 +675,16 @@ footer {
   transition-duration: 0.5s;
 }
 
-.fa-check-circle {
-  animation: alternate 0.1s 1s;
+.fas fa-check-circle {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 19px;
+  width: 19px;
+  background: #fff;
+  transform: rotate(180deg);
+  transition-duration: .2s;
+  
 }
 
 /**start-check**/
