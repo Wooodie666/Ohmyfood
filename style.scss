@@ -762,21 +762,7 @@ footer {
   transform: rotate(180s);
   transition-duration: 0.3s;
 }
-
-.start-menu:hover .check{
-  cursor: pointer;
-  animation: 500ms 1500ms 5000ms linear both;
-}
-
-.plats-menu:hover .check{
-  cursor: pointer;
-  animation: 500ms 1500ms 5000ms linear both;
-}
-
-.dessert-menu:hover .check{
-  cursor: pointer;
-  animation: 500ms 1500ms 5000ms linear both;
-}
+/**rotate animation**/
 
 .rotate{
   animation-name: rotate;
