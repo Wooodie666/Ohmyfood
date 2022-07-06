@@ -718,17 +718,21 @@ footer {
     transform: rotate(0deg);
   }
 }
-/*.start-menu:hover .rotate{
-  animation-duration: 500ms 1500ms 4000ms;
+.start-menu:hover .rotate {
+  -webkit-animation-duration: 500ms 1500ms 4000ms;
+          animation-duration: 500ms 1500ms 4000ms;
 }
 
-.plats-menu:hover .rotate{
-  animation-duration: 500ms 1500ms 4000ms;
+.plats-menu:hover .rotate {
+  -webkit-animation-duration: 500ms 1500ms 4000ms;
+          animation-duration: 500ms 1500ms 4000ms;
 }
 
-.dessert-menu:hover .rotate{
-  animation-duration: 500ms 1500ms 4000ms;
-}*/
+.dessert-menu:hover .rotate {
+  -webkit-animation-duration: 500ms 1500ms 4000ms;
+          animation-duration: 500ms 1500ms 4000ms;
+}
+
 /**slide animation**/
 .slide {
   -webkit-animation-name: slide;
