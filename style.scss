@@ -657,8 +657,7 @@ footer {
   box-shadow: $dark-grey;
 }
 
-/**check animation**/
-
+/**animation check**/
 .check {
   height: 92px;
   display: flex;
@@ -672,6 +671,7 @@ footer {
   top: -8px;
   right: -3px;
   overflow: hidden;
+  transform: rotate(180deg);
   transition-duration: 0.5s;
 }
 
@@ -687,26 +687,96 @@ footer {
   
 }
 
+/**start-check**/
+
+.start-1:hover .check {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: O.3s;
+}
+
+.start-2:hover .check {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: O.3s;
+}
+
+.start-3:hover .check {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: O.3s;
+}
+
+.start-4:hover .check {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: O.3s;
+}
+
+/**plat-check**/
+
+.plat-1:hover .rotate {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: 0.3s;
+}
+
+.plat-2:hover .rotate{
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: O.3s;
+}
+
+.plat-3:hover .rotate {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: O.3s;
+}
+
+/**dessert-check**/
+
+.dessert-1:hover .rotate {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: 0.3s;
+}
+
+.dessert-2:hover .rotate {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: 0.3s;
+}
+
+.dessert-3:hover .rotate {
+  width: 100%;
+  cursor: pointer;
+  transform: rotate(180s);
+  transition-duration: 0.3s;
+}
+
 .start-menu:hover .check{
   cursor: pointer;
-  width: 100%;
-  transition-duration: 0.2s;
+  animation: 500ms 1500ms 5000ms linear both;
 }
 
 .plats-menu:hover .check{
   cursor: pointer;
-  width: 100%;
-  transition-duration: 0.2s;
+  animation: 500ms 1500ms 5000ms linear both;
 }
 
 .dessert-menu:hover .check{
   cursor: pointer;
-  width: 100%;
-  transition-duration: 0.2s;
+  animation: 500ms 1500ms 5000ms linear both;
 }
-
-
-/**rotate animation**/
 
 .rotate{
   animation-name: rotate;
@@ -737,32 +807,7 @@ footer {
   }
 }
 
-
-.start-menu:hover .check {
-  width: 100%;
-  cursor: pointer;
-  transform: rotate(180s);
-  transition-duration: O.3s;
-}
-
-
-
-.plats-menu:hover .check {
-  width: 100%;
-  cursor: pointer;
-  transform: rotate(180s);
-  transition-duration: 0.3s;
-}
-
-
-.dessert-menu:hover .check{
-  width: 100%;
-  cursor: pointer;
-  transform: rotate(180s);
-  transition-duration: 0.3s;
-}
-
-/**slide animation**/
+/**animation pour les menus**/
 
 .slide {
   animation-name: slide;
