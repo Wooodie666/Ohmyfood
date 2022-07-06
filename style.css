@@ -654,8 +654,8 @@ footer {
   background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   font-size: 20px;
-  /*top: -8px;
-  right: -3px;*/
+  top: -8px;
+  right: -3px;
   overflow: hidden;
   transform: rotate(180deg);
   transition-duration: 0.5s;
@@ -671,7 +671,6 @@ footer {
   transform: rotate(180deg);
   transition-duration: 0.2s;
 }
-
 
 /**rotate animation**/
 .rotate {
