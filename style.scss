@@ -749,21 +749,26 @@ footer {
   transition-duration: 0.3s;
 }
 
-.dessert-2:hover .check {
+.dessert-2:hover .rotate {
   width: 100%;
   cursor: pointer;
   transform: rotate(180s);
   transition-duration: 0.3s;
 }
 
-.dessert-3:hover .check {
+.dessert-3:hover .rotate {
   width: 100%;
   cursor: pointer;
   transform: rotate(180s);
   transition-duration: 0.3s;
 }
 
-@keyframes check {
+.rotate{
+  animation-name: rotate;
+  animation-duration: 800ms 1500ms 3500ms linear both;
+}
+
+@keyframes rotate {
   0% {
     opacity: 0;
     right: 5px;
@@ -778,7 +783,7 @@ footer {
   }
 }
 
-@keyframes check {
+@keyframes rotate {
   0% {
     transform: rotate(360deg);
   }
