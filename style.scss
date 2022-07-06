@@ -727,6 +727,7 @@ footer {
 .slide {
   animation-name: slide;
   animation-duration: 1s;
+  animation-fill-mode: both
 }
 
 @-webkit-keyframes slide {
@@ -757,16 +758,19 @@ footer {
 /**start-menu**/
 .start-menu:hover .slide{
   animation-duration: 1s;
+  animation-fill-mode: both
 }
 
 /**plats-menu**/
 .plats-menu:hover .slide {
   animation-duration: 1s;
+  animation-fill-mode: both
 }
 
 /**dessert-menu**/
 .dessert-menu:hover .slide {
   animation-duration: 1s;
+  animation-fill-mode: both
 }
 
 /**bouton commander**/
