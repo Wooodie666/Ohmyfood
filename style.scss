@@ -672,7 +672,6 @@ footer {
   top: -8px;
   right: -3px;
   overflow: hidden;
-  transform: rotate(180deg);
   transition-duration: 0.5s;
 }
 
@@ -691,19 +690,19 @@ footer {
 .start-menu:hover .check{
   cursor: pointer;
   width: 100%;
-  animation: 500ms 1500ms 5000ms linear both;
+  transition-duration: 0.2s;
 }
 
 .plats-menu:hover .check{
   cursor: pointer;
   width: 100%;
-  animation: 500ms 1500ms 5000ms linear both;
+  transition-duration: 0.2s;
 }
 
 .dessert-menu:hover .check{
   cursor: pointer;
   width: 100%;
-  animation: 500ms 1500ms 5000ms linear both;
+  transition-duration: 0.2s;
 }
 
 
