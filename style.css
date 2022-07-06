@@ -755,7 +755,7 @@ footer {
 .slideInRight {
   animation-name: slideInRight;
   animation-duration: 1s;
-  animation-fill-mode: both;
+/*animation-fill-mode: both;*/
   }
 
   @-webkit-keyframes slideInRight {
@@ -786,21 +786,21 @@ footer {
   .start-menu{
     animation-name: slideInRight;
     animation-duration: 1s;
-    animation-fill-mode: both;
+   /* animation-fill-mode: both;*/
   }
   
   /**plats-menu**/
   .plats-menu {
     animation-name: slideInRight;
     animation-duration: 1s;
-    animation-fill-mode: both;
+   /* animation-fill-mode: both;*/
   }
   
   /**dessert-menu**/
   .dessert-menu {
     animation-name: slideInRight;
     animation-duration: 1s;
-    animation-fill-mode: both;
+   /**/ animation-fill-mode: both;
   }
   
 
