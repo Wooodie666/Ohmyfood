@@ -698,7 +698,7 @@ footer {
           animation-duration: 800ms 1500ms 3500ms linear both;
 }
 
-@-webkit-keyframes rotate {
+@-webkit-keyframes check {
   0% {
     opacity: 0;
     right: 5px;
@@ -713,7 +713,7 @@ footer {
   }
 }
 
-@keyframes rotate {
+@keyframes check {
   0% {
     opacity: 0;
     right: 5px;
