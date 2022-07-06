@@ -760,25 +760,19 @@ footer {
   }
 }
 /**start-menu**/
-.start-menu {
-  -webkit-animation-name: slide;
-          animation-name: slide;
+.start-menu:hover .slide {
   -webkit-animation-duration: 0, 5s;
           animation-duration: 0, 5s;
 }
 
 /**plats-menu**/
-.plats-menu {
-  -webkit-animation-name: slide;
-          animation-name: slide;
+.plats-menu:hover .slide {
   -webkit-animation-duration: 0, 5s;
           animation-duration: 0, 5s;
 }
 
 /**dessert-menu**/
-.dessert-menu {
-  -webkit-animation-name: slide;
-          animation-name: slide;
+.dessert-menu:hover .slide {
   -webkit-animation-duration: 0, 5s;
           animation-duration: 0, 5s;
 }

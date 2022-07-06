@@ -753,21 +753,19 @@ footer {
   }
 }
 
+
 /**start-menu**/
-.start-menu{
-  animation-name: slide;
+.start-menu:hover .slide{
   animation-duration: 0,5s;
 }
 
 /**plats-menu**/
-.plats-menu {
-  animation-name: slide;
+.plats-menu:hover .slide {
   animation-duration: 0,5s;
 }
 
 /**dessert-menu**/
-.dessert-menu {
-  animation-name: slide;
+.dessert-menu:hover .slide {
   animation-duration: 0,5s;
 }
 
