@@ -755,7 +755,6 @@ footer {
 .slide {
   animation-name: slide;
   animation-duration: 1s;
-/*animation-fill-mode: both;*/
   }
 
   @-webkit-keyframes slide {
