@@ -657,7 +657,6 @@ footer {
   top: -8px;
   right: -3px;
   overflow: hidden;
-  transform: rotate(180deg);
   transition-duration: 0.5s;
 }
 
