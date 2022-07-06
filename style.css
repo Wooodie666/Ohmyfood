@@ -1005,7 +1005,7 @@
   .start-1 .start-2 .start-3 .start-4 {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
 
   /**plat**/
@@ -1018,7 +1018,7 @@
   .plat-1 .plat-2 .plat-3 .plat-4 {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
 
   /**dessert**/
@@ -1031,6 +1031,6 @@
   .dessert-1 .dessert-2 .dessert-3 {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
