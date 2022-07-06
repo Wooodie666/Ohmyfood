@@ -695,7 +695,7 @@ footer {
   animation-duration: 800ms 1500ms 3500ms linear both;
 }
 
-@keyframes rotate {
+@keyframes check {
   0% {
     opacity: 0;
     right: 5px;
@@ -719,7 +719,7 @@ footer {
   }
 }
 
-/**animation pour les menus**/
+/**slide animation**/
 
 .slide {
   animation-name: slide;
