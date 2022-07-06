@@ -692,7 +692,7 @@ footer {
 
 .rotate{
   animation-name: rotate;
-  animation-duration: 800ms 1500ms 3500ms linear both;
+  transition: all 0,5s ease;
 }
 
 @keyframes check {
