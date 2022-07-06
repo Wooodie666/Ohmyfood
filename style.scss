@@ -789,13 +789,12 @@ footer {
 
 /**animation pour les menus**/
 
-.slideInRight {
-  animation-name: slideInRight;
+.slide {
+  animation-name: slide;
   animation-duration: 1s;
-  animation-fill-mode: both;
 }
 
-@-webkit-keyframes slideInRight {
+@-webkit-keyframes slide {
   0% {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -807,7 +806,7 @@ footer {
   }
 }
 
-@keyframes slideInRight {
+@keyframes slide {
   0% {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -821,23 +820,20 @@ footer {
 
 /**start-menu**/
 .start-menu{
-  animation-name: slideInRight;
+  animation-name: slide;
   animation-duration: 0,5s;
-  animation-fill-mode: both;
 }
 
 /**plats-menu**/
 .plats-menu {
-  animation-name: slideInRight;
+  animation-name: slide;
   animation-duration: 0,5s;
-  animation-fill-mode: both;
 }
 
 /**dessert-menu**/
 .dessert-menu {
-  animation-name: slideInRight;
+  animation-name: slide;
   animation-duration: 0,5s;
-  animation-fill-mode: both;
 }
 
 /**bouton commander**/
