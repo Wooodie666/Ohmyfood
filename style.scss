@@ -601,8 +601,6 @@ footer {
 }
 
 .dessert-1 {
-  &.dessert-2{
-    &.dessert-3{
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
@@ -615,7 +613,32 @@ footer {
   position: relative;
   box-shadow: 5px 5px 5px $dark-grey;
 }
+.dessert-2 {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  background-color: #fff;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  padding: 25px 1px 20px 18px;
+  position: relative;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
+
+.dessert-3 {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  background-color: #fff;
+  border: 2px solid $clear-grey;
+  border-radius: 20px;
+  padding: 25px 1px 20px 18px;
+  position: relative;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 

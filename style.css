@@ -605,15 +605,13 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: flex-start;
-  height: 100px;
   width: 70%;
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
+  padding: 25px 1px 20px 18px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
 }
 
 .dessert-3 {
@@ -625,10 +623,9 @@ footer {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
+  padding: 25px 1px 20px 18px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
 }
 
 .start-menu:hover {
@@ -991,27 +988,8 @@ footer {
   }
 }
 /***tablet***/
-@media screen and (min-width: 992px) {
-
-  /**filters**/
-  .filters-container {
-    display: flex;
-    flex-direction: column;
-    padding: 24px 30px 30px 30px;
-}
-
-/**restaurants**/
-
-.cards-restaurant{
-  padding: O%;
-}
-
-
-}
-
-
 /**mobile**/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   body {
     margin: O;
     padding: 0;
