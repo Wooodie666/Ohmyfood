@@ -991,12 +991,24 @@ footer {
   }
 }
 /***tablet***/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px)(max-width: 1200px) {
+  body {
+    margin: O;
+    padding: 0;
+  }
+
+
+
+
+
+
+
 
 }
 
+
 /**mobile**/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)(max-width: 392px) {
   body {
     margin: O;
     padding: 0;
