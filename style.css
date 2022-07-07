@@ -690,6 +690,38 @@ footer {
     right: 0px;
   }
 }
+@-webkit-keyframes check-rotate-in {
+  from {
+    transform: rotate 0deg;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes check-rotate-in {
+  from {
+    transform: rotate 0deg;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes check-rotate-out {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes check-rotate-out {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
 .fa-check-circle {
   display: flex;
   justify-content: center;
