@@ -788,15 +788,15 @@ footer {
     transform: rotate(360deg);
   }
 }
-.start-menu:hover .fa-check-circle {
+.start-menu:hover .check {
   transform: rotate(360deg);
 }
 
-.plats-menu:hover .fa-check-circle {
+.plats-menu:hover .check {
   transform: rotate(360deg);
 }
 
-.dessert-menu:hover .fa-check-circle {
+.dessert-menu:hover .check {
   transform: rotate(360deg);
 }
 
