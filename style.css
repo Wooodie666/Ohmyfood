@@ -811,7 +811,7 @@ footer {
   cursor: pointer;
 }
 
-.plats-menu:hover .check {
+.plat-1:hover .check.plat-2:hover .check.plat-3:hover .check {
   transform: rotate(360deg);
   opacity: 1;
   cursor: pointer;
