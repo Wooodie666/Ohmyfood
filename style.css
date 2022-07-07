@@ -695,66 +695,62 @@ footer {
 }
 
 /**start-menu**/
-.start-1:hover .check {
+/*.start-1:hover .check{
   width: 100%;
   cursor: pointer;
 }
-
-.start-2:hover .check {
+.start-2:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
   cursor: pointer;
 }
-
-.start-3:hover .check {
+.start-3:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
   cursor: pointer;
 }
-
-.start-4:hover .check {
+.start-4:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
   cursor: pointer;
 }
 
 /**plats-menu**/
-.plat-1:hover .check {
+/*.plat-1:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
   cursor: pointer;
 }
-
-.plat-2:hover .check {
+.plat-2:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
-  cursor: pointer;
+  transition-duration: O,3s;
+  cursor: pointer; 
 }
-
-.plat-3:hover .check {
+.plat-3:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
   cursor: pointer;
 }
 
 /**dessert-menu**/
-.dessert-1:hover .check {
+/*.dessert-1:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
+  cursor: pointer;
+}
+.dessert-2:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
   cursor: pointer;
 }
 
-.dessert-2:hover .check {
+.dessert-3:hover .check{
   width: 100%;
-  transition-duration: O, 3s;
+  transition-duration: O,3s;
   cursor: pointer;
 }
 
-.dessert-3:hover .check {
-  width: 100%;
-  transition-duration: O, 3s;
-  cursor: pointer;
-}
+
 
 /**rotate animation**/
 .rotate {
