@@ -690,6 +690,19 @@ footer {
   }
 }
 
+.check .fa-check-circle{
+  animation-name: check-rotate-in;
+  animation-duration: 0.5s;
+}
+
+
+.check .fa-check-circle{
+  animation-name: ckeck-rotate-out;
+  animation-duration: 0.5s;
+}
+
+
+
 @keyframes check-rotate-in {
   from{
     transform: rotate (0deg);

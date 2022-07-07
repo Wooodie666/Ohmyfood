@@ -690,6 +690,20 @@ footer {
     right: 0px;
   }
 }
+.check .fa-check-circle {
+  -webkit-animation-name: check-rotate-in;
+          animation-name: check-rotate-in;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.check .fa-check-circle {
+  -webkit-animation-name: ckeck-rotate-out;
+          animation-name: ckeck-rotate-out;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
 @-webkit-keyframes check-rotate-in {
   from {
     transform: rotate 0deg;
@@ -698,6 +712,7 @@ footer {
     transform: rotate(360deg);
   }
 }
+
 @keyframes check-rotate-in {
   from {
     transform: rotate 0deg;
