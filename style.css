@@ -659,10 +659,6 @@ footer {
   overflow: hidden;
   transition-duration: 0.5s;
   padding: 25px;
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
 }
 
 @-webkit-keyframes check {
