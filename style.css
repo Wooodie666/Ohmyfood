@@ -357,7 +357,7 @@ footer {
 .footer-container p {
   font-family: Shrikhand, cursive;
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 400;
   color: white;
   margin: 0 1px 17px 2px;
 }
