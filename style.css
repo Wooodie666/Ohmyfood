@@ -696,76 +696,66 @@ footer {
 }
 
 /**start-menu**/
-.start-1 {
-  -webkit-animation-name: checl;
-          animation-name: checl;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.start-1:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.start-2 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.start-2:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.start-3 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.start-3:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.start-4 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.start-4:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
 /**plats-menu**/
-.plat-1 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.plat-1:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.plat-2 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.plat-2:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.plat-3 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.plat-3:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
 /**dessert-menu**/
-.dessert-1 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.dessert-1:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.dessert-2 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.dessert-2:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
-.dessert-3 {
-  -webkit-animation-name: check;
-          animation-name: check;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.dessert-3:hover .check {
+  width: 100%;
+  transition-duration: O, 3s;
+  cursor: pointer;
 }
 
 /**rotate animation**/

@@ -696,50 +696,60 @@ footer {
 }
 
 /**start-menu**/
-.start-1{
-  animation-name: checl;
-  animation-duration: 5s;
+.start-1:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
-.start-2{
-  animation-name:check;
-  animation-duration: 5s; 
+.start-2:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
-.start-3{
-  animation-name: check;
-  animation-duration: 5s;
+.start-3:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
-.start-4{
-  animation-name: check;
-  animation-duration: 5s;
+.start-4:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
 
 /**plats-menu**/
-.plat-1{
-  animation-name: check;
-  animation-duration: 5s;
+.plat-1:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
-.plat-2{
-  animation-name: check;
-  animation-duration: 5s; 
+.plat-2:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer; 
 }
-.plat-3{
-  animation-name: check;
-  animation-duration: 5s; 
+.plat-3:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
 
 /**dessert-menu**/
-.dessert-1{
-  animation-name: check;
-  animation-duration: 5s;
+.dessert-1:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
-.dessert-2{
-  animation-name: check;
-  animation-duration: 5s;
+.dessert-2:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
 
-.dessert-3{
-  animation-name: check;
-  animation-duration: 5s;
+.dessert-3:hover .check{
+  width: 100%;
+  transition-duration: O,3s;
+  cursor: pointer;
 }
 
 
