@@ -698,7 +698,7 @@ footer {
 
 .rotate{
   animation-name: rotate;
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 
@@ -712,18 +712,15 @@ footer {
 }
 
 .start-menu:hover .fa-check-circle{
-  /*animation-duration: 500ms 1500ms 4000ms;*/
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 .plats-menu:hover .fa-check-circle{
-  /*animation-duration: 500ms 1500ms 4000ms;*/
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 .dessert-menu:hover .fa-check-circle{
- /* animation-duration: 500ms 1500ms 4000ms;*/
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 /**slide animation**/
