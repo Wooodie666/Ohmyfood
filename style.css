@@ -738,8 +738,8 @@ footer {
 .slideInRight {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 @-webkit-keyframes slideInRight {
@@ -764,73 +764,73 @@ footer {
 .start-1 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .start-2 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .start-3 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .start-4 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 /**plats-menu**/
 .plats-1 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .plats-2 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .plats-3 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 /**dessert-menu**/
 .dessert-1 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .dessert-2 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .dessert-3 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 /**bouton commander**/
