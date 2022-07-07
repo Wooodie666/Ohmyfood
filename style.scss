@@ -792,10 +792,16 @@ footer {
   }
 }
 
-.start-menu:hover .check{
+.start-1:hover .check{
+&.start-2:hover .check{
+&.start-3:hover .check{
+&.start-4:hover .check{
   transform: rotate(360deg);
   opacity: 1;
   cursor: pointer;
+}
+}
+}
 }
 
 .plats-menu:hover .check{
