@@ -768,12 +768,15 @@ footer {
 .rotate-check {
   -webkit-animation-name: rotate-check;
           animation-name: rotate-check;
-  transform: rotate(360deg);
+  transform: rotate(160deg);
 }
 
 @-webkit-keyframes rotate-check {
   0% {
     transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(160deg);
   }
   100% {
     transform: rotate(360deg);
@@ -784,20 +787,23 @@ footer {
   0% {
     transform: rotate(0deg);
   }
+  50% {
+    transform: rotate(160deg);
+  }
   100% {
     transform: rotate(360deg);
   }
 }
 .start-menu:hover .check {
-  transform: rotate(360deg);
+  transform: rotate(160deg);
 }
 
 .plats-menu:hover .check {
-  transform: rotate(360deg);
+  transform: rotate(160deg);
 }
 
 .dessert-menu:hover .check {
-  transform: rotate(360deg);
+  transform: rotate(160deg);
 }
 
 /**slide animation**/
