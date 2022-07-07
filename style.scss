@@ -748,9 +748,14 @@ footer {
 }
 .dessert-menu:hover .check{
   transform: rotate(360deg);
-  opacity: 1;
+  opacity: 0;
   cursor: pointer;
 }
+
+.dessert-1:hover.check{
+  opacity: 1;
+}
+
 
 /**slide animation**/
 
