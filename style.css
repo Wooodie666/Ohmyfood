@@ -695,6 +695,7 @@ footer {
   }
 }
 .fa-check-circle {
+  transition: all 0.5s ease;
   transform: rotate(190deg);
   transition-duration: 0.5s;
 }
