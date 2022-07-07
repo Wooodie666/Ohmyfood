@@ -991,11 +991,8 @@ footer {
   }
 }
 /***tablet***/
-@media screen and (min-width: 992px)(max-width: 1200px) {
-  body {
-    margin: O;
-    padding: 0;
-  }
+@media screen and (min-width: 992px) {
+  
 
 
 
