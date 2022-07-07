@@ -763,7 +763,9 @@ footer {
   }
 }
 /**start-menu**/
-.start-menu:hover .slideInRight {
+.start-menu {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -771,7 +773,9 @@ footer {
 }
 
 /**plats-menu**/
-.plats-menu:hover .slideInRight {
+.plats-menu {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -779,7 +783,9 @@ footer {
 }
 
 /**dessert-menu**/
-.dessert-menu:hover .slideInRight {
+.dessert-menu {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;

@@ -757,19 +757,22 @@ footer {
 
 
 /**start-menu**/
-.start-menu:hover .slideInRight{
+.start-menu{
+  animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both
 }
 
 /**plats-menu**/
-.plats-menu:hover .slideInRight {
+.plats-menu{
+  animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both
 }
 
 /**dessert-menu**/
-.dessert-menu:hover .slideInRight {
+.dessert-menu{
+  animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both
 }
