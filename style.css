@@ -769,6 +769,7 @@ footer {
   -webkit-animation-name: rotate-check;
           animation-name: rotate-check;
   transform: rotate(360deg);
+  opacity: 0;
 }
 
 @-webkit-keyframes rotate-check {
