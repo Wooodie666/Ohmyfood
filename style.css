@@ -720,21 +720,21 @@ footer {
     transform: rotate(0deg);
   }
 }
-.start-menu {
+.start-menu:hover .fa-check-circle {
   -webkit-animation-name: rotate;
           animation-name: rotate;
   -webkit-animation-duration: 500ms 1500ms 4000ms;
           animation-duration: 500ms 1500ms 4000ms;
 }
 
-.plats-menu {
+.plats-menu:hover .fa-check-circle {
   -webkit-animation-name: rotate;
           animation-name: rotate;
   -webkit-animation-duration: 500ms 1500ms 4000ms;
           animation-duration: 500ms 1500ms 4000ms;
 }
 
-.dessert-menu {
+.dessert-menu:hover .fa-check-circle {
   -webkit-animation-name: rotate;
           animation-name: rotate;
   -webkit-animation-duration: 500ms 1500ms 4000ms;
