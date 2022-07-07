@@ -662,24 +662,32 @@ footer {
 }
 
 @-webkit-keyframes check {
-  from {
-    width: 0%;
+  0% {
     opacity: 0;
+    right: 5px;
   }
-  to {
-    width: 20%;
+  50% {
+    opacity: 0, 50;
+    right: 10px;
+  }
+  100% {
     opacity: 1;
+    right: 0px;
   }
 }
 
 @keyframes check {
-  from {
-    width: 0%;
+  0% {
     opacity: 0;
+    right: 5px;
   }
-  to {
-    width: 20%;
+  50% {
+    opacity: 0, 50;
+    right: 10px;
+  }
+  100% {
     opacity: 1;
+    right: 0px;
   }
 }
 .fa-check-circle {
