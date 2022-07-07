@@ -674,20 +674,7 @@ footer {
   transition-duration: 0.5s;
   padding: 25px;
 }
-
-.fa-check-circle {
-  transform: rotate(190deg);
-  transition-duration: 0.5s; 
-}
-
-/**rotate animation**/
-
-.rotate{
-  animation-name: rotate;
-  animation-duration: 800ms 1500ms 3500ms;
-}
-
-@keyframes rotate {
+@keyframes check {
   0% {
     opacity: 0;
     right: 5px;
@@ -701,6 +688,19 @@ footer {
     right: 0px;
   }
 }
+
+.fa-check-circle {
+  transform: rotate(190deg);
+  transition-duration: 0.5s; 
+}
+
+/**rotate animation**/
+
+.rotate{
+  animation-name: rotate;
+  animation-duration: 800ms 1500ms 3500ms;
+}
+
 
 @keyframes rotate {
   0% {
