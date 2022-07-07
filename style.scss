@@ -693,12 +693,14 @@ footer {
 .check .fa-check-circle{
   animation-name: check-rotate-in;
   animation-duration: 0.5s;
+  cursor: pointer;
 }
 
 
 .check .fa-check-circle{
   animation-name: ckeck-rotate-out;
   animation-duration: 0.5s;
+  cursor: pointer;
 }
 
 

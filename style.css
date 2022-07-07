@@ -695,6 +695,7 @@ footer {
           animation-name: check-rotate-in;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
+  cursor: pointer;
 }
 
 .check .fa-check-circle {
@@ -702,6 +703,7 @@ footer {
           animation-name: ckeck-rotate-out;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
+  cursor: pointer;
 }
 
 @-webkit-keyframes check-rotate-in {
