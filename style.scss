@@ -673,7 +673,7 @@ footer {
   overflow: hidden;
   transition-duration: 0.5s;
   padding: 25px;
-  
+
 }
 @keyframes check {
   0% {
@@ -694,6 +694,55 @@ footer {
   transform: rotate(190deg);
   transition-duration: 0.5s; 
 }
+
+/**start-menu**/
+.start-1{
+  animation-name: checl;
+  animation-duration: 5s;
+}
+.start-2{
+  animation-name:check;
+  animation-duration: 5s; 
+}
+.start-3{
+  animation-name: check;
+  animation-duration: 5s;
+}
+.start-4{
+  animation-name: check;
+  animation-duration: 5s;
+}
+
+/**plats-menu**/
+.plat-1{
+  animation-name: check;
+  animation-duration: 5s;
+}
+.plat-2{
+  animation-name: check;
+  animation-duration: 5s; 
+}
+.plat-3{
+  animation-name: check;
+  animation-duration: 5s; 
+}
+
+/**dessert-menu**/
+.dessert-1{
+  animation-name: check;
+  animation-duration: 5s;
+}
+.dessert-2{
+  animation-name: check;
+  animation-duration: 5s;
+}
+
+.dessert-3{
+  animation-name: check;
+  animation-duration: 5s;
+}
+
+
 
 /**rotate animation**/
 

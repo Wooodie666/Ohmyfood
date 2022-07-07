@@ -695,6 +695,79 @@ footer {
   transition-duration: 0.5s;
 }
 
+/**start-menu**/
+.start-1 {
+  -webkit-animation-name: checl;
+          animation-name: checl;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.start-2 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.start-3 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.start-4 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+/**plats-menu**/
+.plat-1 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.plat-2 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.plat-3 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+/**dessert-menu**/
+.dessert-1 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.dessert-2 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.dessert-3 {
+  -webkit-animation-name: check;
+          animation-name: check;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
 /**rotate animation**/
 .rotate {
   -webkit-animation-name: rotate;
