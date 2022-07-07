@@ -724,13 +724,13 @@ footer {
 
 /**slide animation**/
 
-.slide {
-  animation-name: slide;
+.slideInRight {
+  animation-name: slideInRight;
   animation-duration: 1s;
   animation-fill-mode: both
 }
 
-@-webkit-keyframes slide {
+@-webkit-keyframes slideInRight{
   0% {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -742,7 +742,7 @@ footer {
   }
 }
 
-@keyframes slide {
+@keyframes slideInRight {
   0% {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -756,19 +756,19 @@ footer {
 
 
 /**start-menu**/
-.start-menu:hover .slide{
+.start-menu:hover .slideInRight{
   animation-duration: 1s;
   animation-fill-mode: both
 }
 
 /**plats-menu**/
-.plats-menu:hover .slide {
+.plats-menu:hover .slideInRight {
   animation-duration: 1s;
   animation-fill-mode: both
 }
 
 /**dessert-menu**/
-.dessert-menu:hover .slide {
+.dessert-menu:hover .slideInRight {
   animation-duration: 1s;
   animation-fill-mode: both
 }

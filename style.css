@@ -734,16 +734,16 @@ footer {
 }
 
 /**slide animation**/
-.slide {
-  -webkit-animation-name: slide;
-          animation-name: slide;
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
-@-webkit-keyframes slide {
+@-webkit-keyframes slideInRight {
   0% {
     transform: translateX(100%);
     visibility: visible;
@@ -752,7 +752,7 @@ footer {
     transform: translateX(0);
   }
 }
-@keyframes slide {
+@keyframes slideInRight {
   0% {
     transform: translateX(100%);
     visibility: visible;
@@ -762,7 +762,7 @@ footer {
   }
 }
 /**start-menu**/
-.start-menu:hover .slide {
+.start-menu:hover .slideInRight {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -770,7 +770,7 @@ footer {
 }
 
 /**plats-menu**/
-.plats-menu:hover .slide {
+.plats-menu:hover .slideInRight {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -778,7 +778,7 @@ footer {
 }
 
 /**dessert-menu**/
-.dessert-menu:hover .slide {
+.dessert-menu:hover .slideInRight {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
