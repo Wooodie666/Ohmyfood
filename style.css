@@ -763,7 +763,34 @@ footer {
   }
 }
 /**start-menu**/
-.start-menu {
+.start-1 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.start-2 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.start-3 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.start-4 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
   -webkit-animation-duration: 1s;
@@ -773,7 +800,25 @@ footer {
 }
 
 /**plats-menu**/
-.plats-menu {
+.plats-1 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.plats-2 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.plats-3 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
   -webkit-animation-duration: 1s;
@@ -783,7 +828,25 @@ footer {
 }
 
 /**dessert-menu**/
-.dessert-menu {
+.dessert-1 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.dessert-2 {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.dessert-3 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
   -webkit-animation-duration: 1s;
