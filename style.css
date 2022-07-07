@@ -699,8 +699,6 @@ footer {
 .rotate {
   -webkit-animation-name: rotate;
           animation-name: rotate;
-  -webkit-animation-duration: 500ms 1500ms 4000ms;
-          animation-duration: 500ms 1500ms 4000ms;
   transform: rotate(180deg);
 }
 
@@ -722,20 +720,17 @@ footer {
   }
 }
 .start-menu:hover .fa-check-circle {
-  -webkit-animation-duration: 500ms 1500ms 4000ms;
-          animation-duration: 500ms 1500ms 4000ms;
+  /*animation-duration: 500ms 1500ms 4000ms;*/
   transform: rotate(180deg);
 }
 
 .plats-menu:hover .fa-check-circle {
-  -webkit-animation-duration: 500ms 1500ms 4000ms;
-          animation-duration: 500ms 1500ms 4000ms;
+  /*animation-duration: 500ms 1500ms 4000ms;*/
   transform: rotate(180deg);
 }
 
 .dessert-menu:hover .fa-check-circle {
-  -webkit-animation-duration: 500ms 1500ms 4000ms;
-          animation-duration: 500ms 1500ms 4000ms;
+  /* animation-duration: 500ms 1500ms 4000ms;*/
   transform: rotate(180deg);
 }
 
