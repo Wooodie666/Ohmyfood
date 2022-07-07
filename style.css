@@ -796,14 +796,17 @@ footer {
 }
 .start-menu:hover .check {
   transform: rotate(360deg);
+  opacity: 0.5;
 }
 
 .plats-menu:hover .check {
   transform: rotate(360deg);
+  opacity: 0.5;
 }
 
 .dessert-menu:hover .check {
   transform: rotate(360deg);
+  opacity: 0.5;
 }
 
 /**slide animation**/
