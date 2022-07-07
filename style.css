@@ -991,6 +991,10 @@ footer {
   }
 }
 /***tablet***/
+@media screen and (min-width: 992px) {
+
+}
+
 /**mobile**/
 @media screen and (min-width: 768px) {
   body {
