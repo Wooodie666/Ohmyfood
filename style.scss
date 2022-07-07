@@ -764,7 +764,7 @@ footer {
 
 .rotate-check{
   animation-name: rotate-check;
-  transform: rotate(160deg);
+  transform: rotate(360deg);
 }
 
 
@@ -781,15 +781,15 @@ footer {
 }
 
 .start-menu:hover .check{
-  transform: rotate(160deg);
+  transform: rotate(360deg);
 }
 
 .plats-menu:hover .check{
-  transform: rotate(160deg);
+  transform: rotate(360deg);
 }
 
 .dessert-menu:hover .check{
-  transform: rotate(160deg);
+  transform: rotate(360deg);
 }
 
 /**slide animation**/
