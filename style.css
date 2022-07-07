@@ -740,6 +740,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @-webkit-keyframes slideInRight {
@@ -766,6 +770,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .start-2 {
@@ -773,6 +781,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .start-3 {
@@ -780,6 +792,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .start-4 {
@@ -787,6 +803,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 /**plats-menu**/
@@ -795,6 +815,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .plat-2 {
@@ -802,6 +826,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .plat-3 {
@@ -809,6 +837,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 /**dessert-menu**/
@@ -817,6 +849,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .dessert-2 {
@@ -824,6 +860,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .dessert-3 {
@@ -831,6 +871,10 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 /**bouton commander**/
