@@ -693,8 +693,6 @@ footer {
   border-radius: 0px 20px 20px 0px;
   color: #fff;
   background: #99e2d0;
-  -webkit-animation: check 1s 1s 1 both;
-          animation: check 1s 1s 1 both;
 }
 
 /**rotate animation**/
@@ -736,19 +734,16 @@ footer {
 }
 .start-menu:hover .check {
   transform: rotate(360deg);
-  opacity: 1;
   cursor: pointer;
 }
 
 .plats-menu:hover .check {
   transform: rotate(360deg);
-  opacity: 1;
   cursor: pointer;
 }
 
 .dessert-menu:hover .check {
   transform: rotate(360deg);
-  opacity: 1;
   cursor: pointer;
 }
 
