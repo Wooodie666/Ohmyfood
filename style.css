@@ -586,7 +586,7 @@ footer {
   margin-left: 16px;
 }
 
-.dessert-1 {
+.dessert-1.dessert-2.dessert-3 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
@@ -598,37 +598,6 @@ footer {
   padding: 25px 1px 20px 18px;
   position: relative;
   box-shadow: 5px 5px 5px #d3d3d3;
-}
-
-.dessert-2 {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
-  align-items: flex-start;
-  height: 100px;
-  width: 70%;
-  background-color: #fff;
-  border: 2px solid #f2f2f2;
-  border-radius: 20px;
-  padding: 25px 1px 20px 17px;
-  position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
-}
-
-.dessert-3 {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
-  background-color: #fff;
-  border: 2px solid #f2f2f2;
-  border-radius: 20px;
-  padding: 25px 1px 20px 17px;
-  position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
 }
 
 .start-menu:hover {
