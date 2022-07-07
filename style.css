@@ -685,13 +685,8 @@ footer {
   }
 }
 .fa-check-circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 0px;
-  border-radius: 0px 20px 20px 0px;
-  color: #fff;
-  background: #99e2d0;
+  transition: all 0.7s ease;
+  transform: rotate(160deg);
 }
 
 /**start-menu**/
