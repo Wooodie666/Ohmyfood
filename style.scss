@@ -693,9 +693,14 @@ footer {
 }
 
 .fa-check-circle {
-  transition: all 0.5s ease;
-  transform: rotate(190deg);
-  transition-duration: 0.5s; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  border-radius: 0px 20px 20px 0px;
+  color: #fff;
+  background: $colortertiary;
+  animation: check 1s 1s 1 both;
 }
 
 /**start-menu**/
