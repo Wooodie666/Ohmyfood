@@ -690,55 +690,6 @@ footer {
     right: 0px;
   }
 }
-.check .fa-check-circle {
-  -webkit-animation-name: check-rotate-in;
-          animation-name: check-rotate-in;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  cursor: pointer;
-}
-
-.check .fa-check-circle {
-  -webkit-animation-name: ckeck-rotate-out;
-          animation-name: ckeck-rotate-out;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  cursor: pointer;
-}
-
-@-webkit-keyframes check-rotate-in {
-  from {
-    transform: rotate 0deg;
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes check-rotate-in {
-  from {
-    transform: rotate 0deg;
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes check-rotate-out {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-@keyframes check-rotate-out {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
 .fa-check-circle {
   display: flex;
   justify-content: center;
@@ -814,27 +765,27 @@ footer {
 }
 
 /**rotate animation**/
-.rotate {
-  -webkit-animation-name: rotate;
-          animation-name: rotate;
+.rotate-check {
+  -webkit-animation-name: rotate-check;
+          animation-name: rotate-check;
   transform: rotate(360deg);
 }
 
-@-webkit-keyframes rotate {
+@-webkit-keyframes rotate-check {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 
-@keyframes rotate {
+@keyframes rotate-check {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 .start-menu:hover .fa-check-circle {

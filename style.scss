@@ -690,38 +690,6 @@ footer {
   }
 }
 
-.check .fa-check-circle{
-  animation-name: check-rotate-in;
-  animation-duration: 0.5s;
-  cursor: pointer;
-}
-
-
-.check .fa-check-circle{
-  animation-name: ckeck-rotate-out;
-  animation-duration: 0.5s;
-  cursor: pointer;
-}
-
-
-
-@keyframes check-rotate-in {
-  from{
-    transform: rotate (0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes check-rotate-out{
-  from{
-    transform: rotate(360deg);
-  }
-  to{
-    transform: rotate(0deg);
-  }
-}
 
 .fa-check-circle {
   display: flex; 
@@ -794,18 +762,18 @@ footer {
 
 /**rotate animation**/
 
-.rotate{
-  animation-name: rotate;
+.rotate-check{
+  animation-name: rotate-check;
   transform: rotate(360deg);
 }
 
 
-@keyframes rotate {
+@keyframes rotate-check {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 
