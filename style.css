@@ -658,6 +658,7 @@ footer {
   right: -425px;
   overflow: hidden;
   transition-duration: 0.5s;
+  opacity: 0;
   padding: 25px;
 }
 
