@@ -814,10 +814,14 @@ footer {
 }
 }
 
-.dessert-menu:hover .check{
+.dessert-1:hover .check{
+&.dessert-2:hover .check{
+&.dessert-3:hover .check{
   transform: rotate(360deg);
   opacity: 1;
   cursor: pointer;
+}
+}
 }
 
 /**slide animation**/
