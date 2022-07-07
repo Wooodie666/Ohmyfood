@@ -790,21 +790,21 @@ footer {
 }
 
 /**plats-menu**/
-.plats-1 {
+.plat-1 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
 }
 
-.plats-2 {
+.plat-2 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
 }
 
-.plats-3 {
+.plat-3 {
   -webkit-animation-name: slideInRight;
           animation-name: slideInRight;
   -webkit-animation-duration: 5s;
