@@ -638,7 +638,6 @@ footer {
   font-size: 20px;
   overflow: hidden;
   transition-duration: 0.5s;
-  opacity: 0;
 }
 
 @-webkit-keyframes check {
