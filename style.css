@@ -294,6 +294,7 @@ a {
   position: relative;
 }
 
+/**badge**/
 .badge {
   display: flex;
   align-items: center;
