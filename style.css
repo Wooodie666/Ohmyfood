@@ -665,8 +665,8 @@ footer {
   }
 }
 .fa-check-circle {
-  transition: all 0.7s ease;
-  transform: rotate(180deg);
+  -webkit-animation-duration: 0, 5s 1s 1 both rotate;
+          animation-duration: 0, 5s 1s 1 both rotate;
 }
 
 /**start-menu**/
