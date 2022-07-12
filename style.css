@@ -672,25 +672,25 @@ footer {
 /**start-menu**/
 .start-1:hover .check {
   width: 100px;
-  transition-duration: 0, 3s;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .start-2:hover .check {
   width: 100px;
-  transition-duration: 0, 3s;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .start-3:hover .check {
   width: 100px;
-  transition-duration: 0, 3s;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .start-4:hover .check {
   width: 100px;
-  transition-duration: 0, 3s;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
