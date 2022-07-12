@@ -731,25 +731,23 @@ footer {
 
 /**rotate animation**/
 
-.rotate-check{
-  animation-name: rotate-check;
+.rotate{
+  animation-name: rotate;
   transform: rotate(180deg);
-  opacity: 0;
+  
 }
 
 
-@keyframes rotate-check {
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
-    opacity: 0;
   }
   50% {
     transform: rotate(160deg);
-    opacity: 0,5;
   }
   100%{
     transform: rotate(360deg);
-    opacity: 1;
+    
   }
 }
 
