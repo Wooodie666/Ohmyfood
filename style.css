@@ -518,8 +518,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
