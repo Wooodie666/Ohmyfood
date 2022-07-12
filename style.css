@@ -456,12 +456,10 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px #d3d3d3;
 }
 
@@ -469,42 +467,36 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 .start-3 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 .start-4 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid #f2f2f2;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 /**plats**/
