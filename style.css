@@ -674,7 +674,7 @@ footer {
 }
 .fa-check-circle {
   transition: all 0.7s ease;
-  transform: rotate(250deg);
+  transform: rotate(180deg);
 }
 
 /**start-menu**/
@@ -744,7 +744,7 @@ footer {
 .rotate-check {
   -webkit-animation-name: rotate-check;
           animation-name: rotate-check;
-  transform: rotate(360deg);
+  transform: rotate(180deg);
   opacity: 0;
 }
 
@@ -778,19 +778,19 @@ footer {
   }
 }
 .start-menu:hover .check {
-  transform: rotate(360deg);
+  transform: rotate(180deg);
   opacity: 1;
   cursor: pointer;
 }
 
 .plats-menu:hover .check {
-  transform: rotate(360deg);
+  transform: rotate(180deg);
   opacity: 1;
   cursor: pointer;
 }
 
 .dessert-menu:hover .check {
-  transform: rotate(360deg);
+  transform: rotate(180deg);
   opacity: 1;
   cursor: pointer;
 }
