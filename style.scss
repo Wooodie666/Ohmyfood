@@ -294,15 +294,17 @@ a {
   border: 0 solid transparent;
 }
 /**restaurant-1**/
-
-.jay-wennington-N_Y88TWmGwA-unsplash.jpg{
+.card-image img{
   position: relative;
+  background-image: url(jay-wennington-N_Y88TWmGwA-unsplash.jpg);
 }
+
 /**restaurant-2**/
-
-.stil-u2Lp8tXIcjw-unsplash.jpg{
+.card-image img{
+  background-image: url(stil-u2Lp8tXIcjw-unsplash.jpg);
   position: relative;
 }
+
 /**badge**/
 .badge {
   display: flex;
