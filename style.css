@@ -944,14 +944,14 @@ footer {
 }
 
 /**heart animation**/
-.heart .cards-restaurant {
+/*.heart .cards-restaurant {
   top: 30px;
   right: 78px;
-}
+}*/
 
 .heart {
   position: absolute;
-  top: 63px;
+  top: 30px;
   right: 78px;
   cursor: pointer;
 }
