@@ -1097,6 +1097,7 @@ footer {
   .container-menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .container-menu h1 {
@@ -1118,6 +1119,7 @@ footer {
   .start-menu {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .start-1 .start-2 .start-3 .start-4 {
@@ -1130,6 +1132,7 @@ footer {
   .plats-menu {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .plat-1 .plat-2 .plat-3 .plat-4 {
@@ -1142,6 +1145,7 @@ footer {
   .dessert-menu {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .dessert-1 .dessert-2 .dessert-3 {
