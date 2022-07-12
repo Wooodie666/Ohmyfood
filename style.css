@@ -1167,4 +1167,9 @@ footer {
     flex-direction: column;
     width: 100%;
   }
+
+  /**check**/
+  .check {
+    left: 400px;
+  }
 }/*# sourceMappingURL=style.css.map */
