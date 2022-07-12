@@ -1048,6 +1048,23 @@ footer {
   }
 }
 /***tablet***/
+@media screen and (min-width: 1119px) {
+  /**image menus-restaurants**/
+  .picture-container {
+    max-width: 100%;
+    max-height: 32em;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  /**menu**/
+  .container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 /**mobile**/
 @media screen and (min-width: 768px) {
   body {
