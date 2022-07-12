@@ -669,8 +669,19 @@ footer {
 }
 
 .start-1:hover .fa-check-circle {
-  -webkit-animation: 0.5s 1s 1 both rotate;
-          animation: 0.5s 1s 1 both rotate;
+  transform: rotate(180deg);
+}
+
+.start-2:hover .fa-check-circle {
+  transform: rotate(180deg);
+}
+
+.start-3:hover .fa-check-circle {
+  transform: rotate(180deg);
+}
+
+.start-4:hover .fa-check-circle {
+  transform: rotate(180deg);
 }
 
 /**start-menu**/
