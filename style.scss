@@ -535,9 +535,7 @@ footer {
   align-items: center;
   width: 100%;
   background-color: #fff;
-  border: 2px solid $clear-grey;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px $dark-grey;
 }
 
@@ -545,28 +543,24 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid $clear-grey;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px $dark-grey;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 .plat-3 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid $clear-grey;
   border-radius: 20px;
-  padding: 25px 1px 20px 17px;
   box-shadow: 5px 5px 5px $dark-grey;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 /**dessert**/
@@ -575,10 +569,11 @@ footer {
   flex-direction: column;
   width: 100%;
   transform-origin: top;
-  margin-top: -20px;
+  margin-top: 15px;
 }
 
 .dessert-text {
+  flex: 1;
   margin-right: 16px;
   margin-left: 16px;
   position: relative;
@@ -588,40 +583,35 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid $clear-grey;
   border-radius: 20px;
-  padding: 25px 1px 20px 18px;
   box-shadow: 5px 5px 5px $dark-grey;
 }
+
 .dessert-2 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid $clear-grey;
   border-radius: 20px;
-  padding: 25px 1px 20px 18px;
   box-shadow: 5px 5px 5px $dark-grey;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 .dessert-3 {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: flex-start;
-  width: 70%;
+  align-items: center;
+  width: 100%;
   background-color: #fff;
-  border: 2px solid $clear-grey;
   border-radius: 20px;
-  padding: 25px 1px 20px 18px;
   box-shadow: 5px 5px 5px $dark-grey;
-  margin-top: -48px;
+  margin-top: 15px;
 }
 
 
