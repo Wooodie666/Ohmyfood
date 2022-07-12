@@ -696,39 +696,39 @@ footer {
 
 /**plats-menu**/
 .plat-1:hover .check {
-  width: 100%;
-  transition-duration: 0, 3s;
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .plat-2:hover .check {
-  width: 100%;
-  transition-duration: 0, 3s;
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .plat-3:hover .check {
-  width: 100%;
-  transition-duration: 0, 3s;
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 /**dessert-menu**/
 .dessert-1:hover .check {
-  width: 100%;
-  transition-duration: 0, 3s;
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .dessert-2:hover .check {
-  width: 100%;
-  transition-duration: 0, 3s;
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
 .dessert-3:hover .check {
-  width: 100%;
-  transition-duration: 0, 3s;
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
 }
 
