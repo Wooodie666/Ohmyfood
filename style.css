@@ -510,6 +510,7 @@ footer {
 }
 
 .plat-text {
+  flex: 1;
   margin-left: 16px;
   margin-right: 16px;
   position: relative;
