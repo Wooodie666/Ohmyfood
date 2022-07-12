@@ -166,7 +166,7 @@ a {
 
 .filters-container ol {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0px 17px 10px 1px;
 }
@@ -176,7 +176,7 @@ a {
   justify-content: space-between;
   border: 2px solid $clear-grey;
   height: 60px;
-  width: 310px;
+  width: 100%;
   font-weight: bold;
   cursor: pointer;
   padding: 5px;
