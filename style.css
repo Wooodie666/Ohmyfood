@@ -668,6 +668,11 @@ footer {
           animation: 0.5s 1s 1 both rotate;
 }
 
+.start-1:hover .fa-check-circle {
+  -webkit-animation: 0.5s 1s 1 both rotate;
+          animation: 0.5s 1s 1 both rotate;
+}
+
 /**start-menu**/
 .start-1:hover .check {
   width: 100px;
