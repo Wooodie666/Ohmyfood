@@ -904,10 +904,6 @@ footer {
 }
 
 /**heart animation**/
-/*.heart .cards-restaurant{
-  top: 30px;
-  right: 78px;
-}*/
 .heart {
   position: absolute;
   top: 30px;
@@ -1069,14 +1065,10 @@ footer {
     background-color: #f2f2f2;
   }
 
-  /**heart**/
-  /*.heart{
-    top: 64px;
-    right: 312px;
-  }*/
   /**container menus**/
   .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
     display: flex;
+    flex-direction: column;
     align-content: space-around;
   }
 
@@ -1139,9 +1131,4 @@ footer {
     flex-direction: column;
     width: 100%;
   }
-
-  /**check**/
-  /*.check{
-    left:400px;
-  }*/
 }/*# sourceMappingURL=style.css.map */
