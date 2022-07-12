@@ -626,6 +626,7 @@ footer {
 
 /**animation check**/
 .check {
+  width: 0px;
   height: 92px;
   display: flex;
   align-items: center;
@@ -670,25 +671,25 @@ footer {
 
 /**start-menu**/
 .start-1:hover .check {
-  width: 100%;
+  width: 100px;
   transition-duration: 0, 3s;
   cursor: pointer;
 }
 
 .start-2:hover .check {
-  width: 100%;
+  width: 100px;
   transition-duration: 0, 3s;
   cursor: pointer;
 }
 
 .start-3:hover .check {
-  width: 100%;
+  width: 100px;
   transition-duration: 0, 3s;
   cursor: pointer;
 }
 
 .start-4:hover .check {
-  width: 100%;
+  width: 100px;
   transition-duration: 0, 3s;
   cursor: pointer;
 }
