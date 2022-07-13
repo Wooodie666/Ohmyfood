@@ -654,25 +654,25 @@ footer {
   }
 }
 .fa-check-circle {
-  /*animation: 0.5s 1s 1 ease rotate;*/
-  transform: rotate(-1turn);
-  transition: 0.4s ease-in;
+  -webkit-animation: 0.5s 1s 2 both rotate;
+          animation: 0.5s 1s 2 both rotate;
+  transform: rotate(1turn);
 }
 
 .start-1:hover .fa-check-circle {
-  transform: rotate(-1turn);
+  transform: rotate(1turn);
 }
 
 .start-2:hover .fa-check-circle {
-  transform: rotate(-1turn);
+  transform: rotate(1turn);
 }
 
 .start-3:hover .fa-check-circle {
-  transform: rotate(-1turn);
+  transform: rotate(1turn);
 }
 
 .start-4:hover .fa-check-circle {
-  transform: rotate(-1turn);
+  transform: rotate(1turn);
 }
 
 /**start-menu**/
