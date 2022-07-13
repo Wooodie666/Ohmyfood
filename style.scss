@@ -658,12 +658,12 @@ footer {
 
 .fa-check-circle {
   animation: 0.5s 1s 1 both rotate;
-  transition: all 0.7s ease;
-  transform: rotate(180deg); 
+  
 }
 
 .start-1:hover .fa-check-circle{
   transform: rotate(180deg); 
+  transition: all -1.3s ease;  
 }
 .start-2:hover .fa-check-circle{
   transform: rotate(180deg); 
