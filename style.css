@@ -654,13 +654,12 @@ footer {
   }
 }
 .fa-check-circle {
-  -webkit-animation: 0.5s 1s 1 rotate;
-          animation: 0.5s 1s 1 rotate;
+  -webkit-animation: 0.5s 1s 1 ease rotate;
+          animation: 0.5s 1s 1 ease rotate;
 }
 
 .start-1:hover .fa-check-circle {
   transform: rotate(180deg);
-  transition: all -1.3s ease;
 }
 
 .start-2:hover .fa-check-circle {
