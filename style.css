@@ -432,9 +432,17 @@ footer {
 .list-title h2 {
   position: relative;
   font-weight: 400;
-  border-bottom: 3px solid #99e2d0;
   margin: 28px;
   text-transform: uppercase;
+}
+
+.list-title h2::after {
+  position: absolute;
+  height: 3px;
+  width: 40px;
+  bottom: 0;
+  left: 7px;
+  background: #99e2d0;
 }
 
 /**start**/
