@@ -654,8 +654,8 @@ footer {
   }
 }
 .fa-check-circle {
-  -webkit-animation: 0.5s 1s 1 both rotate;
-          animation: 0.5s 1s 1 both rotate;
+  -webkit-animation: 0.5s 1s 1 rotate;
+          animation: 0.5s 1s 1 rotate;
 }
 
 .start-1:hover .fa-check-circle {
