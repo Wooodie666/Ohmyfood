@@ -664,7 +664,7 @@ h2 {
 .fa-check-circle {
   -webkit-animation: 0.5s 1s 2 both rotate;
           animation: 0.5s 1s 2 both rotate;
-  transform: rotate(360deg);
+  transform: rotate(180deg);
 }
 
 .start-1:hover .fa-check-circle {
