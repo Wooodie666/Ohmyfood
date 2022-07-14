@@ -663,34 +663,62 @@ h2 {
 }
 .fa-check-circle {
   -webkit-animation: 0.5s 1s 1 both rotate;
-          animation: 0.5s 1s 2 both rotate;
+          animation: 0.5s 1s 1 both rotate;
   transform: rotate(160deg);
+  transform-origin: right bottom;
 }
 
 /**start**/
 .start-1:hover .fa-check-circle {
   cursor: pointer;
   transform: rotate(160deg);
+  transition: all 0.7s ease;
 }
 
 .start-2:hover .fa-check-circle {
   cursor: pointer;
   transform: rotate(160deg);
+  transition: all 0.7s ease;
 }
 
 .start-3:hover .fa-check-circle {
   cursor: pointer;
   transform: rotate(160deg);
+  transition: all 0.7s ease;
 }
 
 .start-4:hover .fa-check-circle {
   cursor: pointer;
   transform: rotate(160deg);
+  transition: all 0.7s ease;
 }
 
 /**plat**/
-/**
-.
+.plat-1:hover .fa-check-circle {
+  cursor: pointer;
+}
+
+.plat-2:hover .fa-check-circle {
+  cursor: pointer;
+}
+
+.plat-3:hover .fa-check-circle {
+  cursor: pointer;
+}
+
+/**dessert**/
+.dessert-1:hover .fa-check-circle {
+  cursor: pointer;
+}
+
+.dessert-2:hover .fa-check-circle {
+  cursor: pointer;
+}
+
+.dessert-3:hover .fa-check-circle {
+  cursor: pointer;
+}
+
 /**start-menu**/
 .start-1:hover .check {
   width: 100px;
@@ -768,7 +796,7 @@ h2 {
 .rotate {
   -webkit-animation-name: rotate;
           animation-name: rotate;
-  transform: rotate(180deg);
+  transform: rotate(160deg);
 }
 
 @-webkit-keyframes rotate {
