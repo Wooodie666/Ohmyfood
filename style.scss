@@ -666,24 +666,24 @@ footer {
 
 .fa-check-circle {
   animation: 0.5s 1s 2 both rotate;
-  transform: rotate(200deg);
+  transform: rotate(360deg);
   
 }
 
 .start-1:hover .fa-check-circle{
-  transform: rotate(200deg); 
+  transform: rotate(180deg); 
   cursor: pointer;
 }
 .start-2:hover .fa-check-circle{
-  transform: rotate(200deg); 
+  transform: rotate(180deg); 
   cursor: pointer;
 }
 .start-3:hover .fa-check-circle{ 
-  transform: rotate(200deg); 
+  transform: rotate(180deg); 
   cursor: pointer; 
 }
 .start-4:hover .fa-check-circle{
-  transform: rotate(200deg); 
+  transform: rotate(180deg); 
   cursor: pointer;
 }
 
