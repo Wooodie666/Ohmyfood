@@ -443,21 +443,20 @@ footer {
 }
 
  .list-title h2 {
-  position: relative;
+  position:relative;
   font-weight: 400;
   margin: 36px;
   text-transform: uppercase;
 }
-
-  h2{
-  position: absolute;
-  height: 3px;
-  width: 40px;
-  bottom: -3px;
-  left: 7px;
-  background-color: $colortertiary;
-}
-
+.list-title h2::after{
+position: absolute;
+content: "";
+width: 45px;
+height: 3px;
+bottom: 0;
+left: 2%;
+background-color: $colortertiary;
+} 
 /**start**/
 .start-menu {
   display: flex;
@@ -466,6 +465,7 @@ footer {
   transform: top;
   margin-top: 20px;
 }
+
 
 .start-text {
   flex: 1;
