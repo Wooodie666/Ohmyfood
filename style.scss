@@ -1025,7 +1025,7 @@ transform: rotate(160deg);
 }
 
 /***tablet***/
-@media screen and (min-width: 1119px){
+@media screen and (min-width: 768px){
 
   /**image menus-restaurants**/
   .picture-container{
@@ -1046,7 +1046,7 @@ transform: rotate(160deg);
 
 
 /**mobile**/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   body {
     margin: O;
     padding: 0;
