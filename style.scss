@@ -666,7 +666,8 @@ footer {
 
 .fa-check-circle {
   animation: 0.5s 1s 1 both rotate;
-  transform: rotate(180deg);
+  transform: rotate(160deg);
+  transition: all 0.7s ease;
   
 }
  /**start**/
@@ -782,8 +783,7 @@ cursor: pointer;
 
 .rotate{
   animation-name: rotate;
-  transform: rotate(180deg); 
-  animation: 0.5s 1s 1 both rotate;
+  transform: rotate(160deg); 
 }
 
 @keyframes rotate {
