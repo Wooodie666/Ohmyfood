@@ -667,7 +667,7 @@ footer {
 .fa-check-circle {
   animation: 0.5s 1s 1 both rotate;
   transform: rotate(160deg);
-  transition: all 0.7s ease;
+  transform-origin: right bottom;
   
 }
  /**start**/
