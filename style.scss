@@ -1050,10 +1050,10 @@ transform: rotate(160deg);
 
 /**mobile**/
 @media screen and (min-width: 320px) {
-  body {
-    margin: O;
-    padding: 0;
-  }
+  html,body{
+    width:100%;
+    overflow-x:hidden;
+    }
 
   /**navbar**/
 
