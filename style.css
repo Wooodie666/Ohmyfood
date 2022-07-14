@@ -667,6 +667,7 @@ h2 {
   transform: rotate(180deg);
 }
 
+/**start**/
 .start-1:hover .fa-check-circle {
   cursor: pointer;
 }
@@ -683,6 +684,9 @@ h2 {
   cursor: pointer;
 }
 
+/**plat**/
+/**
+.
 /**start-menu**/
 .start-1:hover .check {
   width: 100px;
