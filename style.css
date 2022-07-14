@@ -89,7 +89,7 @@ a {
   height: 10px;
   cursor: text;
   padding: 25px;
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 .search-bar a {
@@ -111,7 +111,7 @@ a {
 .nav-bar {
   padding: 45px;
   text-align: center;
-  background-color: #d3d3d3;
+  background-color: #f2f2f2;
 }
 
 .nav-bar p {

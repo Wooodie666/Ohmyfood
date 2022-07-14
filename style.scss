@@ -7,6 +7,7 @@ $colortertiary: #99e2d0;
 $font-size-footer: 18px;
 $clear-grey: #f2f2f2;
 $dark-grey: #d3d3d3;
+$clear: #ffff;
 
 /*::before, ::after {
   margin: 0;
@@ -89,7 +90,7 @@ a {
   height: 10px;
   cursor: text;
   padding: 25px;
-  background-color: $clear-grey;
+  background-color: $clear;
 }
 
 .search-bar a {
@@ -111,7 +112,7 @@ a {
 .nav-bar {
   padding: 45px;
   text-align: center;
-  background-color: $dark-grey;
+  background-color: $clear-grey;
 }
 
 .nav-bar p {
