@@ -662,26 +662,30 @@ h2 {
   }
 }
 .fa-check-circle {
-  -webkit-animation: 0.5s 1s 2 both rotate;
+  -webkit-animation: 0.5s 1s 1 both rotate;
           animation: 0.5s 1s 2 both rotate;
-  transform: rotate(180deg);
+  transform: rotate(160deg);
 }
 
 /**start**/
 .start-1:hover .fa-check-circle {
   cursor: pointer;
+  transform: rotate(160deg);
 }
 
 .start-2:hover .fa-check-circle {
   cursor: pointer;
+  transform: rotate(160deg);
 }
 
 .start-3:hover .fa-check-circle {
   cursor: pointer;
+  transform: rotate(160deg);
 }
 
 .start-4:hover .fa-check-circle {
   cursor: pointer;
+  transform: rotate(160deg);
 }
 
 /**plat**/
