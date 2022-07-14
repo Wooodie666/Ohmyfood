@@ -666,53 +666,54 @@ footer {
 
 .fa-check-circle {
   animation: 0.5s 1s 1 both rotate;
-  transform: rotate(160deg);
-  transform-origin: right bottom;
-  
+  transform: rotate(160deg); 
 }
+
  /**start**/
 .start-1:hover .fa-check-circle{ 
   cursor: pointer;
   transform: rotate(160deg);
-  transition: all 0.7s ease;
 }
 .start-2:hover .fa-check-circle{ 
   cursor: pointer;
   transform: rotate(160deg);
-  transition: all 0.7s ease;
 }
 .start-3:hover .fa-check-circle{ 
   cursor: pointer; 
   transform: rotate(160deg);
-  transition: all 0.7s ease;
 }
 .start-4:hover .fa-check-circle{ 
   cursor: pointer;
   transform: rotate(160deg);
-  transition: all 0.7s ease;
 }
 
 /**plat**/
 
 .plat-1:hover .fa-check-circle{
 cursor: pointer;
+transform: rotate(160deg);
 }
 .plat-2:hover .fa-check-circle{
 cursor: pointer;
+transform: rotate(160deg);
 }
 .plat-3:hover .fa-check-circle{
 cursor: pointer;
+transform: rotate(160deg);
 }
 
 /**dessert**/
 .dessert-1:hover .fa-check-circle{
 cursor: pointer;
+transform: rotate(160deg);
 }
 .dessert-2:hover .fa-check-circle{
 cursor: pointer;
+transform: rotate(160deg);
 }
 .dessert-3:hover .fa-check-circle{
 cursor: pointer;
+transform: rotate(160deg);
 }
 
 /**start-menu**/
