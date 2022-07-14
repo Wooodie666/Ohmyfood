@@ -1188,4 +1188,9 @@ footer {
     flex-direction: column;
     width: 100%;
   }
+
+  .heart {
+    top: 36px;
+    right: 1px;
+  }
 }/*# sourceMappingURL=style.css.map */
