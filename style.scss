@@ -669,54 +669,55 @@ background-color: $colortertiary;
 
 .fa-check-circle {
   animation: 0.5s 1s 1 both rotate;
-  transform: rotate(160deg); 
+  transform: translateX(180px) rotate(180deg);
+
 }
 
  /**start**/
 .start-1:hover .fa-check-circle{ 
   cursor: pointer;
-  transform: rotate(160deg);
+  transform: rotate(180deg);
 }
 .start-2:hover .fa-check-circle{ 
   cursor: pointer;
-  transform: rotate(160deg);
+  transform: rotate(180deg);
 }
 .start-3:hover .fa-check-circle{ 
   cursor: pointer; 
-  transform: rotate(160deg);
+  transform: rotate(180deg);
 }
 .start-4:hover .fa-check-circle{ 
   cursor: pointer;
-  transform: rotate(160deg);
+  transform: rotate(180deg);
 }
 
 /**plat**/
 
 .plat-1:hover .fa-check-circle{
 cursor: pointer;
-transform: rotate(160deg);
+transform: rotate(180deg);
 }
 .plat-2:hover .fa-check-circle{
 cursor: pointer;
-transform: rotate(160deg);
+transform: rotate(180deg);
 }
 .plat-3:hover .fa-check-circle{
 cursor: pointer;
-transform: rotate(160deg);
+transform: rotate(180deg);
 }
 
 /**dessert**/
 .dessert-1:hover .fa-check-circle{
 cursor: pointer;
-transform: rotate(160deg);
+transform: rotate(180deg);
 }
 .dessert-2:hover .fa-check-circle{
 cursor: pointer;
-transform: rotate(160deg);
+transform: rotate(180deg);
 }
 .dessert-3:hover .fa-check-circle{
 cursor: pointer;
-transform: rotate(160deg);
+transform: rotate(180deg);
 }
 
 /**start-menu**/
