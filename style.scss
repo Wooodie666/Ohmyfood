@@ -803,8 +803,8 @@ background-color: $colortertiary;
 
 @-webkit-keyframes slideInRight{
   0% {
-    -webkit-transform: translateY(-20);
-    transform: translateY(-20);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
     opacity: 0;
   }
   100% {
@@ -816,8 +816,8 @@ background-color: $colortertiary;
 
 @keyframes slideInRight {
   0% {
-    -webkit-transform: translateY(-20);
-    transform: translateY(-20);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
     opacity: 0;
   }
   100% {
@@ -832,18 +832,22 @@ background-color: $colortertiary;
 .start-1{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .start-2{
   animation-name: slideInRight;
   animation-duration: 0.5s; 
+  animation-delay: 1s;
 }
 .start-3{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+  animation-delay: 1.5s;
 }
 .start-4{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+   animation-delay: 2s;
 }
 
 /**plats-menu**/
