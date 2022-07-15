@@ -851,6 +851,8 @@ footer {
           animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .start-2 {
@@ -860,6 +862,8 @@ footer {
           animation-duration: 0.5s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .start-3 {
@@ -869,6 +873,8 @@ footer {
           animation-duration: 0.5s;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .start-4 {
@@ -886,6 +892,8 @@ footer {
           animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .plat-2 {

@@ -833,27 +833,33 @@ background-color: $colortertiary;
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 0.5s;
+  animation-fill-mode: both;
+
 }
 .start-2{
   animation-name: slideInRight;
   animation-duration: 0.5s; 
   animation-delay: 1s;
+  animation-fill-mode: both;
 }
 .start-3{
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 1.5s;
+  animation-fill-mode: both;
 }
 .start-4{
   animation-name: slideInRight;
   animation-duration: 0.5s;
    animation-delay: 2s;
+   animation-fill-mode: both;
 }
 
 /**plats-menu**/
 .plat-1{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+  animation-delay: 2.5s;
 }
 .plat-2{
   animation-name: slideInRight;
