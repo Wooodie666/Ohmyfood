@@ -855,6 +855,8 @@ background-color: $colortertiary;
    animation-fill-mode: both;
 }
 
+
+
 /**plats-menu**/
 .plat-1{
   animation-name: slideInRight;
@@ -864,25 +866,30 @@ background-color: $colortertiary;
 .plat-2{
   animation-name: slideInRight;
   animation-duration: 0.5s; 
+  animation-delay: 3s;
 }
 .plat-3{
   animation-name: slideInRight;
   animation-duration: 0.5s; 
+  animation-delay: 3.5s;
 }
 
 /**dessert-menu**/
 .dessert-1{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+  animation-delay: 4s;
 }
 .dessert-2{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+  animation-delay: 4.5s;
 }
 
 .dessert-3{
   animation-name: slideInRight;
   animation-duration: 0.5s;
+  animation-delay: 5s;
 }
 
 /**bouton commander**/
