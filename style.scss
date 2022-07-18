@@ -470,6 +470,11 @@ background-color: $colortertiary;
   margin-top: 20px;
 }
 
+.start-text p h3{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 .start-text {
   flex: 1;
@@ -533,6 +538,11 @@ background-color: $colortertiary;
   transform: top;
   margin-top: -20px;
 }
+.plat-text p h3{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 .plat-text {
   flex: 1;
@@ -583,6 +593,12 @@ background-color: $colortertiary;
   width: 100%;
   transform-origin: top;
   margin-top: 15px;
+}
+
+.dessert-text p h3{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .dessert-text {
