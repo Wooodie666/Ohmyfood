@@ -292,14 +292,14 @@ a {
   object-position: center;
   border: 0 solid transparent;
 }
-/**restaurant-1**/
+/**restaurant-1-2**/
 .card{
   position: relative;
   width: 48%;
 
 }
 
-/**restaurant-2**/
+/**restaurant-3-4**/
 .card{
   position: relative;
   width: 48%;
@@ -1066,6 +1066,10 @@ background-color: $colortertiary;
   align-items: center;
 }
 
+.card{
+  width: 22%; 
+ }
+
 .cards-restaurant .heart{
   top: 33px;
   right: 33px;
@@ -1137,8 +1141,14 @@ background-color: $colortertiary;
   }
 
   .cards-restaurant {
+    display: flex;
+    flex-direction: column;
     margin-right: 30px;
     margin-left: 30px;
+  }
+
+  .card{
+   width: 100%; 
   }
 
   .card-text {
