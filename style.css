@@ -451,10 +451,10 @@ footer {
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
   transform: top;
-  margin-top: 20px;
 }
 
 .start-text p h3{
@@ -475,10 +475,11 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-top: 15px;
 }
 
 .start-2 {
@@ -486,7 +487,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -498,7 +499,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -510,7 +511,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -520,10 +521,10 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
   transform: top;
-  margin-top: -20px;
 }
 
 .plat-text p h3{
@@ -544,10 +545,11 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-top: 15px;
 }
 
 .plat-2 {
@@ -555,7 +557,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -567,7 +569,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -577,10 +579,10 @@ footer {
 /**dessert**/
 .dessert-menu {
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
   transform-origin: top;
-  margin-top: 15px;
 }
 
 .dessert-text p h3{
@@ -601,10 +603,11 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-top: 15px;
 }
 
 .dessert-2 {
@@ -612,7 +615,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -624,7 +627,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
