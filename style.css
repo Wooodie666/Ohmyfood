@@ -1176,8 +1176,14 @@ footer {
   }
 
   .cards-restaurant {
+    display: flex;
+    flex-direction: column;
     margin-right: 30px;
     margin-left: 30px;
+  }
+
+  .card{
+   width: 100%; 
   }
 
   .card-text {
@@ -1227,6 +1233,7 @@ footer {
     top: 40px;
     right: 8px;
   }
+
 
   .container-menu .heart {
     top: 65px;
