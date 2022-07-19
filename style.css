@@ -157,8 +157,7 @@ a {
 
 .filters-container ol {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
   padding: 0px 17px 10px 1px;
 }
 
