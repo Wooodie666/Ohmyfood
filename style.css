@@ -1136,6 +1136,23 @@ footer {
   .card{
     width: 22%;
   }
+
+  .start-1 .start-2 .start-3 .start-4{
+    display: flexbox;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .plat-1 .plat-2 .plat-3 .plat-4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dessert-1 .dessert-2 .dessert-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 /**mobile**/
 @media screen and (min-width: 320px) and (max-width: 768px) {
