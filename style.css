@@ -433,6 +433,7 @@ footer {
 
 .list-title h2 {
   position: relative;
+  width: 100%;
   font-weight: 400;
   margin: 36px;
   text-transform: uppercase;
