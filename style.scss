@@ -1081,8 +1081,13 @@ background-color: $colortertiary;
 }
 
 .start-menu{
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
 }
 
 
@@ -1214,7 +1219,7 @@ flex-direction: row;
 .dessert-1 .dessert-2 .dessert-3{
   display: flex;
   flex-direction: column;
-} 
+} */
 
 .cards-restaurant .heart{
   top: 40px;
