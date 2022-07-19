@@ -465,8 +465,7 @@ background-color: $colortertiary;
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   transform: top;
   margin-top: 20px;
 }
