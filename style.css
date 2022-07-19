@@ -1115,6 +1115,10 @@ footer {
     top: 33px;
     right: 33px;
   }
+  .cards-restaurant{
+    display: flex;
+    flex-direction: row;
+  }
 }
 /**mobile**/
 @media screen and (min-width: 320px) and (max-width: 768px) {
