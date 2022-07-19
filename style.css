@@ -452,7 +452,9 @@ footer {
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
   transform: top;
   margin-top: 20px;
 }
@@ -475,11 +477,11 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  margin-right: 35px;
+  margin-top: 15px;
 }
 
 .start-2 {
@@ -487,7 +489,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -499,7 +501,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -511,7 +513,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -521,7 +523,9 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   transform: top;
   margin-top: -20px;
@@ -544,10 +548,11 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-top: 15px;
 }
 
 .plat-2 {
@@ -555,7 +560,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -567,7 +572,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -577,7 +582,9 @@ footer {
 /**dessert**/
 .dessert-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   transform-origin: top;
   margin-top: 15px;
@@ -601,10 +608,11 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-top: 15px;
 }
 
 .dessert-2 {
@@ -612,7 +620,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px#d3d3d3;
@@ -624,7 +632,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
