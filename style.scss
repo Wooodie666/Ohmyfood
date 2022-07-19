@@ -1147,6 +1147,11 @@ background-color: $colortertiary;
     margin-left: 30px;
   }
 
+  .cards-restaurant{
+   display: flex;
+   flex-direction: column;
+   }
+
   .card{
    width: 100%; 
   }
