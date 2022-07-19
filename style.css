@@ -1140,7 +1140,7 @@ footer {
   .list-title h2{
     width: 100%;
   }
-  
+
   .cards-restaurant{
     display: flex;
     flex-direction: row;
@@ -1152,16 +1152,19 @@ footer {
   .start-menu{
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .plats-menu{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    justify-content: center; 
   }
 
   .dessert-menu{
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
  
 }
