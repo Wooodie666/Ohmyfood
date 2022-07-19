@@ -266,6 +266,7 @@ a {
 .cards-restaurant {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   flex: 1;
   padding-top: 1%;
 }
