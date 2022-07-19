@@ -1142,15 +1142,11 @@ footer {
     flex-direction: row;
   }
 
-  
-
   .plats-menu{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row; 
   }
 
- 
   .dessert-menu{
     display: flex;
     flex-direction: row;
