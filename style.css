@@ -265,7 +265,7 @@ a {
 
 .cards-restaurant {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex: 1;
   padding-top: 1%;
