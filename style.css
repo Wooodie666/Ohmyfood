@@ -1136,6 +1136,11 @@ footer {
     top: 33px;
     right: 33px;
   }
+
+  .list-title h2{
+    width: 100%;
+  }
+  
   .cards-restaurant{
     display: flex;
     flex-direction: row;
