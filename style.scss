@@ -1095,24 +1095,21 @@ background-color: $colortertiary;
 
 .start-menu{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  align-content: center;
-  align-items: center;
 }
-}
-
 
 .plats-menu{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 
 .dessert-menu{
   display: flex;
   flex-direction: row; 
+  justify-content: center;
 }
 
 
