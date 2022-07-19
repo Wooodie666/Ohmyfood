@@ -1085,7 +1085,28 @@ display: flex;
 flex-direction: column;
 }
 
-.start-1 .start-2 .start-3 .start-4{
+.start-1{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.start-2{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.start-3{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.start-4{
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -1098,7 +1119,28 @@ flex-direction: column;
   flex-direction: column;
 }
 
-.plat-1 .plat-2 .plat-3 .plat-4{
+.plat-1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.plat-2 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.plat-3 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.plat-4 {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -1111,7 +1153,21 @@ flex-direction: column;
   flex-direction: column;
 }
 
-.dessert-1 .dessert-2 .dessert-3{
+.dessert-1{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.dessert-2{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.dessert-3{
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -1120,8 +1176,7 @@ flex-direction: column;
 }
 }
 
-}
-  
+
 
 
 /**mobile**/
@@ -1207,11 +1262,39 @@ flex-direction: column;
     align-items: center;
   }
 
-  .start-1 .start-2 .start-3 .start-4 {
+  .start-1{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+  .start-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .start-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .start-4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
 
   /**plat**/
   .plats-menu {
@@ -1220,11 +1303,39 @@ flex-direction: column;
     align-items: center;
   }
 
-  .plat-1 .plat-2 .plat-3 .plat-4 {
+  .plat-1{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+  .plat-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .plat-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .plat-4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   /**dessert**/
   .dessert-menu {
     display: flex;
@@ -1232,10 +1343,29 @@ flex-direction: column;
     align-items: center;
   }
 
-  .dessert-1 .dessert-2 .dessert-3 {
+  .dessert-1{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .dessert-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .dessert-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
 .cards-restaurant .heart{
