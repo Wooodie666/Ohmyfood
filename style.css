@@ -1139,18 +1139,21 @@ footer {
 
   .start-menu{
     display: flex;
+    flex-direction: row;
   }
 
   
 
   .plats-menu{
     display: flex;
+    flex-direction: row;
     
   }
 
  
   .dessert-menu{
     display: flex;
+    flex-direction: row;
   }
 
   

@@ -1082,23 +1082,19 @@ background-color: $colortertiary;
 
 .start-menu{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 
-.start-1{
-  display: flex;
-  
-}
 
 .plats-menu{
   display: flex;
- 
+  flex-direction: row;
 }
 
 
 .dessert-menu{
   display: flex;
-  
+  flex-direction: row; 
 }
 
 }
