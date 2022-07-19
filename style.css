@@ -1196,7 +1196,10 @@ footer {
   .card-text {
     flex: 1;
   }
-
+  .list-title h2{
+  width: 100%;
+  }
+  
   /**start**/
   .start-menu {
     display: flex;
