@@ -1151,9 +1151,10 @@ footer {
     display: flex;
     flex-direction: row;
   }
-
-  
+ 
 }
+
+
 /**mobile**/
 @media screen and (min-width: 320px) and (max-width: 765px) {
   html, body {
