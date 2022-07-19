@@ -453,7 +453,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 30%;
+  width: 100%;
   transform: top;
 }
 
@@ -523,7 +523,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 30%;
+  width: 100%;
   transform: top;
 }
 
@@ -581,7 +581,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 30%;
+  width: 100%;
   transform-origin: top;
 }
 
