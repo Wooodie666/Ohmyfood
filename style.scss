@@ -293,14 +293,13 @@ a {
   border: 0 solid transparent;
 }
 /**restaurant-1-2**/
-.card{
+.card {
   position: relative;
   width: 48%;
-
 }
 
 /**restaurant-3-4**/
-.card{
+.card {
   position: relative;
   width: 48%;
 }
@@ -446,21 +445,21 @@ footer {
   margin-right: 18px;
 }
 
- .list-title h2 {
-  position:relative;
+.list-title h2 {
+  position: relative;
   font-weight: 400;
   margin: 36px;
   text-transform: uppercase;
 }
-.list-title h2::after{
-position: absolute;
-content: "";
-width: 45px;
-height: 3px;
-bottom: 0;
-left: 2%;
-background-color: $colortertiary;
-} 
+.list-title h2::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 3px;
+  bottom: 0;
+  left: 2%;
+  background-color: $colortertiary;
+}
 
 /**start**/
 .start-menu {
@@ -472,7 +471,7 @@ background-color: $colortertiary;
   margin-top: 20px;
 }
 
-.start-text p h3{
+.start-text p h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -543,7 +542,7 @@ background-color: $colortertiary;
   transform: top;
   margin-top: -20px;
 }
-.plat-text p h3{
+.plat-text p h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -603,7 +602,7 @@ background-color: $colortertiary;
   margin-top: 15px;
 }
 
-.dessert-text p h3{
+.dessert-text p h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -653,7 +652,6 @@ background-color: $colortertiary;
   margin-bottom: 18px;
 }
 
-
 .start-menu:hover {
   box-shadow: $dark-grey;
 }
@@ -687,137 +685,134 @@ background-color: $colortertiary;
     opacity: 0;
   }
   50% {
-    opacity: 0, 50;   
+    opacity: 0, 50;
   }
   100% {
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
- /**start**/
-.start-1:hover .fa-check-circle{ 
+/**start**/
+.start-1:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.start-2:hover .fa-check-circle{ 
+.start-2:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.start-3:hover .fa-check-circle{ 
+.start-3:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.start-4:hover .fa-check-circle{ 
+.start-4:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**plat**/
 
-.plat-1:hover .fa-check-circle{
+.plat-1:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.plat-2:hover .fa-check-circle{
+.plat-2:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.plat-3:hover .fa-check-circle{
+.plat-3:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**dessert**/
-.dessert-1:hover .fa-check-circle{
+.dessert-1:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.dessert-2:hover .fa-check-circle{
+.dessert-2:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
-.dessert-3:hover .fa-check-circle{
+.dessert-3:hover .fa-check-circle {
   animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**start-menu**/
-.start-1:hover .check{
+.start-1:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
 
-.start-2:hover .check{
+.start-2:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
-  cursor: pointer; 
-  overflow: hidden;
-}
-.start-3:hover .check{
-  width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
-.start-4:hover .check{
+.start-3:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.start-4:hover .check {
+  width: 100px;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 /**plats-menu**/
-.plat-1:hover .check{
+.plat-1:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
-.plat-2:hover .check{
+.plat-2:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
-.plat-3:hover .check{
+.plat-3:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
-  cursor: pointer; 
+  transition-duration: 0, 5s;
+  cursor: pointer;
   overflow: hidden;
 }
 
 /**dessert-menu**/
-.dessert-1:hover .check{
+.dessert-1:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
-.dessert-2:hover .check{
+.dessert-2:hover .check {
   width: 100px;
-  transition-duration: 0,5s;
-  cursor: pointer;
-  overflow: hidden;
-}
-
-.dessert-3:hover .check{
-  width: 100px;
-  transition-duration: 0,5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
 
+.dessert-3:hover .check {
+  width: 100px;
+  transition-duration: 0, 5s;
+  cursor: pointer;
+  overflow: hidden;
+}
 
 /**rotate animation**/
 
-.rotate{
+.rotate {
   animation-name: rotate;
-  transform: rotate(160deg); 
+  transform: rotate(160deg);
 }
 
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
-   
-  100%{
+
+  100% {
     transform: rotate(360deg);
-    
   }
 }
-
 
 /**slide animation**/
 
@@ -826,7 +821,7 @@ background-color: $colortertiary;
   animation-duration: 0.5s;
 }
 
-@-webkit-keyframes slideInRight{
+@-webkit-keyframes slideInRight {
   0% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
@@ -852,66 +847,62 @@ background-color: $colortertiary;
   }
 }
 
-
 /**start-menu**/
-.start-1{
+.start-1 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 0.5s;
   animation-fill-mode: both;
-
 }
-.start-2{
+.start-2 {
   animation-name: slideInRight;
-  animation-duration: 0.5s; 
+  animation-duration: 0.5s;
   animation-delay: 1s;
   animation-fill-mode: both;
 }
-.start-3{
+.start-3 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
 }
-.start-4{
+.start-4 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
-   animation-delay: 2s;
-   animation-fill-mode: both;
+  animation-delay: 2s;
+  animation-fill-mode: both;
 }
 
-
-
 /**plats-menu**/
-.plat-1{
+.plat-1 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 2.5s;
 }
-.plat-2{
+.plat-2 {
   animation-name: slideInRight;
-  animation-duration: 0.5s; 
+  animation-duration: 0.5s;
   animation-delay: 3s;
 }
-.plat-3{
+.plat-3 {
   animation-name: slideInRight;
-  animation-duration: 0.5s; 
+  animation-duration: 0.5s;
   animation-delay: 3.5s;
 }
 
 /**dessert-menu**/
-.dessert-1{
+.dessert-1 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 4s;
 }
-.dessert-2{
+.dessert-2 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 4.5s;
 }
 
-.dessert-3{
+.dessert-3 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 5s;
@@ -1057,212 +1048,201 @@ background-color: $colortertiary;
 }
 
 /***tablet***/
-@media screen and (min-width: 768px) and (max-width:992px) {
-
+@media screen and (min-width: 768px) and (max-width: 992px) {
   /**image menus-restaurants**/
-  .picture-container{
+  .picture-container {
     max-width: 100%;
     max-height: 32em;
     width: 100%;
     object-fit: cover;
   }
 
-/**menu**/
-.container-menu{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.list-title h2{
-  width: 100%;
-}
-
-.card{
-  width: 22%; 
- }
-
-.cards-restaurant .heart{
-  top: 33px;
-  right: 33px;
-}
-
-.cards-restaurant{
-  display: flex;
-  flex-direction: row;
-}
-
-.start-menu{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.plats-menu{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-.dessert-menu{
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;
-}
-
-
-
-
-
-/**mobile**/
-@media screen and (min-width: 320px) and (max-width: 736px) {
-  html,body{
-    width:100%;
-    overflow-x:hidden;
-    }
-
-  /**navbar**/
-
-  .nav-bar {
-    padding: 16px;
-  }
-
-  /**filters**/
-
-  .filters-container ol {
+  /**menu**/
+  .container-menu {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 53px;
   }
-  .filter-1 .filter-2 .filter-3 li {
+
+  .list-title h2 {
     width: 100%;
   }
 
-  .filters-container h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 18px;
+  .card {
+    width: 22%;
   }
 
-  /**restaurant-container**/
-  .restaurant-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-  }
-
- 
-  /**container menus**/
-  .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-  }
-
-  .container-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .container-menu h1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  .cards-restaurant .heart {
+    top: 33px;
+    right: 33px;
   }
 
   .cards-restaurant {
     display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-    margin-left: 30px;
+    flex-direction: row;
   }
 
-  .card{
-   width: 100%; 
-  }
-
-  .card-text {
-    flex: 1
-  }
-
-  /**start**/
   .start-menu {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-  .start-1{
-    width: 100%;
-  }
-  .start-2{
-    width: 100%;
-    margin-right: 15px;
-  }
-  .start-3{
-    width: 100%;
-    margin-left: 1px;
-  }
-  .start-4{
-    width: 100%;
-    margin-right: 15px;
-    margin-top: -16px;
+    justify-content: center;
+    flex-direction: row;
   }
 
-
-  /**plat**/
   .plats-menu {
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    justify-content: center;
   }
-  .plat-1{
-  width: 100%;
-  }
-  .plat-2{
-    width: 100%;
-    margin-right: 15px;
-  }
-  .plat-3{
-    width: 100%;
-    margin-left: 1px;
-  }
- 
 
-  /**dessert**/
   .dessert-menu {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-  .dessert-1{
-  width: 100%;
-  }
-  .dessert-2{
-    width: 100%;
-    margin-right: 15px;
-  } 
-  .dessert-3{
-    width: 100%;
-    margin-left: 1px;
+    flex-direction: row;
+    justify-content: center;
   }
 
-.cards-restaurant .heart{
-  top: 40px;
-  right: 8px;
-}
+  /**mobile**/
+  @media screen and (min-width: 320px) and (max-width: 736px) {
+    html,
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
 
-.container-menu .heart{
-  top: 65px;
-  right: 8px;
-}
+    /**navbar**/
 
-}
+    .nav-bar {
+      padding: 16px;
+    }
 
+    /**filters**/
+
+    .filters-container ol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      padding: 0px;
+      margin-left: 53px;
+    }
+    .filter-1 .filter-2 .filter-3 li {
+      width: 100%;
+    }
+
+    .filters-container h2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 18px;
+    }
+
+    /**restaurant-container**/
+    .restaurant-container {
+      display: flex;
+      flex-direction: column;
+      background-color: #f2f2f2;
+    }
+
+    /**container menus**/
+    .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+    }
+
+    .container-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container-menu h1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .cards-restaurant {
+      display: flex;
+      flex-direction: column;
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+
+    .card {
+      width: 100%;
+    }
+
+    .card-text {
+      flex: 1;
+    }
+
+    /**start**/
+    .start-menu {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+    .start-1 {
+      width: 100%;
+    }
+    .start-2 {
+      width: 100%;
+      margin-right: 15px;
+    }
+    .start-3 {
+      width: 100%;
+      margin-left: 1px;
+    }
+    .start-4 {
+      width: 100%;
+      margin-right: 15px;
+      margin-top: -16px;
+    }
+
+    /**plat**/
+    .plats-menu {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+    .plat-1 {
+      width: 100%;
+    }
+    .plat-2 {
+      width: 100%;
+      margin-right: 15px;
+    }
+    .plat-3 {
+      width: 100%;
+      margin-left: 1px;
+    }
+
+    /**dessert**/
+    .dessert-menu {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+    .dessert-1 {
+      width: 100%;
+    }
+    .dessert-2 {
+      width: 100%;
+      margin-right: 15px;
+    }
+    .dessert-3 {
+      width: 100%;
+      margin-left: 1px;
+    }
+
+    .cards-restaurant .heart {
+      top: 40px;
+      right: 8px;
+    }
+
+    .container-menu .heart {
+      top: 65px;
+      right: 8px;
+    }
+  }
 }
