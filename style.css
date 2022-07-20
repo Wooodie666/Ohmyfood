@@ -1256,7 +1256,16 @@ footer {
     flex-direction: column;
   }
 
- .start-1 .start-2 .start-3 .start-4{
+ .start-1{
+  width: 100%;
+ }
+ .start-2{
+  width: 100%;
+ }
+ .start-3{
+  width: 100%;
+ }
+ .start-4{
   width: 100%;
  }
 
@@ -1266,7 +1275,13 @@ footer {
     flex-direction: column;
   }
 
-  .plat-1 .plat-2 .plat-3{
+  .plat-1{
+    width: 100%;
+  }
+  .plat-2{
+    width: 100%;
+  }
+  .plat-3{
     width: 100%;
   }
 
@@ -1277,7 +1292,13 @@ footer {
     align-items: center;
   }
 
-  .dessert-1 .dessert-2 .dessert-3{
+  .dessert-1{
+    width: 100%;
+  }
+  .dessert-2{
+    width: 100%;
+  }
+  .dessert-3{
     width: 100%;
   }
   
