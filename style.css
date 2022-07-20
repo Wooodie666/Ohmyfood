@@ -1309,11 +1309,12 @@ footer {
   }
   .dessert-2{
     width: 100%;
-    margin-right: 15px;
+    margin-right: -16px;
   }
   .dessert-3{
     width: 100%;
-    margin-left: 1px;
+    margin-left: -4px;
+    margin-right: 20px;
   }
   
   .cards-restaurant .heart {
