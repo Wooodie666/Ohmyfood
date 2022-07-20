@@ -1196,6 +1196,7 @@ background-color: $colortertiary;
   .start-menu {
     display: flex;
     flex-direction: column;
+    align-content: center;
   }
 
   .start-1{
@@ -1203,9 +1204,11 @@ background-color: $colortertiary;
   }
   .start-2{
     width: 100%;
+    margin-right: 15px;
   }
   .start-3{
     width: 100%;
+    margin-left: 1px;
   }
 
 
@@ -1213,6 +1216,7 @@ background-color: $colortertiary;
   .plats-menu {
     display: flex;
     flex-direction: column;
+    align-content: center;
   }
 
   .plat-1{
@@ -1220,9 +1224,11 @@ background-color: $colortertiary;
   }
   .plat-2{
     width: 100%;
+    margin-right: 15px;
   }
   .plat-3{
     width: 100%;
+    margin-left: 1px;
   }
  
 
@@ -1230,6 +1236,7 @@ background-color: $colortertiary;
   .dessert-menu {
     display: flex;
     flex-direction: column;
+    align-content: center;
   }
 
   .dessert-1{
@@ -1237,9 +1244,11 @@ background-color: $colortertiary;
   }
   .dessert-2{
     width: 100%;
+    margin-right: 15px;
   } 
   .dessert-3{
     width: 100%;
+    margin-left: 1px;
   }
 
 .cards-restaurant .heart{
