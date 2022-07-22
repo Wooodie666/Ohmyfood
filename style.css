@@ -633,19 +633,6 @@ footer {
   margin-top: 10px;
 }
 
-
-.start-menu:hover {
-  box-shadow: 5px 5px 5px #d3d3d3;
-}
-
-.plats-menu:hover {
-  box-shadow: 5px 5px 5px #d3d3d3;
-}
-
-.dessert-menu:hover {
-  box-shadow: 5px 5px 5px #d3d3d3;
-}
-
 /**animation check**/
 .check {
   width: 0px;
