@@ -479,7 +479,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
-  margin-right: 20px;
+  animation-fill-mode: both;
 }
 
 .start-2 {
@@ -492,6 +492,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
+  animation-fill-mode: both;
 }
 
 .start-3 {
@@ -520,6 +521,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
+  animation-fill-mode: both;
 }
 
 /**plats**/
@@ -555,8 +557,8 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
+ 
+ 
 }
 
 .plat-2 {
@@ -569,6 +571,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
+  animation-fill-mode: both;
 }
 
 .plat-3 {
@@ -581,8 +584,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
-  margin-left: 169px;
-  margin-right: 20px;
+  animation-fill-mode: both;
 }
 
 /**dessert**/
@@ -619,8 +621,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
-  margin-right: 20px;
-  margin-left: -14px;
+  animation-fill-mode: both;
 }
 
 .dessert-2 {
@@ -633,6 +634,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px#d3d3d3;
   margin-top: 15px;
+  animation-fill-mode: both;
 }
 
 .dessert-3 {
@@ -645,8 +647,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 15px;
-  margin-bottom: 18px;
-  margin-left: 169px;
+  animation-fill-mode: both;
 }
 
 
