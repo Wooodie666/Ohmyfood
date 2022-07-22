@@ -433,7 +433,7 @@ footer {
   font-weight: 400;
   margin: 36px;
   text-transform: uppercase;
-  margin-right: Opx;
+  margin-right: O;
 }
 
 .list-title h2::after {
@@ -452,7 +452,6 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
-  transform: top;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -525,7 +524,6 @@ footer {
   flex-wrap: wrap;
   justify-content: flex-end;
   width: 100%;
-  transform: top;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -639,15 +637,15 @@ footer {
 
 
 .start-menu:hover {
-  box-shadow: #d3d3d3;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .plats-menu:hover {
-  box-shadow: #d3d3d3;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 .dessert-menu:hover {
-  box-shadow: #d3d3d3;
+  box-shadow: 5px 5px 5px #d3d3d3;
 }
 
 /**animation check**/
@@ -745,28 +743,28 @@ footer {
 /**start-menu**/
 .start-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .start-2:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .start-3:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .start-4:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -774,21 +772,21 @@ footer {
 /**plats-menu**/
 .plat-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .plat-2:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .plat-3:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -796,21 +794,21 @@ footer {
 /**dessert-menu**/
 .dessert-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .dessert-2:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .dessert-3:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
