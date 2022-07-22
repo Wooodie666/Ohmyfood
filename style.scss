@@ -575,7 +575,6 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 15px;
-  animation-fill-mode: both;
 }
 
 .plat-3 {
@@ -588,7 +587,6 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 15px;
-  animation-fill-mode: both;
 }
 
 /**dessert**/
@@ -625,7 +623,6 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px $dark-grey;
   margin-right: 20px;
-  animation-fill-mode: both;
 }
 
 .dessert-2 {
@@ -638,7 +635,6 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 15px;
-  animation-fill-mode: both;
 }
 
 .dessert-3 {
@@ -650,7 +646,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px $dark-grey;
-  animation-fill-mode: both;
 }
 
 .start-menu:hover {
@@ -879,16 +874,19 @@ footer {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 2.5s;
+  animation-fill-mode: both;
 }
 .plat-2 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 3s;
+  animation-fill-mode: both;
 }
 .plat-3 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 3.5s;
+  animation-fill-mode: both;
 }
 
 /**dessert-menu**/
@@ -896,17 +894,20 @@ footer {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 4s;
+  animation-fill-mode: both;
 }
 .dessert-2 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 4.5s;
+  animation-fill-mode: both;
 }
 
 .dessert-3 {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-delay: 5s;
+  animation-fill-mode: both;
 }
 
 /**bouton commander**/
