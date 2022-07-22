@@ -454,6 +454,7 @@ footer {
   justify-content: flex-end;
   transform: top;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .start-text p .start-text h3{
