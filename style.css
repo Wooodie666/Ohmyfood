@@ -1144,8 +1144,8 @@ footer {
   /**menu**/
   .container-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    width: 48%;
   }
 
   .cards-restaurant .heart {
@@ -1170,24 +1170,26 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px;
+  }
+
+  .start-1{
+    width: 45%;
   }
 
   .plats-menu{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px; 
+    
   }
 
   .dessert-menu{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px;
   }
 
-  
+
  
 }
 
