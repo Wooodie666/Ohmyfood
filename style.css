@@ -1175,12 +1175,30 @@ footer {
   .start-1{
     width: 45%;
   }
+  .start-2{
+    width: 45% ;
+  }
+  .start-3{
+    width: 45%;
+  }
+  .start-4{
+    width: 45%;
+  }
 
   .plats-menu{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: center; 
+  }
+
+  .plat-1{
+    width: 45%;
+  }
+  .plat-2{
+    width: 45%;
+  }
+  .plat-3{
+    width: 45%;
   }
 
   .dessert-menu{
@@ -1188,8 +1206,15 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
-
-
+  .dessert-1{
+    width: 45%;
+  }
+  .dessert-2{
+    width: 45%;
+  }
+  .dessert-3{
+    width: 45%;
+  }
  
 }
 
