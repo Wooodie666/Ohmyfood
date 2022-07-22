@@ -1105,6 +1105,19 @@ footer {
     flex-direction: row;
     align-items: baseline;
   }
+  .start-1{
+    width: 40%;
+  }
+  .start-2{
+    width: 40%;
+  }
+  .start-3{
+    width: 40%;
+  }
+  .start-4{
+    width: 40%;
+  }
+
 
   .plats-menu {
     display: flex;
@@ -1112,12 +1125,30 @@ footer {
     flex-direction: row;
     align-items: baseline;
   }
+  .plat-1{
+    width: 40%;
+  }
+  .plat-2{
+    width: 40%;
+  }
+  .plat-3{
+    width: 40%;
+  }
 
   .dessert-menu {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
+  }
+  .dessert-1{
+    width: 40%;
+  }
+  .dessert-2{
+    width: 40%;
+  }
+  .dessert-3{
+    width: 40%;
   }
 
   /**mobile**/
