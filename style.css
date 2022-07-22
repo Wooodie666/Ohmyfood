@@ -1294,6 +1294,10 @@ footer {
   .list-title{
   width: 100%;
   }
+
+  .list-title h2{
+    margin-left: 1px;
+  }
   
   /**start**/
   .start-menu {
