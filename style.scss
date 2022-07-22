@@ -1080,6 +1080,7 @@ footer {
 
   .list-title h2 {
     width: 100%;
+    margin-left: 0px;
   }
 
   .card {
@@ -1100,20 +1101,20 @@ footer {
 
   .start-menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
   }
 
   .plats-menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .dessert-menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   /**mobile**/
