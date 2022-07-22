@@ -280,7 +280,6 @@ a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 22%;
   flex: 1;
   padding-top: 1%;
 }
@@ -296,11 +295,13 @@ a {
 /**restaurant-1-2**/
 .card {
   position: relative;
+  width: 22%;
 }
 
 /**restaurant-3-4**/
 .card {
   position: relative;
+  width: 22%;
 }
 
 /**badge**/
@@ -1068,7 +1069,7 @@ footer {
   }
 
   .card {
-    width: 22%;
+    width: 48%;
   }
 
   .cards-restaurant .heart {

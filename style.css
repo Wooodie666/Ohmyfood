@@ -265,7 +265,6 @@ a {
   flex-wrap: wrap;
   flex: 1;
   padding-top: 1%;
-  width: 22%;
 }
 
 .card-image img {
@@ -282,11 +281,13 @@ a {
 /**restaurant-1-2**/
 .card {
   position: relative;
+  width: 22%;
 }
 
 /**restaurant-3-4**/
 .card {
   position: relative;
+  width: 22%;
 }
 
 /**badge**/
@@ -1139,10 +1140,10 @@ footer {
   .cards-restaurant{
     display: flex;
     flex-direction: row;
-    width: 48%;
+   justify-content: space-around;
   }
   .card{
-   
+   width: 48%;
   }
 
   .start-menu{
