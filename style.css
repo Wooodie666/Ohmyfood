@@ -1143,7 +1143,7 @@ footer {
     right: 33px;
   }
 
-  .list-title h2{
+  .list-title{
     width: 100%;
   }
 
@@ -1283,7 +1283,7 @@ footer {
   .card-text {
     flex: 1;
   }
-  
+
   .list-title{
   width: 100%;
   }
