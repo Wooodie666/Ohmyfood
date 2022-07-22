@@ -1145,7 +1145,7 @@ footer {
   .container-menu {
     display: flex;
     justify-content: space-around;
-    width: 48%;
+    align-items: center;
   }
 
   .cards-restaurant .heart {
