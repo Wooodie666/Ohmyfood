@@ -1168,23 +1168,23 @@ footer {
 
   .start-menu{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
   }
 
   .plats-menu{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
   }
 
   .dessert-menu{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
   }
   
 }
