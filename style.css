@@ -1173,41 +1173,11 @@ footer {
     align-items: center;
   }
 
-  .start-1{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .start-2{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .start-3{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .start-4{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-
   .plats-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-  }
-
-  .plat-1{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .plat-2{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .plat-3{
-    width: 45%;
-    margin-bottom: 20px;
   }
 
   .dessert-menu{
@@ -1216,19 +1186,7 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
-  .dessert-1{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .dessert-2{
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  .dessert-3{
-    width: 45%;
-    margin-bottom: 20px;
-  }
- 
+  
 }
 
 

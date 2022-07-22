@@ -1103,18 +1103,21 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    align-items: center;
   }
 
   .plats-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   .dessert-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   /**mobile**/
