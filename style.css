@@ -489,6 +489,7 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-left: 10px;
 }
 
 .start-3 {
@@ -513,6 +514,7 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 /**plats**/
@@ -559,6 +561,7 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-left: 10px;
 }
 
 .plat-3 {
@@ -618,6 +621,7 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px#d3d3d3;
+  margin-left: 10px;
 }
 
 .dessert-3 {
