@@ -1272,25 +1272,23 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-left: 17px;
   }
 
  .start-1{
   width: 100%;
+  margin-bottom: 15px;
  }
  .start-2{
   width: 100%;
-  margin-right: 15px;
+  margin-bottom: 15px;
  }
  .start-3{
   width: 100%;
-  margin-left: 1px;
+  margin-bottom: 15px;
  }
  .start-4{
   width: 100%;
-  margin-right: 15px;
-  margin-top: -16px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
  }
 
   /**plat**/
@@ -1298,20 +1296,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-left: 6px;
   }
 
   .plat-1{
     width: 100%;
-    margin-left: 1px;
+    margin-bottom: 15px;
   }
   .plat-2{
     width: 100%;
-    margin-right: 15px;
+    margin-bottom: 15px;
   }
   .plat-3{
     width: 100%;
-    margin-left: 1px;
+    margin-bottom: 15px;
   }
 
   /**dessert**/
@@ -1319,20 +1316,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 2px;
   }
 
   .dessert-1{
     width: 100%;
+    margin-bottom: 15px;
   }
   .dessert-2{
     width: 100%;
-    margin-right: 27px;
+    margin-bottom: 15px;
   }
   .dessert-3{
     width: 100%;
-    margin-left: -4px;
-    margin-right: 20px;
+    margin-bottom: 15px;
   }
   
   .cards-restaurant .heart {
