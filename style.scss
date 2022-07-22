@@ -280,6 +280,7 @@ a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 48%;
   flex: 1;
   padding-top: 1%;
 }
@@ -1080,6 +1081,7 @@ footer {
   .cards-restaurant {
     display: flex;
     flex-direction: row;
+    width: 22%;
   }
 
   .start-menu {
