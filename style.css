@@ -433,6 +433,7 @@ footer {
   font-weight: 400;
   margin: 36px;
   text-transform: uppercase;
+  margin-right: Opx;
 }
 
 .list-title h2::after {
@@ -450,12 +451,12 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-around;
   transform: top;
   margin-top: 20px;
 }
 
-.start-text p h3{
+.start-text p .start-text h3{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -473,7 +474,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -486,7 +487,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -498,7 +499,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -514,7 +515,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -526,12 +527,12 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-around;
   width: 100%;
   transform: top;
   margin-top: -20px;
 }
-.plat-text p h3{
+.plat-text p .plat-text h3{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -575,7 +576,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -589,13 +590,13 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-around;
   width: 100%;
   transform-origin: top;
   margin-top: 15px;
 }
 
-.dessert-text p h3{
+.dessert-text p.dessert-text h3{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -613,7 +614,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -627,7 +628,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px#d3d3d3;
@@ -639,7 +640,7 @@ footer {
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
@@ -1244,7 +1245,7 @@ footer {
     flex: 1;
   }
   .list-title h2{
-  margin-right: 249px;
+  margin-left: 0px;
   }
   
   /**start**/
