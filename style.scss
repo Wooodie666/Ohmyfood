@@ -1088,6 +1088,13 @@ footer {
     align-items: center;
     margin-bottom: 0px;
   }
+
+  .start-text p, .start-text h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
   .start-1{
     width: 50%;
   }
@@ -1111,6 +1118,12 @@ footer {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
+  .plat-text p, .plat-text h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
   .plat-1{
     width: 50%;
   }
@@ -1129,6 +1142,12 @@ footer {
     align-items: center;
     margin-top: 0px;
   }
+  .dessert-text p, .dessert-text h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
   .dessert-1{
     width: 50%;
   }
