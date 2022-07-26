@@ -428,6 +428,13 @@ footer {
   margin-left: 18px;
   margin-right: 18px;
 }
+.container-menu strong .container-menu strong {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
 
 .list-title {
   width: 100%;
