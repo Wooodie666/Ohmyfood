@@ -1140,6 +1140,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
   .start-1 {
@@ -1160,6 +1161,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
   .plat-1 {
@@ -1176,6 +1178,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
   .dessert-1 {
@@ -1228,6 +1231,7 @@ body {
   .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
     display: flex;
     flex-direction: column;
+    align-content: space-around;
   }
   .container-menu {
     display: flex;
@@ -1298,8 +1302,6 @@ body {
     width: 100%;
   }
   .dessert-3 {
-    display: flex;
-    flex-direction: column;
     width: 100%;
   }
   .cards-restaurant .heart {
