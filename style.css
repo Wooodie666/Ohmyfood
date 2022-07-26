@@ -423,7 +423,7 @@ footer {
 .container-menu strong {
   font-weight: bold;
   align-self: center;
-  margin-left: 45px;
+  margin-left: 18px;
   margin-right: 18px;
 }
 
@@ -459,7 +459,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.start-text p .start-text h3 {
+.start-text p, .start-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -530,7 +530,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.plat-text p.plat-text h3 {
+.plat-text p, .plat-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -588,7 +588,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.dessert-text p .dessert-text h3 {
+.dessert-text p, .dessert-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -638,7 +638,7 @@ footer {
 /**animation check**/
 .check {
   width: 0px;
-  height: 125px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
