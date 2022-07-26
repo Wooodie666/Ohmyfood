@@ -1282,7 +1282,7 @@ body {
   .start-menu {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content:center;
   }
   .start-1 {
     width: 100%;
