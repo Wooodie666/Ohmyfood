@@ -1271,21 +1271,15 @@ body {
   }
   .start-1 {
     width: 100%;
-    margin-bottom: 15px;
   }
   .start-2 {
     width: 100%;
-    margin-bottom: 6px;
   }
   .start-3 {
     width: 100%;
-    margin-bottom: 15px;
-    margin-left: 0px;
   }
   .start-4 {
     width: 100%;
-    margin-bottom: 15px;
-    margin-left: 0px;
   }
   /**plat**/
   .plats-menu {
@@ -1295,16 +1289,12 @@ body {
   }
   .plat-1 {
     width: 100%;
-    margin-bottom: 15px;
   }
   .plat-2 {
     width: 100%;
-    margin-bottom: 6px;
-    margin-left: 0px;
   }
   .plat-3 {
     width: 100%;
-    margin-bottom: 15px;
   }
   /**dessert**/
   .dessert-menu {
@@ -1314,16 +1304,12 @@ body {
   }
   .dessert-1 {
     width: 100%;
-    margin-bottom: 15px;
   }
   .dessert-2 {
     width: 100%;
-    margin-bottom: 6px;
-    margin-left: 0px;
   }
   .dessert-3 {
     width: 100%;
-    margin-bottom: 15px;
   }
   .cards-restaurant .heart {
     top: 40px;
