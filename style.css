@@ -475,8 +475,8 @@ footer {
 
 .start-1 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -486,8 +486,8 @@ footer {
 
 .start-2 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -497,8 +497,8 @@ footer {
 
 .start-3 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -510,8 +510,8 @@ footer {
 
 .start-4 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -546,8 +546,8 @@ footer {
 
 .plat-1 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -557,8 +557,8 @@ footer {
 
 .plat-2 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -568,8 +568,8 @@ footer {
 
 .plat-3 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -604,8 +604,8 @@ footer {
 
 .dessert-1 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -615,8 +615,8 @@ footer {
 
 .dessert-2 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
@@ -626,8 +626,8 @@ footer {
 
 .dessert-3 {
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 30%;
   background-color: #fff;
