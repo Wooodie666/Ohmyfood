@@ -1197,7 +1197,7 @@ footer {
   }
   /**mobile**/
 }
-@media screen and (min-width: 320px) and (max-width: 736px) {
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-width: 320px) and (max-width: 736px) {
   html, body {
     width: 100%;
     overflow-x: hidden;
@@ -1214,6 +1214,7 @@ footer {
   .list-filters ol {
     display: flex;
     flex-direction: column;
+    margin-left: 24px;
   }
   .filters-container h2 {
     display: flex;
