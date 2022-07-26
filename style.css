@@ -1148,16 +1148,16 @@ footer {
     align-items: center;
   }
   .start-1 {
-    width: 50%;
+    width: 55%;
   }
   .start-2 {
-    width: 50%;
+    width: 55%;
   }
   .start-3 {
-    width: 45%;
+    width: 55%;
   }
   .start-4 {
-    width: 45%;
+    width: 55%;
   }
   .plats-menu {
     display: flex;
@@ -1166,13 +1166,13 @@ footer {
     align-items: center;
   }
   .plat-1 {
-    width: 45%;
+    width: 55%;
   }
   .plat-2 {
-    width: 45%;
+    width: 55%;
   }
   .plat-3 {
-    width: 45%;
+    width: 55%;
   }
   .dessert-menu {
     display: flex;
@@ -1181,13 +1181,13 @@ footer {
     align-items: center;
   }
   .dessert-1 {
-    width: 45%;
+    width: 55%;
   }
   .dessert-2 {
-    width: 45%;
+    width: 55%;
   }
   .dessert-3 {
-    width: 45%;
+    width: 55%;
   }
   /**mobile**/
 }
