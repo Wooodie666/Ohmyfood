@@ -1122,9 +1122,7 @@ footer {
   /**menu**/
   .container-menu {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
   }
   .list-title {
     width: 100%;
