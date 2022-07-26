@@ -463,13 +463,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.start-text p {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.start-text h3 {
+.start-text p, .start-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -491,8 +485,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .start-2 {
@@ -504,8 +496,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .start-3 {
@@ -519,8 +509,6 @@ footer {
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
   margin-left: 10px;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .start-4 {
@@ -534,8 +522,6 @@ footer {
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
   margin-left: 10px;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 /**plats**/
@@ -549,13 +535,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.plat-text p {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.plat-text h3 {
+.plat-text p, .plat-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -577,8 +557,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .plat-2 {
@@ -590,8 +568,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .plat-3 {
@@ -605,8 +581,6 @@ footer {
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
   margin-left: 10px;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 /**dessert**/
@@ -620,13 +594,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.dessert-text p {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.dessert-text h3 {
+.dessert-text p, .dessert-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -648,8 +616,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .dessert-2 {
@@ -661,8 +627,6 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 .dessert-3 {
@@ -676,8 +640,6 @@ footer {
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
   margin-left: 10px;
-  overflow: hidden;
-  transform: scale(0);
 }
 
 /**animation check**/
@@ -804,7 +766,7 @@ footer {
 /**plats-menu**/
 .plat-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -1235,7 +1197,7 @@ footer {
   }
   /**mobile**/
 }
-@media screen and (min-width: 320px) and (max-width: 736px) {
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-width: 320px) and (max-width: 736px) {
   html, body {
     width: 100%;
     overflow-x: hidden;
