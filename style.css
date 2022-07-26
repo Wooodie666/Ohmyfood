@@ -1242,7 +1242,6 @@ footer {
   .list-filters ol {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .filters-container h2 {
     display: flex;
