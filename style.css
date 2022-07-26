@@ -1153,22 +1153,17 @@ footer {
     align-items: center;
     margin-bottom: 0px;
   }
-  .start-text p, .start-text h3 {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
   .start-1 {
-    width: 50%;
+    width: 45%;
   }
   .start-2 {
-    width: 50%;
+    width: 45%;
   }
   .start-3 {
-    width: 50%;
+    width: 45%;
   }
   .start-4 {
-    width: 50%;
+    width: 45%;
   }
   .plats-menu {
     display: flex;
@@ -1179,19 +1174,14 @@ footer {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .plat-text p, .plat-text h3 {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
   .plat-1 {
-    width: 50%;
+    width: 45%;
   }
   .plat-2 {
-    width: 50%;
+    width: 45%;
   }
   .plat-3 {
-    width: 50%;
+    width: 45%;
   }
   .dessert-menu {
     display: flex;
@@ -1201,19 +1191,14 @@ footer {
     align-items: center;
     margin-top: 0px;
   }
-  .dessert-text p, .dessert-text h3 {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
   .dessert-1 {
-    width: 50%;
+    width: 45%;
   }
   .dessert-2 {
-    width: 50%;
+    width: 45%;
   }
   .dessert-3 {
-    width: 50%;
+    width: 45%;
   }
   /**mobile**/
 }
