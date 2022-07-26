@@ -1145,7 +1145,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
   }
   .start-1 {
@@ -1164,7 +1163,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
   }
   .plat-1 {
@@ -1180,7 +1178,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
   }
   .dessert-1 {
