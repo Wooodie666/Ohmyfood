@@ -1181,15 +1181,8 @@ footer {
     .filters-container ol {
       display: flex;
       flex-direction: column;
-      align-items: center;
     }
     
-    .filter-1 .filter-2 .filter-3 li {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-    }
 
     .filters-container h2 {
       display: flex;
@@ -1231,8 +1224,6 @@ footer {
     .card {
       width: 100%;
     }
-
-  
 
     .list-title h2{
       margin-left: 8px;
