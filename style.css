@@ -70,9 +70,11 @@ a {
 ::placeholder {
   color: #000;
 }
+
 ::-moz-placeholder ::-moz-placeholder {
   color: #000;
 }
+
 ::placeholder ::-moz-placeholder {
   color: #000;
 }
@@ -172,7 +174,6 @@ a {
   padding: 5px;
   margin-top: 14px;
   margin-bottom: 14px;
-  margin-left: Opx;
   margin-right: 18px;
   border-radius: 20px;
   background-color: #f2f2f2;
@@ -213,7 +214,7 @@ a {
   background-color: #9356dc;
   color: white;
   font-size: 12px;
-  box-shadow: 10px #d3d3d3;
+  box-shadow: 10px 10px 10px #d3d3d3;
   margin-left: -17px;
 }
 
@@ -272,9 +273,9 @@ a {
   width: 100%;
   border-radius: 15px 15px 0 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   border: 0 solid transparent;
 }
 
@@ -384,7 +385,7 @@ footer {
   max-height: 32rem;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
@@ -429,11 +430,10 @@ footer {
 
 .list-title h2 {
   position: relative;
-  font-weight: 400;
   width: 100%;
+  font-weight: 400;
   margin: 36px;
   text-transform: uppercase;
-  margin-left: 0px;
 }
 
 .list-title h2::after {
@@ -450,10 +450,10 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  transform: top;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .start-text p .start-text h3 {
@@ -488,6 +488,7 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-left: 10px;
 }
 
 .start-3 {
@@ -500,7 +501,6 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
-  margin-left: 10px;
 }
 
 .start-4 {
@@ -520,14 +520,14 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
   width: 100%;
-  transform: top;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.plat-text p.plat-text h3 {
+.plat-text p .plat-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -559,6 +559,7 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-left: 10px;
 }
 
 .plat-3 {
@@ -571,13 +572,13 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
-  margin-left: 10px;
 }
 
 /**dessert**/
 .dessert-menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
   width: 100%;
   transform-origin: top;
@@ -585,7 +586,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.dessert-text p .dessert-text h3 {
+.dessert-text p.dessert-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -617,6 +618,7 @@ footer {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  margin-left: 10px;
 }
 
 .dessert-3 {
@@ -629,7 +631,6 @@ footer {
   border-radius: 20px;
   box-shadow: 5px 5px 5px #d3d3d3;
   margin-top: 10px;
-  margin-left: 10px;
 }
 
 /**animation check**/
@@ -659,7 +660,6 @@ footer {
     opacity: 1;
   }
 }
-
 @keyframes check {
   0% {
     opacity: 0;
@@ -674,81 +674,81 @@ footer {
 /**start**/
 .start-1:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .start-2:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .start-3:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .start-4:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**plat**/
 .plat-1:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .plat-2:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .plat-3:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**dessert**/
 .dessert-1:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .dessert-2:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 .dessert-3:hover .fa-check-circle {
   -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**start-menu**/
 .start-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .start-2:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .start-3:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .start-4:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -756,21 +756,21 @@ footer {
 /**plats-menu**/
 .plat-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .plat-2:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .plat-3:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -778,21 +778,21 @@ footer {
 /**dessert-menu**/
 .dessert-1:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .dessert-2:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
 
 .dessert-3:hover .check {
   width: 100px;
-  transition-duration: 0, 5s;
+  transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -800,7 +800,7 @@ footer {
 /**rotate animation**/
 .rotate {
   -webkit-animation-name: rotate;
-          animation-name: rotate;
+  animation-name: rotate;
   transform: rotate(160deg);
 }
 
@@ -812,7 +812,6 @@ footer {
     transform: rotate(360deg);
   }
 }
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -824,9 +823,9 @@ footer {
 /**slide animation**/
 .slideInRight {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 
 @-webkit-keyframes slideInRight {
@@ -852,114 +851,114 @@ footer {
 /**start-menu**/
 .start-1 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .start-2 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .start-3 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .start-4 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 /**plats-menu**/
 .plat-1 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  animation-delay: 2.5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .plat-2 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .plat-3 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
+  animation-delay: 3.5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 /**dessert-menu**/
 .dessert-1 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .dessert-2 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
+  animation-delay: 4.5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .dessert-3 {
   -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
+  animation-name: slideInRight;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  animation-delay: 5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 /**bouton commander**/
@@ -1015,7 +1014,6 @@ footer {
 
 .heart-1 .heart-2 {
   position: absolute;
-  top: O;
   left: 0;
   transition: 0.2s;
 }
@@ -1053,8 +1051,9 @@ footer {
   color: #99e2d0;
   background-color: #f2f2f2;
   -webkit-animation: out 550ms 4s linear 1 both;
-          animation: out 550ms 4s linear 1 both;
+  animation: out 550ms 4s linear 1 both;
 }
+
 .loading .spinner {
   width: 80px;
   height: 80px;
@@ -1074,7 +1073,6 @@ footer {
     transform: rotate(360deg);
   }
 }
-
 @keyframes spinner {
   0% {
     transform: rotate(0deg);
@@ -1111,29 +1109,28 @@ footer {
     max-height: 32em;
     width: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   /**menu**/
   .container-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-  }
-  .list-title {
-    width: 100%;
-  }
-  .card {
-    width: 48%;
   }
   .cards-restaurant .heart {
     top: 33px;
     right: 33px;
   }
+  .list-title {
+    width: 100%;
+  }
   .cards-restaurant {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 22%;
+  }
+  .card {
+    width: 48%;
   }
   .start-menu {
     display: flex;
@@ -1190,11 +1187,10 @@ footer {
   .dessert-3 {
     width: 45%;
   }
-  /**mobile**/
 }
-@media screen and (min-width: 768px) and (max-width: 992px) and (min-width: 320px) and (max-width: 736px) {
-  html,
-body {
+/**mobile**/
+@media screen and (min-width: 320px) and (max-width: 765px) {
+  html, body {
     width: 100%;
     overflow-x: hidden;
   }
@@ -1273,11 +1269,11 @@ body {
   .start-2 {
     width: 100%;
     margin-bottom: 6px;
+    margin-left: 0px;
   }
   .start-3 {
     width: 100%;
     margin-bottom: 15px;
-    margin-left: 0px;
   }
   .start-4 {
     width: 100%;
@@ -1307,7 +1303,7 @@ body {
   .dessert-menu {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
   }
   .dessert-1 {
     width: 100%;
@@ -1330,4 +1326,4 @@ body {
     top: 65px;
     right: 8px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
