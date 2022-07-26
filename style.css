@@ -1225,7 +1225,7 @@ footer {
   }
   /**mobile**/
 }
-@media screen and (min-width: 320px) and (max-width: 736px) {
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-width: 320px) and (max-width: 736px) {
   html, body {
     width: 100%;
     overflow-x: hidden;
@@ -1287,12 +1287,14 @@ footer {
   }
   .start-1 {
     width: 100%;
+    margin-bottom: 10px;
   }
   .start-2 {
     width: 100%;
   }
   .start-3 {
     width: 100%;
+    margin-bottom: 10px;
   }
   .start-4 {
     width: 100%;
@@ -1305,6 +1307,7 @@ footer {
   }
   .plat-1 {
     width: 100%;
+    margin-bottom: 10px;
   }
   .plat-2 {
     width: 100%;
@@ -1320,6 +1323,7 @@ footer {
   }
   .dessert-1 {
     width: 100%;
+    margin-bottom: 10px;
   }
   .dessert-2 {
     width: 100%;
