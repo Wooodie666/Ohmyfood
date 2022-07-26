@@ -1228,7 +1228,6 @@ body {
   .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
   }
   .container-menu {
     display: flex;
