@@ -1143,7 +1143,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 22%;
   }
   .start-menu {
     display: flex;
@@ -1151,7 +1150,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0px;
   }
   .start-1 {
     width: 45%;
@@ -1171,8 +1169,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
   .plat-1 {
     width: 45%;
@@ -1189,7 +1185,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
   }
   .dessert-1 {
     width: 45%;
