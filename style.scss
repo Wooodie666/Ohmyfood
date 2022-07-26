@@ -474,7 +474,12 @@ footer {
   margin-bottom: 20px;
 }
 
-.start-text p, .start-text h3 {
+.start-text p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.start-text h3{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -544,7 +549,13 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.plat-text p, .plat-text h3 {
+.plat-text p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.plat-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -603,7 +614,13 @@ footer {
   margin-bottom: 20px;
 }
 
-.dessert-text p, .dessert-text h3 {
+.dessert-text p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.dessert-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
