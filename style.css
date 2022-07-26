@@ -762,7 +762,7 @@ footer {
 /**plats-menu**/
 .plat-1:hover .check {
   width: 100px;
-  transition-duration: 0.5s;
+  transition-duration: 0, 5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -1193,7 +1193,7 @@ footer {
   }
   /**mobile**/
 }
-@media screen and (min-width: 320px) and (max-width: 736px) {
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-width: 320px) and (max-width: 736px) {
   html,
 body {
     width: 100%;
