@@ -1250,12 +1250,6 @@ body {
   .card {
     width: 100%;
   }
-  .card-text {
-    flex: 1;
-  }
-  .list-title {
-    width: 100%;
-  }
   .list-title h2 {
     margin-left: 8px;
   }
