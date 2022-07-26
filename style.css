@@ -453,7 +453,7 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   transform: top;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -523,7 +523,7 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   width: 100%;
   transform: top;
   margin-top: 20px;
@@ -581,7 +581,7 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   width: 100%;
   transform-origin: top;
   margin-top: 20px;
