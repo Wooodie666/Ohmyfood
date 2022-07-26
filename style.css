@@ -1223,8 +1223,10 @@ footer {
   .dessert-3 {
     width: 48%;
   }
-  /**mobile**/
 }
+
+
+/**mobile**/
 @media screen and (min-width: 320px) and (max-width: 736px) {
   html, body {
     width: 100%;
