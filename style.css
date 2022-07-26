@@ -455,7 +455,9 @@ footer {
 .start-menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   transform: top;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -525,8 +527,9 @@ footer {
 .plats-menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
+  align-items: center;
   transform: top;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -583,8 +586,9 @@ footer {
 .dessert-menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
+  align-items: center;
   transform-origin: top;
   margin-top: 20px;
   margin-bottom: 20px;
