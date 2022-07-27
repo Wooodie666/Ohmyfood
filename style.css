@@ -1259,16 +1259,18 @@ footer {
 .start-3,
 .start-4 {
     width: 35%;
+    margin-top: 10px;
   }
   .plat-1,
 .plat-2,
 .plat-3 {
     width: 35%;
+    margin-top: 10px;
   }
   .dessert-1,
 .dessert-2,
 .dessert-3 {
     width: 35%;
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
