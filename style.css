@@ -1238,6 +1238,8 @@ footer {
   }
   .container-menu h1 {
     justify-content: space-between;
+    margin-left: 0;
+    margin-right: 13px;
   }
   /**restaurant-container**/
   .restaurant-container {
