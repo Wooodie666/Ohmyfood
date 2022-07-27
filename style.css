@@ -257,7 +257,6 @@ a {
   padding: 4% 0% 3% 0%;
   margin-left: 16px;
   flex-direction: row;
-  width: 100%;
   justify-content: center;
 }
 
@@ -1195,10 +1194,9 @@ footer {
   .dessert-3 {
     width: 48%;
   }
-}
-
   /**mobile**/
-  @media screen and (min-width: 320px) and (max-width: 768px) {
+}
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-width: 320px) and (max-width: 768px) {
   html, body {
     width: 100%;
     overflow-x: hidden;
@@ -1317,7 +1315,4 @@ footer {
     top: 64px;
     right: 25px;
   }
-  
-  }
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
