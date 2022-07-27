@@ -17,6 +17,12 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
+@media all and (max-width: 767px) {
+  #page {
+width: auto ;
+          
+  }
+}
 
 /**header-container**/
 .header-container {
