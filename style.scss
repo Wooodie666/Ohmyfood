@@ -1078,12 +1078,12 @@ footer {
     object-fit: cover;
   }
 
-  /**menu**/
+  /**menus**/
   .container-menu {
     display: flex;
     flex-direction: column;
   }
-
+/**restaurants**/
   .card {
     width: 48%;
   }
@@ -1098,7 +1098,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
-
+/**start**/
   .start-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1121,7 +1121,7 @@ footer {
   .start-4{
     width: 48%;
   }
-
+/**plat**/
   .plats-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1140,7 +1140,7 @@ footer {
   .plat-3{
     width: 48%;
   }
-
+/**dessert**/
   .dessert-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1158,6 +1158,10 @@ footer {
   }
   .dessert-3{
     width: 48%;
+  }
+/**heart**/
+  .container-menu .heart{
+    right: 24px;
   }
 }
 
@@ -1215,7 +1219,7 @@ footer {
   .card {
     width: 22%;
   }
-
+/**menus**/
   .list-title h2{
     margin-left: 8px;
   }
@@ -1223,7 +1227,7 @@ footer {
   .plats-menu, .dessert-menu, .start-menu {
     flex-direction: row;
   }
-  
+  /**start**/
   .start-1,
   .start-2,
   .start-3,
@@ -1231,19 +1235,23 @@ footer {
     width: 35%;
     margin-top: 10px;
   }
-
+/**plat**/
   .plat-1,
   .plat-2,
   .plat-3 {
     width: 35%;
     margin-top: 10px;
   }
-
+/**dessert**/
   .dessert-1,
   .dessert-2,
   .dessert-3 {
     width: 35%;
     margin-top: 10px;
+  }
+/**heart**/
+  .container-menu .heart{
+    right: 30px;
   }
 
 }
