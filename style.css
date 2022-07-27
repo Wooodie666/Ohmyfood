@@ -1,9 +1,16 @@
 /**Desktop**/
-/*::before, ::after {
-  margin: 0;
-  padding: 0;
-}*/
+
+$colorprimary: #9356dc;
+$colorsecondary: #ff79da;
+$colortertiary: #99e2d0;
+
+$font-size-footer: 18px;
+$clear-grey: #f2f2f2;
+$dark-grey: #d3d3d3;
+$clear: #ffff;
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap");
+
 body {
   font-family: Roboto, sans-serif;
   background-color: white;
@@ -23,20 +30,20 @@ a {
 }
 
 /**header-container**/
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0;
   position: relative;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 #logo {
   width: 200px;
   height: 90%;
 }
-
 /**nav-container**/
 .nav-form {
   display: flex;
@@ -59,22 +66,12 @@ a {
   margin-left: 6px;
 }
 
-::-moz-placeholder {
-  color: #000;
-}
-
-:-ms-input-placeholder {
-  color: #000;
-}
-
 ::placeholder {
   color: #000;
-}
-::-moz-placeholder ::-moz-placeholder {
-  color: #000;
-}
-::placeholder ::-moz-placeholder {
-  color: #000;
+
+  ::-moz-placeholder {
+    color: #000;
+  }
 }
 
 .fa-map-marker-alt {
@@ -89,7 +86,7 @@ a {
   height: 10px;
   cursor: text;
   padding: 25px;
-  background-color: white;
+  background-color: $clear;
 }
 
 .search-bar a {
@@ -109,9 +106,9 @@ a {
 }
 
 .nav-bar {
-  padding: 45px;
+  padding: 16px;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: $clear-grey;
 }
 
 .nav-bar p {
@@ -129,17 +126,26 @@ a {
   border-radius: 100px;
   color: #fff;
   box-shadow: 0 0 10px grey;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   cursor: pointer;
   transition-duration: 0.25s;
 }
 
 .nav-bar button:hover {
-  background-image: linear-gradient(0deg, rgba(171, 127, 225, 0.9), rgba(237, 149, 212, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(171, 127, 225, 0.9),
+    rgba(237, 149, 212, 0.9)
+  );
   box-shadow: 0 0 10px black;
 }
 
 /**filters-container**/
+
 .filters-container {
   display: flex;
   flex-direction: column;
@@ -153,18 +159,21 @@ a {
   font-size: 28px;
   font-weight: bold;
   padding: 2%;
+  margin-left: 18px;
 }
 
-.filters-container ol {
+.filters-container ol { 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0px 17px 10px 1px;
+  margin-left: 34px;
 }
+
 
 .filters-container li {
   display: flex;
   justify-content: space-between;
-  border: 2px solid #f2f2f2;
+  border: 2px solid $clear-grey;
   height: 60px;
   width: 100%;
   font-weight: bold;
@@ -175,7 +184,7 @@ a {
   margin-left: Opx;
   margin-right: 18px;
   border-radius: 20px;
-  background-color: #f2f2f2;
+  background-color: $clear-grey;
 }
 
 .fa-store-alt::before {
@@ -183,8 +192,13 @@ a {
 }
 
 .filters-container li:hover {
-  background-color: #f2f2f2;
+  background-color: $clear-grey;
   transform: scale(1.015);
+}
+
+
+.list-filters ol{
+  flex-direction: column;
 }
 
 .list-filters p {
@@ -200,6 +214,7 @@ a {
 }
 
 /**nombre devant filtres**/
+
 .bubble-number-container {
   display: flex;
   align-items: center;
@@ -210,10 +225,10 @@ a {
   height: 24px;
   font-weight: bold;
   border-radius: 50px;
-  background-color: #9356dc;
+  background-color: $colorprimary;
   color: white;
   font-size: 12px;
-  box-shadow: 10px #d3d3d3;
+  box-shadow: 10px $dark-grey;
   margin-left: -17px;
 }
 
@@ -222,12 +237,13 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  border: 2px solid #f2f2f2;
-  background-color: #f2f2f2;
+  border: 2px solid $clear-grey;
+  background-color: $clear-grey;
   color: black;
   border: none;
   margin-left: -3px;
 }
+
 
 .filters-container a.btn {
   display: flex;
@@ -244,51 +260,50 @@ a {
 }
 
 /**restaurant-container**/
+
 .restaurant-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction:column;
   background-color: #f2f2f2;
+  
 }
 
+
 .restaurant-container h2 {
-  display: flex;
-  font-size: 28px;
-  font-weight: bold;
-  padding: 4% 0% 3% 0%;
-  margin-left: 16px;
-  flex-direction: row;
-  justify-content: center;
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 4% 0% 3% 0%;
+    margin-left: 16px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .cards-restaurant {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   flex: 1;
   padding-top: 1%;
+  margin-right: 30px;
+  margin-left: 30px;
 }
+
 
 .card-image img {
   height: 175px;
   width: 100%;
   border-radius: 15px 15px 0 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
   border: 0 solid transparent;
-}
-
-/**restaurant-1-2**/
-.card {
-  position: relative;
-  width: 22%;
 }
 
 /**restaurant-3-4**/
 .card {
   position: relative;
-  width: 22%;
+  width: 100%;
 }
 
 /**badge**/
@@ -337,6 +352,7 @@ a {
 }
 
 /**footer**/
+
 footer {
   background-color: black;
   height: 100%;
@@ -366,7 +382,9 @@ footer {
 }
 
 /**menu-1 menu-2 menu-3 menu-4**/
+
 /**header-container**/
+
 .fa-arrow-left {
   position: absolute;
   bottom: 15px;
@@ -378,17 +396,18 @@ footer {
   font-size: 20px;
   color: #000;
 }
-
+ 
 /**picture-container**/
+
 .picture-container img {
   max-width: 100%;
   max-height: 32rem;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /**restaurant1 restauranr2 restaurant3 restaurant4**/
+
 .restaurant-1 .restaurant-2 .restaurant-3 .restaurant-4 {
   display: flex;
   justify-content: space-between;
@@ -403,16 +422,17 @@ footer {
   display: flex;
   flex-direction: column;
   position: relative;
-  background: #f2f2f2;
+  background: $clear-grey;
   border-radius: 30px 30px 0 0;
   padding: 67px 20px 0 20px;
   margin-top: -30px;
+  justify-content: center;
 }
 
 .container-menu h1 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: Shrikhand, "cursive";
   font-weight: bold;
   padding: 10px 20px 0 10px;
@@ -422,14 +442,14 @@ footer {
 }
 
 .container-menu strong {
-  font-weight: bold;
-  align-self: flex-end;
-  margin-left: 5px;
-  margin-right: 20px;
-  padding-bottom: 15px;
-}
+    font-weight: bold;
+    align-self: flex-end;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+  }
 
-.list-title {
+.list-title{
   width: 100%;
 }
 
@@ -440,7 +460,6 @@ footer {
   text-transform: uppercase;
   margin-left: 0px;
 }
-
 .list-title h2::after {
   position: absolute;
   content: "";
@@ -448,13 +467,13 @@ footer {
   height: 3px;
   bottom: 0;
   left: 0%;
-  background-color: #99e2d0;
+  background-color: $colortertiary;
 }
 
 /**start**/
 .start-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -468,6 +487,7 @@ footer {
   text-overflow: ellipsis;
 }
 
+
 .start-text {
   flex: 1;
   margin-right: 16px;
@@ -480,10 +500,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .start-2 {
@@ -491,10 +511,11 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
+  margin-top: 10px;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .start-3 {
@@ -502,10 +523,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 10px;
 }
 
@@ -514,10 +535,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -525,7 +546,7 @@ footer {
 /**plats**/
 .plats-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -533,7 +554,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.plat-text, .plat-text p, .plat-text h3 {
+.plat-text, .plat-text p, .plat-text h3{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -551,10 +572,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey; 
 }
 
 .plat-2 {
@@ -562,10 +583,11 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
+  margin-top: 10px;
 }
 
 .plat-3 {
@@ -573,10 +595,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -584,7 +606,7 @@ footer {
 /**dessert**/
 .dessert-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -592,7 +614,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.dessert-text, .dessert-text p, .dessert-text h3 {
+.dessert-text, .dessert-text p, .dessert-text h3{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -610,10 +632,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .dessert-2 {
@@ -621,10 +643,11 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
+  margin-top: 10px;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .dessert-3 {
@@ -632,10 +655,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #d3d3d3;
+  box-shadow: 5px 5px 5px $dark-grey;
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -656,18 +679,6 @@ footer {
   transition-duration: 0.5s;
 }
 
-@-webkit-keyframes check {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0, 50;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes check {
   0% {
     opacity: 0;
@@ -679,57 +690,42 @@ footer {
     opacity: 1;
   }
 }
+
 /**start**/
 .start-1:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .start-2:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .start-3:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .start-4:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**plat**/
+
 .plat-1:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .plat-2:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .plat-3:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**dessert**/
 .dessert-1:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .dessert-2:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
-
 .dessert-3:hover .fa-check-circle {
-  -webkit-animation: 0.5s 0.5s 1 both rotate;
-          animation: 0.5s 0.5s 1 both rotate;
+  animation: 0.5s 0.5s 1 both rotate;
 }
 
 /**start-menu**/
@@ -746,14 +742,12 @@ footer {
   cursor: pointer;
   overflow: hidden;
 }
-
 .start-3:hover .check {
   width: 100px;
   transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
-
 .start-4:hover .check {
   width: 100px;
   transition-duration: 0.5s;
@@ -768,14 +762,12 @@ footer {
   cursor: pointer;
   overflow: hidden;
 }
-
 .plat-2:hover .check {
   width: 100px;
   transition-duration: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
-
 .plat-3:hover .check {
   width: 100px;
   transition-duration: 0.5s;
@@ -790,7 +782,6 @@ footer {
   cursor: pointer;
   overflow: hidden;
 }
-
 .dessert-2:hover .check {
   width: 100px;
   transition-duration: 0.5s;
@@ -806,168 +797,120 @@ footer {
 }
 
 /**rotate animation**/
-.rotate {
-  -webkit-animation-name: rotate;
-          animation-name: rotate;
-  transform: rotate(160deg);
-}
 
-@-webkit-keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.rotate {
+  animation-name: rotate;
+  transform: rotate(160deg);
 }
 
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 /**slide animation**/
+
 .slideInRight {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
 }
 
 @-webkit-keyframes slideInRight {
   0% {
+    -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     opacity: 0;
   }
   100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes slideInRight {
   0% {
+    -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     opacity: 0;
   }
   100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 /**start-menu**/
 .start-1 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
 }
-
 .start-2 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
 }
-
 .start-3 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
 }
-
 .start-4 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
 }
 
 /**plats-menu**/
 .plat-1 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
 }
-
 .plat-2 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
 }
-
 .plat-3 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
 }
 
 /**dessert-menu**/
 .dessert-1 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
 }
-
 .dessert-2 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 4.5s;
+  animation-fill-mode: both;
 }
 
 .dessert-3 {
-  -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
 }
 
 /**bouton commander**/
@@ -988,17 +931,36 @@ footer {
   border-radius: 100px;
   color: #fff;
   box-shadow: 0 0 10px gray;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   cursor: pointer;
   transition-duration: 0.25s;
 }
 
 .order-btn:hover {
-  background-image: linear-gradient(0deg, rgba(171, 127, 225, 0.9), rgba(237, 149, 212, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(171, 127, 225, 0.9),
+    rgba(237, 149, 212, 0.9)
+  );
   box-shadow: 0 0 10px black;
 }
 
+.cards-restaurant .heart {
+  top: 40px;
+  right: 8px;
+}
+
+.container-menu .heart {
+  top: 64px;
+  right: 25px;
+}
+
 /**footer-restaurant**/
+
 .fas fa-hands-helping {
   color: white;
 }
@@ -1008,13 +970,13 @@ footer {
 }
 
 /**heart animation**/
+
 .heart {
   position: absolute;
   top: 41px;
   right: 43px;
   cursor: pointer;
 }
-
 .heart-1 {
   position: relative;
   margin-right: 10px;
@@ -1025,6 +987,7 @@ footer {
   position: absolute;
   top: O;
   left: 0;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -1037,8 +1000,13 @@ footer {
 
 .heart-1 {
   opacity: 0;
+  -webkit-transition: 2.5s;
   transition: 0.5s;
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1048,6 +1016,7 @@ footer {
 }
 
 /**loading**/
+
 .loading {
   display: flex;
   justify-content: center;
@@ -1058,31 +1027,21 @@ footer {
   position: fixed;
   font-family: "shrikhand";
   font-size: 28px;
-  color: #99e2d0;
-  background-color: #f2f2f2;
-  -webkit-animation: out 550ms 4s linear 1 both;
-          animation: out 550ms 4s linear 1 both;
-}
-.loading .spinner {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 12px solid transparent;
-  border-top: 12px solid #ff79da;
-  border-bottom: 12px solid #9356dc;
-  -webkit-animation: spinner 0.5s linear 4 forwards;
-  animation: spinner 1s linear infinite forwards;
-}
+  color: $colortertiary;
+  background-color: $clear-grey;
+  animation: out 550ms 4s linear 1 both;
 
-@-webkit-keyframes spinner {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
+  .spinner {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 12px solid transparent;
+    border-top: 12px solid $colorsecondary;
+    border-bottom: 12px solid $colorprimary;
+    -webkit-animation: spinner 0.5s linear 4 forwards;
+    animation: spinner 1s linear infinite forwards;
   }
 }
-
 @keyframes spinner {
   0% {
     transform: rotate(0deg);
@@ -1091,16 +1050,7 @@ footer {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes out {
-  0% {
-    opacity: 1;
-    z-index: 50;
-  }
-  100% {
-    opacity: 0;
-    z-index: -5;
-  }
-}
+
 @keyframes out {
   0% {
     opacity: 1;
@@ -1111,33 +1061,38 @@ footer {
     z-index: -5;
   }
 }
+
 /***tablet***/
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   /**image menus-restaurants**/
   .picture-container {
     max-width: 100%;
     max-height: 32em;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
+
   /**menu**/
   .container-menu {
     display: flex;
     flex-direction: column;
   }
+
   .card {
     width: 48%;
   }
+
   .cards-restaurant .heart {
     top: 33px;
     right: 33px;
   }
+
   .cards-restaurant {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
   .start-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1145,20 +1100,22 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
   }
-  .start-1 {
+
+  .start-1{
     width: 48%;
     margin-bottom: 10px;
   }
-  .start-2 {
+  .start-2{
     width: 48%;
   }
-  .start-3 {
+  .start-3{
     width: 48%;
     margin-bottom: 10px;
   }
-  .start-4 {
+  .start-4{
     width: 48%;
   }
+
   .plats-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1166,16 +1123,18 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
   }
-  .plat-1 {
+
+  .plat-1{
     width: 48%;
     margin-bottom: 10px;
   }
-  .plat-2 {
+  .plat-2{
     width: 48%;
   }
-  .plat-3 {
+  .plat-3{
     width: 48%;
   }
+
   .dessert-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1183,135 +1142,98 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
   }
-  .dessert-1 {
+  
+  .dessert-1{
     width: 48%;
     margin-bottom: 10px;
   }
-  .dessert-2 {
+  .dessert-2{
     width: 48%;
   }
-  .dessert-3 {
+  .dessert-3{
     width: 48%;
   }
 }
 
-/**mobile**/
-@media screen and (min-width: 768px) {
-  html, body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  /**navbar**/
+
+/**desktop**/
+@media screen and (min-width: 992px) {
   .nav-bar {
-    padding: 16px;
+    padding: 45px;
   }
+
   /**filters**/
+
   .filters-container ol {
-    display: flex;
-    flex-direction: column;
-    margin-left: 34px;
+    flex-direction: row;
+    margin-left:0
   }
-  .list-filters ol {
-    display: flex;
-    flex-direction: column;
+
+  .list-filters ol{
+    flex-direction: row;
   }
+  
   .filters-container h2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 18px;
-  }
-  /**restaurant-container**/
-  .restaurant-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-  }
-  /**container menus**/
-  .container-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .container-menu h1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .cards-restaurant {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-right: 30px;
-    margin-left: 30px;
+    align-items: center;
+    margin-left: 0;
   }
-  .card {
+
+   /**container menus**/
+   .container-menu {
+    justify-content: flex-start
+  }
+
+  .container-menu h1 {
+    justify-content: space-between;
+  }
+
+  /**restaurant-container**/
+    .restaurant-container {
+      flex-direction: row;
+      background-color: $clear-grey;
+  }
+
+  .restaurant-container h2 {
     width: 100%;
   }
-  .list-title h2 {
+
+  .cards-restaurant {
+    justify-content: space-around;
+    margin:0
+  }
+  
+  .card {
+    width: 22%;
+  }
+
+  .list-title h2{
     margin-left: 8px;
   }
-  /**start**/
-  .start-menu {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+
+  .plats-menu, .dessert-menu, .start-menu {
+    flex-direction: row;
   }
-  .start-1 {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .start-2 {
-    width: 100%;
-  }
-  .start-3 {
-    width: 100%;
-    margin-bottom: 10px;
-  }
+  
+  .start-1,
+  .start-2,
+  .start-3,
   .start-4 {
-    width: 100%;
-    margin-right: 10px;
+    width: 35%;
   }
-  /**plat**/
-  .plats-menu {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-  .plat-1 {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .plat-2 {
-    width: 100%;
-  }
+
+  .plat-1,
+  .plat-2,
   .plat-3 {
-    width: 100%;
-    margin-right: 10px;
+    width: 35%;
   }
-  /**dessert**/
-  .dessert-menu {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-  .dessert-1 {
-    width: 100%;
+
+  .dessert-1,
+  .dessert-2,
+  .dessert-3 {
+    width: 35%;
     margin-bottom: 10px;
   }
-  .dessert-2 {
-    width: 100%;
-  }
-  .dessert-3 {
-    width: 100%;
-    margin-right: 10px;
-  }
-  .cards-restaurant .heart {
-    top: 40px;
-    right: 8px;
-  }
-  .container-menu .heart {
-    top: 64px;
-    right: 25px;
-  }
-}/*# sourceMappingURL=style.css.map */
+
+}
