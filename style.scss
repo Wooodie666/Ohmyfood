@@ -18,10 +18,11 @@ body {
   padding: 0px;
 }
 
-html,body{
-  width:100%;
-  overflow-x:hidden;
-  }
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 a {
   text-decoration: none;
@@ -167,13 +168,12 @@ a {
   margin-left: 18px;
 }
 
-.filters-container ol { 
+.filters-container ol {
   display: flex;
   flex-direction: column;
   padding: 0px 17px 10px 1px;
   margin-left: 34px;
 }
-
 
 .filters-container li {
   display: flex;
@@ -201,8 +201,7 @@ a {
   transform: scale(1.015);
 }
 
-
-.list-filters ol{
+.list-filters ol {
   flex-direction: column;
 }
 
@@ -249,7 +248,6 @@ a {
   margin-left: -3px;
 }
 
-
 .filters-container a.btn {
   display: flex;
   align-items: center;
@@ -269,20 +267,18 @@ a {
 .restaurant-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #f2f2f2;
-  
 }
 
-
 .restaurant-container h2 {
-    display: flex;
-    font-size: 28px;
-    font-weight: bold;
-    padding: 4% 0% 3% 0%;
-    margin-left: 16px;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 4% 0% 3% 0%;
+  margin-left: 16px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .cards-restaurant {
@@ -294,7 +290,6 @@ a {
   margin-right: 30px;
   margin-left: 30px;
 }
-
 
 .card-image img {
   height: 175px;
@@ -401,7 +396,7 @@ footer {
   font-size: 20px;
   color: #000;
 }
- 
+
 /**picture-container**/
 
 .picture-container img {
@@ -447,14 +442,14 @@ footer {
 }
 
 .container-menu strong {
-    font-weight: bold;
-    align-self: flex-end;
-    margin-left: 5px;
-    margin-right: 20px;
-    padding-bottom: 15px;
-  }
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
 
-.list-title{
+.list-title {
   width: 100%;
 }
 
@@ -486,12 +481,13 @@ footer {
   margin-bottom: 20px;
 }
 
-.start-text, .start-text p, .start-text h3 {
+.start-text,
+.start-text p,
+.start-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
 
 .start-text {
   flex: 1;
@@ -560,7 +556,9 @@ footer {
   margin-bottom: 20px;
 }
 
-.plat-text, .plat-text p, .plat-text h3{
+.plat-text,
+.plat-text p,
+.plat-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -581,7 +579,7 @@ footer {
   width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px $dark-grey; 
+  box-shadow: 5px 5px 5px $dark-grey;
 }
 
 .plat-2 {
@@ -620,7 +618,9 @@ footer {
   margin-bottom: 20px;
 }
 
-.dessert-text, .dessert-text p, .dessert-text h3{
+.dessert-text,
+.dessert-text p,
+.dessert-text h3 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1083,7 +1083,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
-/**restaurants**/
+  /**restaurants**/
   .card {
     width: 48%;
   }
@@ -1098,7 +1098,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
-/**start**/
+  /**start**/
   .start-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1107,21 +1107,21 @@ footer {
     align-items: flex-start;
   }
 
-  .start-1{
+  .start-1 {
     width: 48%;
     margin-top: 10px;
   }
-  .start-2{
+  .start-2 {
     width: 48%;
   }
-  .start-3{
+  .start-3 {
     width: 48%;
     margin-bottom: 10px;
   }
-  .start-4{
+  .start-4 {
     width: 48%;
   }
-/**plat**/
+  /**plat**/
   .plats-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1130,17 +1130,17 @@ footer {
     align-items: flex-start;
   }
 
-  .plat-1{
+  .plat-1 {
     width: 48%;
     margin-top: 10px;
   }
-  .plat-2{
+  .plat-2 {
     width: 48%;
   }
-  .plat-3{
+  .plat-3 {
     width: 48%;
   }
-/**dessert**/
+  /**dessert**/
   .dessert-menu {
     display: flex;
     flex-wrap: wrap;
@@ -1148,23 +1148,22 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
   }
-  
-  .dessert-1{
+
+  .dessert-1 {
     width: 48%;
     margin-top: 10px;
   }
-  .dessert-2{
+  .dessert-2 {
     width: 48%;
   }
-  .dessert-3{
+  .dessert-3 {
     width: 48%;
   }
-/**heart**/
-  .container-menu .heart{
+  /**heart**/
+  .container-menu .heart {
     right: 24px;
   }
 }
-
 
 /**desktop**/
 @media screen and (min-width: 992px) {
@@ -1176,13 +1175,13 @@ footer {
 
   .filters-container ol {
     flex-direction: row;
-    margin-left:0
+    margin-left: 0;
   }
 
-  .list-filters ol{
+  .list-filters ol {
     flex-direction: row;
   }
-  
+
   .filters-container h2 {
     display: flex;
     flex-direction: row;
@@ -1190,9 +1189,9 @@ footer {
     margin-left: 0;
   }
 
-   /**container menus**/
-   .container-menu {
-    justify-content: flex-start
+  /**container menus**/
+  .container-menu {
+    justify-content: flex-start;
   }
 
   .container-menu h1 {
@@ -1202,9 +1201,9 @@ footer {
   }
 
   /**restaurant-container**/
-    .restaurant-container {
-      flex-direction: row;
-      background-color: $clear-grey;
+  .restaurant-container {
+    flex-direction: row;
+    background-color: $clear-grey;
   }
 
   .restaurant-container h2 {
@@ -1213,18 +1212,20 @@ footer {
 
   .cards-restaurant {
     justify-content: space-around;
-    margin:0
+    margin: 0;
   }
-  
+
   .card {
     width: 22%;
   }
-/**menus**/
-  .list-title h2{
+  /**menus**/
+  .list-title h2 {
     margin-left: 8px;
   }
 
-  .plats-menu, .dessert-menu, .start-menu {
+  .plats-menu,
+  .dessert-menu,
+  .start-menu {
     flex-direction: row;
   }
   /**start**/
@@ -1235,23 +1236,22 @@ footer {
     width: 35%;
     margin-top: 10px;
   }
-/**plat**/
+  /**plat**/
   .plat-1,
   .plat-2,
   .plat-3 {
     width: 35%;
     margin-top: 10px;
   }
-/**dessert**/
+  /**dessert**/
   .dessert-1,
   .dessert-2,
   .dessert-3 {
     width: 35%;
     margin-top: 10px;
   }
-/**heart**/
-  .container-menu .heart{
+  /**heart**/
+  .container-menu .heart {
     right: 30px;
   }
-
 }
