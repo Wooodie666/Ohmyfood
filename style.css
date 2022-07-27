@@ -422,7 +422,7 @@ footer {
   font-weight: bold;
   padding: 10px 20px 0 10px;
   margin-top: -14px;
-  margin-right: 13px;
+  margin-left: -38px;
   font-size: 28px;
 }
 
@@ -1030,7 +1030,7 @@ footer {
 .heart {
   position: absolute;
   top: 41px;
-  right: 43px;
+  right: 2px;
   cursor: pointer;
 }
 
